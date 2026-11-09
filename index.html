@@ -46,13 +46,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 6px 0 8px 0;
+      margin: 6px 0 4px 0;
       border-bottom: 2px solid #0088cc;
-      padding-bottom: 6px;
+      padding-bottom: 4px;
     }
     
     h1 {
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-weight: 800;
       color: #00f0ff;
       cursor: pointer;
@@ -68,9 +68,9 @@
     }
 
     .status-badge {
-      padding: 5px 8px;
+      padding: 4px 8px;
       border-radius: 4px;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       font-weight: 700;
       background: #09131f;
       border: 1px solid #103350;
@@ -84,6 +84,34 @@
       box-shadow: 0 0 8px rgba(0, 255, 204, 0.5);
     }
 
+    /* キャラクター（つれ・DJ・彼女）切り替えセレクターバー */
+    .persona-bar {
+      width: 100%;
+      max-width: 480px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    .persona-btn {
+      background: #09131f;
+      border: 1px solid #103350;
+      color: #6699cc;
+      padding: 6px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    .persona-btn.selected {
+      background: #003355;
+      border-color: #00d2ff;
+      color: #00f0ff;
+      box-shadow: 0 0 8px rgba(0, 210, 255, 0.4);
+    }
+
     /* メインカード */
     .card {
       width: 100%;
@@ -93,10 +121,10 @@
       flex-direction: column;
       background: #09121d;
       border-radius: 12px;
-      padding: 14px;
+      padding: 12px;
       border: 2px solid #0077b6;
       justify-content: space-between;
-      gap: 12px;
+      gap: 10px;
       box-shadow: inset 0 0 30px rgba(0, 150, 255, 0.15);
       position: relative;
     }
@@ -105,33 +133,33 @@
     .gauge-container {
       position: relative;
       width: 100%;
-      height: 105px;
+      height: 95px;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
-      margin-top: -6px;
+      margin-top: -4px;
     }
 
     .gauge-track {
       position: absolute;
-      width: 170px;
-      height: 85px;
+      width: 160px;
+      height: 80px;
       border: 10px double #0d2844;
       border-bottom: none;
-      border-top-left-radius: 85px;
-      border-top-right-radius: 85px;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
       bottom: 0;
     }
     
     .gauge-active {
       position: absolute;
-      width: 170px;
-      height: 85px;
+      width: 160px;
+      height: 80px;
       border: 10px double #00d2ff;
       border-bottom: none;
-      border-top-left-radius: 85px;
-      border-top-right-radius: 85px;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
       bottom: 0;
       clip-path: inset(0 0 0 0);
       filter: drop-shadow(0 0 6px #00aaff);
@@ -144,13 +172,13 @@
       margin-bottom: 2px;
     }
     .distance-label {
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       font-weight: 800;
       color: #5599cc;
       letter-spacing: 2px;
     }
     .distance-num {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: 900;
       color: #00f0ff;
       text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
@@ -162,22 +190,22 @@
       text-align: center;
       border: 2px solid #0088cc;
       background: #081829;
-      padding: 8px 6px;
+      padding: 6px;
       position: relative;
     }
     .spot-info::before {
       content: "[ 最寄りスポット ]";
       display: block;
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       color: #00d2ff;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
       letter-spacing: 1px;
     }
     .spot-name {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 900;
       color: #ffffff;
-      line-height: 1.25;
+      line-height: 1.2;
       text-shadow: 0 0 10px rgba(0, 210, 255, 0.7);
     }
 
@@ -185,12 +213,12 @@
     .speech-bubble {
       background: #0a1b2d;
       border-radius: 8px;
-      padding: 14px 12px;
-      font-size: 1.05rem;
+      padding: 12px 10px;
+      font-size: 1rem;
       font-weight: 700;
-      line-height: 1.45;
+      line-height: 1.4;
       color: #e2f1ff;
-      min-height: 90px;
+      min-height: 80px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -203,8 +231,8 @@
     .speech-bubble::after {
       content: "VOICEVOX: KASUKABE TSUMUGI // ACTIVE";
       position: absolute;
-      bottom: 4px;
-      font-size: 0.55rem;
+      bottom: 3px;
+      font-size: 0.5rem;
       color: #1e456d;
       letter-spacing: 0.5px;
     }
@@ -213,20 +241,20 @@
     .sub-status-bar {
       display: flex;
       justify-content: space-between;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       color: #8da4be;
-      padding: 0 4px;
+      padding: 0 2px;
     }
 
     /* もう一度聞くボタン */
     .replay-btn {
       width: 100%;
-      padding: 8px;
+      padding: 7px;
       border: 1.5px solid #0077b6;
       background: #091a2e;
       color: #00d2ff;
       border-radius: 6px;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: 700;
       cursor: pointer;
       display: flex;
@@ -243,12 +271,12 @@
     .action-group {
       display: grid;
       grid-template-columns: 1.35fr 1fr;
-      gap: 12px;
-      height: 75px;
+      gap: 10px;
+      height: 70px;
     }
     .btn {
       border: 2px solid;
-      border-radius: 12px;
+      border-radius: 10px;
       font-weight: 900;
       cursor: pointer;
       display: flex;
@@ -269,12 +297,12 @@
     }
     .btn-yes::before {
       content: "MAP経路案内";
-      font-size: 0.6rem;
+      font-size: 0.55rem;
       color: #00cc6a;
       letter-spacing: 1px;
     }
     .btn-yes .btn-title {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       letter-spacing: 2px;
       text-shadow: 0 0 10px rgba(0, 255, 136, 0.7);
     }
@@ -287,27 +315,27 @@
     }
     .btn-no::before {
       content: "次の候補へ";
-      font-size: 0.6rem;
+      font-size: 0.55rem;
       color: #5d7591;
       letter-spacing: 1px;
     }
     .btn-no .btn-title {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
 
     /* 案内スタート / 停止トグル */
     .nav-toggle {
       width: 100%;
       max-width: 480px;
-      padding: 14px;
+      padding: 12px;
       border-radius: 8px;
       background: #0b1a2d;
       border: 2px solid #0077b6;
       color: #00d2ff;
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-weight: 800;
       cursor: pointer;
-      margin-top: 8px;
+      margin-top: 6px;
       letter-spacing: 1px;
       box-shadow: inset 0 0 12px rgba(0, 119, 182, 0.2);
     }
@@ -333,10 +361,16 @@
   <header>
     <h1 id="appTitle">Drive Concierge</h1>
     <div class="top-badge-group">
-      <button id="modeToggleBtn" class="status-badge" style="cursor: pointer;">MODE: 通常</button>
       <span id="statusBadge" class="status-badge">読込中</span>
     </div>
   </header>
+
+  <!-- ペルソナ（つれ・DJ・彼女）選択バー -->
+  <div class="persona-bar">
+    <button id="btnPersonaTsure" class="persona-btn">👥 つれ</button>
+    <button id="btnPersonaDj" class="persona-btn">🎧 DJ</button>
+    <button id="btnPersonaKanojo" class="persona-btn selected">💖 彼女</button>
+  </div>
 
   <div class="card">
     <!-- 2重円弧距離ゲージ -->
@@ -356,7 +390,7 @@
 
     <!-- 特大セリフ吹き出し -->
     <div id="speechText" class="speech-bubble">
-      「ドライブを開始」を押すと、速度に応じた索敵とつむぎ音声案内がスタートします。
+      「ドライブを開始」を押すと、速度に応じた索敵と音声案内がスタートします。
     </div>
 
     <!-- マイク・速度ステータス -->
@@ -383,7 +417,7 @@
 
   <button id="toggleNavBtn" class="nav-toggle">▶ ドライブを開始</button>
 
-  <!-- アプリのメインロジック (キャッシュ回避用のバージョンクエリ付き) -->
-  <script src="app.js?v=3"></script>
+  <!-- アプリのメインロジック (キャッシュバースト付き) -->
+  <script src="app.js?v=5"></script>
 </body>
 </html>
