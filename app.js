@@ -1,9 +1,9 @@
-// Drive Concierge - Roadster Edition (Fully Integrated app.js matching the latest index.html)
+// Drive Concierge - Roadster Edition (Fully Integrated app.js - Audio Path Fixed)
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Drive Concierge initialized for Roadster (v5).");
 
-    // DOM Elements Mapping (最新のHTMLのIDと完全一致)
+    // DOM Elements Mapping (HTML側のIDと完全一致)
     const toggleNavBtn = document.getElementById('toggleNavBtn');
     const statusBadge = document.getElementById('statusBadge');
     const spotDistance = document.getElementById('spotDistance');
@@ -84,9 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnPersonaDj) btnPersonaDj.addEventListener('click', () => setPersona('dj'));
     if (btnPersonaKanojo) btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-    // 3. ボイス（MP3）の再生関数（フォールバック付き）
+    // 3. ボイス（MP3）の再生関数（GitHub Pagesのサブディレクトリに対応したパス指定）
     function playTsumugiVoice(category, filename, displayMessage = "") {
-        const audioPath = `./audio/${category}/${filename}.mp3`;
+        const audioPath = `audio/${category}/${filename}.mp3`;
         const audio = new Audio(audioPath);
 
         if (displayMessage && speechText) {
