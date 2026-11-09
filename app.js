@@ -1,4 +1,4 @@
-// Drive Concierge - Roadster Edition (Full Integrated Logic)
+// Drive Concierge - Roadster Edition (Full Integrated Logic & GPS Fixed)
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Drive Concierge initialized for Roadster.");
@@ -105,7 +105,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isRunning) {
                 toggleNavBtn.textContent = "■ ドライブを終了";
                 toggleNavBtn.classList.add('running');
-                statusBadge.textContent = "追跡中";
+                statusBadge.textContent = "GPS測位中...";
+                if (spotName) spotName.textContent = "現在地を測位中...";
                 
                 playTsumugiVoice('kanojo', 'welcome', '「ドライブを開始します。安全運転で行きましょう！」');
 
@@ -116,11 +117,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 toggleNavBtn.classList.remove('running');
                 statusBadge.textContent = "待機中";
                 if (speechText) speechText.textContent = "ドライブを一時停止しました。";
+                if (spotName) spotName.textContent = "一時停止中";
             }
         });
     }
 
-    // 5. GPS位置情報の監視開始
+    // 5. GPS位置情報の監視開始（スマホ向け高精度化＆初回誤作動防止）
     function startGeolocation() {
         if (!('geolocation' in navigator)) {
             alert("このブラウザは位置情報に対応していません。");
@@ -132,6 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const lat = position.coords.latitude;
                 const lng = position.coords.longitude;
                 currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0; // km/h変換
+
+                statusBadge.textContent = "追跡中";
 
                 // スピード表示の更新
                 const roundedSpeed = Math.round(currentSpeed);
@@ -150,12 +154,13 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             (error) => {
                 console.error("GPS取得エラー:", error);
-                if (speechText) speechText.textContent = "GPS信号を探索中...";
+                statusBadge.textContent = "GPSエラー";
+                if (speechText) speechText.textContent = "GPS信号を探索中... 空の見晴らしの良い場所でお試しください。";
             },
             {
-                enableHighAccuracy: true,
-                maximumAge: 1000,
-                timeout: 5000
+                enableHighAccuracy: true, // スマホのGPSを高精度モードに
+                maximumAge: 0,            // キャッシュされた古い位置情報を使わない
+                timeout: 15000            // タイムアウトを15秒に設定
             }
         );
     }
@@ -170,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 6. 周辺スポットの計算と最寄り抽出
     function processNearbySpots(lat, lng, radiusKm) {
-        // 現在のモードに応じてデータソースを選択（または両方）
+        // 現在のモードに応じてデータソースを選択
         let targetData = spotsData;
         if (currentMode === "メディア" && mediaSpotsData.length > 0) {
             targetData = mediaSpotsData;
@@ -190,6 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // ちゃんと計算できた場合のみ表示（変な初期値や遠すぎる場所を弾く）
         if (nearest && minDistance <= radiusKm) {
             currentNearestSpot = nearest;
             const distMeters = Math.round(minDistance * 1000);
@@ -200,14 +206,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 spotDistance.textContent = minDistance < 1 ? `${distMeters}m` : `${minDistance.toFixed(1)}km`;
             }
 
-            // ゲージのアニメーション制御（例: 5km圏内を100%としてクリップ）
+            // ゲージのアニメーション制御
             let gaugePercent = Math.max(0, Math.min(100, (1 - (minDistance / radiusKm)) * 100));
             if (gaugeActive) {
                 gaugeActive.style.clipPath = `inset(${100 - gaugePercent}% 0 0 0)`;
             }
         } else {
             currentNearestSpot = null;
-            if (spotName) spotName.textContent = "周辺にスポットなし";
+            if (spotName) spotName.textContent = "周辺にスポットなし (索敵中)";
             if (spotDistance) spotDistance.textContent = "---";
             if (gaugeActive) gaugeActive.style.clipPath = `inset(100% 0 0 0)`;
         }
