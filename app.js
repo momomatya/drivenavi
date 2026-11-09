@@ -1,11 +1,10 @@
-// Drive Concierge - Roadster Edition (Full Integrated Logic & GPS Fixed)
+// Drive Concierge - Roadster Edition (Fully Integrated app.js matching the latest index.html)
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Drive Concierge initialized for Roadster.");
+    console.log("Drive Concierge initialized for Roadster (v5).");
 
-    // DOM Elements Mapping (HTML側のIDと完全一致)
+    // DOM Elements Mapping (最新のHTMLのIDと完全一致)
     const toggleNavBtn = document.getElementById('toggleNavBtn');
-    const modeToggleBtn = document.getElementById('modeToggleBtn');
     const statusBadge = document.getElementById('statusBadge');
     const spotDistance = document.getElementById('spotDistance');
     const gaugeActive = document.getElementById('gaugeActive');
@@ -17,6 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnYes = document.getElementById('btnYes');
     const btnNo = document.getElementById('btnNo');
 
+    // ペルソナ切替ボタン
+    const btnPersonaTsure = document.getElementById('btnPersonaTsure');
+    const btnPersonaDj = document.getElementById('btnPersonaDj');
+    const btnPersonaKanojo = document.getElementById('btnPersonaKanojo');
+
     let isRunning = false;
     let watchId = null;
     let currentSpeed = 0;
@@ -25,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let spotsData = [];
     let mediaSpotsData = [];
     let currentNearestSpot = null;
-    let currentMode = "通常"; // 通常 / メディア特化 など
+    let currentPersona = "kanojo"; // 初期値: 彼女 (tsure / dj / kanojo)
 
     // 1. 全データ（道の駅 1200件＋メディアスポット）の読み込み
     async function loadDatasets() {
@@ -54,7 +58,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadDatasets();
 
-    // 2. つむぎちゃんボイス（MP3）の再生関数
+    // 2. ペルソナ切り替え処理
+    function setPersona(persona) {
+        currentPersona = persona;
+        
+        // ボタンの見た目（selectedクラス）の切り替え
+        if (btnPersonaTsure) btnPersonaTsure.classList.remove('selected');
+        if (btnPersonaDj) btnPersonaDj.classList.remove('selected');
+        if (btnPersonaKanojo) btnPersonaKanojo.classList.remove('selected');
+
+        if (persona === 'tsure') {
+            if (btnPersonaTsure) btnPersonaTsure.classList.add('selected');
+            playTsumugiVoice('tsure', 'welcome', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+        } else if (persona === 'dj') {
+            if (btnPersonaDj) btnPersonaDj.classList.add('selected');
+            playTsumugiVoice('dj', 'welcome', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
+        } else {
+            if (btnPersonaKanojo) btnPersonaKanojo.classList.add('selected');
+            playTsumugiVoice('kanojo', 'welcome', '「ドライブを開始します。安全運転で行きましょう！」');
+        }
+        console.log("ペルソナ変更:", currentPersona);
+    }
+
+    if (btnPersonaTsure) btnPersonaTsure.addEventListener('click', () => setPersona('tsure'));
+    if (btnPersonaDj) btnPersonaDj.addEventListener('click', () => setPersona('dj'));
+    if (btnPersonaKanojo) btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
+
+    // 3. ボイス（MP3）の再生関数（フォールバック付き）
     function playTsumugiVoice(category, filename, displayMessage = "") {
         const audioPath = `./audio/${category}/${filename}.mp3`;
         const audio = new Audio(audioPath);
@@ -81,22 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    // 3. モード切替ボタンの処理
-    if (modeToggleBtn) {
-        modeToggleBtn.addEventListener('click', () => {
-            if (currentMode === "通常") {
-                currentMode = "メディア";
-                modeToggleBtn.textContent = "MODE: メディア";
-                modeToggleBtn.style.color = "#00ffcc";
-            } else {
-                currentMode = "通常";
-                modeToggleBtn.textContent = "MODE: 通常";
-                modeToggleBtn.style.color = "#5588aa";
-            }
-            console.log("モード切替:", currentMode);
-        });
-    }
-
     // 4. ドライブ開始 / 停止 トグルボタン
     if (toggleNavBtn) {
         toggleNavBtn.addEventListener('click', () => {
@@ -108,7 +122,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 statusBadge.textContent = "GPS測位中...";
                 if (spotName) spotName.textContent = "現在地を測位中...";
                 
-                playTsumugiVoice('kanojo', 'welcome', '「ドライブを開始します。安全運転で行きましょう！」');
+                if (currentPersona === 'tsure') {
+                    playTsumugiVoice('tsure', 'welcome', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+                } else if (currentPersona === 'dj') {
+                    playTsumugiVoice('dj', 'welcome', '「Yo! Drive Concierge起動！エンジン始動だ！」');
+                } else {
+                    playTsumugiVoice('kanojo', 'welcome', '「ドライブを開始します。安全運転で行きましょう！」');
+                }
 
                 startGeolocation();
             } else {
@@ -149,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     speedStatus.textContent = `${roundedSpeed} km/h | 索敵: ${searchRadius.toFixed(1)}km`;
                 }
 
-                // 周辺スポットの検索と最寄りの抽出
+                // 周辺スポットの検索と最寄りの抽出（道の駅 ＋ メディアスポットを統合）
                 processNearbySpots(lat, lng, searchRadius);
             },
             (error) => {
@@ -175,18 +195,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 6. 周辺スポットの計算と最寄り抽出
     function processNearbySpots(lat, lng, radiusKm) {
-        // 現在のモードに応じてデータソースを選択
-        let targetData = spotsData;
-        if (currentMode === "メディア" && mediaSpotsData.length > 0) {
-            targetData = mediaSpotsData;
-        }
-
-        if (!targetData || targetData.length === 0) return;
+        // 道の駅データとメディアスポットデータを統合して検索
+        const allSpots = [...spotsData, ...mediaSpotsData];
+        if (!allSpots || allSpots.length === 0) return;
 
         let nearest = null;
         let minDistance = 999999; // km
 
-        for (const spot of targetData) {
+        for (const spot of allSpots) {
             if (!spot.lat || !spot.lng) continue;
             const dist = calcDistance(lat, lng, spot.lat, spot.lng);
             if (dist < minDistance) {
@@ -195,7 +211,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // ちゃんと計算できた場合のみ表示（変な初期値や遠すぎる場所を弾く）
         if (nearest && minDistance <= radiusKm) {
             currentNearestSpot = nearest;
             const distMeters = Math.round(minDistance * 1000);
@@ -247,16 +262,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (btnNo) {
         btnNo.addEventListener('click', () => {
-            playTsumugiVoice('kanojo', 'next', '「了解しました。次のスポットを探しますね」');
+            playTsumugiVoice(currentPersona, 'next', '「了解しました。次のスポットを探しますね」');
         });
     }
 
     if (btnReplay) {
         btnReplay.addEventListener('click', () => {
             if (currentNearestSpot) {
-                playTsumugiVoice('kanojo', 'spot_info', `「まもなく、${currentNearestSpot.name} です。寄っていきますか？」`);
+                playTsumugiVoice(currentPersona, 'spot_info', `「まもなく、${currentNearestSpot.name} です。寄っていきますか？」`);
             } else {
-                playTsumugiVoice('kanojo', 'welcome', '「システム正常稼働中。安全運転で行きましょう！」');
+                playTsumugiVoice(currentPersona, 'welcome', '「システム正常稼働中。安全運転で行きましょう！」');
             }
         });
     }
