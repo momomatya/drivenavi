@@ -230,7 +230,7 @@
         try {
           statusBadge.textContent = "読込中...";
           const [resSpots, resMedia] = await Promise.all([
-            fetch('./data/spots.json'),
+            fetch('./places_spots.json'),
             fetch('./data/media_spots.json')
           ]);
           
@@ -297,14 +297,16 @@
       btnPersonaDj.addEventListener('click', () => setPersona('dj'));
       btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-      // 4. 音声再生処理
-      function playVoice(category, filename, displayMessage = "") {
-        const audioPath = `audio/${category}/${filename}.mp3`;
+// 4. 音声再生処理
+      function playVoice(voiceFile, displayMessage = "") {
+        // spot.voice_file (例: "spot_2000.mp3") を直接 audio/ 直下から取得
+        const audioPath = `audio/${voiceFile}`;
         const audio = new Audio(audioPath);
-
-        if (displayMessage && speechText) {
-          speechText.textContent = displayMessage;
-        }
+        
+        audio.play().catch(error => {
+          console.error("音声再生エラー:", error);
+        });
+      }
 
         audio.play().then(() => {
           console.log(`音声再生成功: ${audioPath}`);
