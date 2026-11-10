@@ -197,7 +197,7 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      console.log("Drive Concierge initialized (Nationwide Places Edition).");
+      console.log("Drive Concierge initialized.");
 
       const toggleNavBtn = document.getElementById('toggleNavBtn');
       const statusBadge = document.getElementById('statusBadge');
@@ -225,7 +225,7 @@
       let skippedSpotIds = new Set();
       let currentPersona = "tsure"; 
 
-      // 1. 全国スポットデータ (places_spots.json) の単一ロード
+      // 1. 全国スポットデータのロード
       async function loadDatasets() {
         try {
           statusBadge.textContent = "読込中...";
@@ -240,7 +240,7 @@
       }
       loadDatasets();
 
-      // 2. タイトル5回タップによる隠しコマンド
+      // 2. タイトル5回タップによるシークレットコマンド
       let tapCount = 0;
       let tapTimer = null;
 
@@ -273,14 +273,14 @@
         btnPersonaKanojo.classList.toggle('selected', persona === 'kanojo');
 
         if (persona === 'tsure') {
-          playVoice('unlock.mp3', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+          playVoice('sys_unlock.mp3', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
         } else if (persona === 'dj') {
-          playVoice('unlock.mp3', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
+          playVoice('sys_unlock.mp3', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
         } else if (persona === 'kanojo') {
           if (isSecretUnlock) {
-            playVoice('unlock.mp3', '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」');
+            playVoice('sys_unlock.mp3', '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」');
           } else {
-            playVoice('unlock.mp3', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+            playVoice('sys_unlock.mp3', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
           }
         }
       }
@@ -289,7 +289,7 @@
       btnPersonaDj.addEventListener('click', () => setPersona('dj'));
       btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-      // 4. 音声再生処理（audio/ 直下の MP3 を再生、フォールバック付き）
+      // 4. 音声再生処理（ブラウザ音声フォールバック付き）
       function playVoice(voiceFile, displayMessage = "") {
         if (displayMessage) {
           speechText.textContent = displayMessage;
@@ -310,7 +310,7 @@
         });
       }
 
-      // 5. 案内スタート / 停止トグル
+      // 5. 走行案内スタート / 停止
       toggleNavBtn.addEventListener('click', () => {
         isRunning = !isRunning;
 
@@ -321,11 +321,11 @@
           spotName.textContent = "現在地を測位中...";
           
           if (currentPersona === 'kanojo') {
-            playVoice('unlock.mp3', '「今日も安全運転で楽しく行こうね！」');
+            playVoice('sys_unlock.mp3', '「今日も安全運転で楽しく行こうね！」');
           } else if (currentPersona === 'dj') {
-            playVoice('unlock.mp3', '「ナビゲーション・スタート！グッドバイブスで行こう！」');
+            playVoice('sys_unlock.mp3', '「ナビゲーション・スタート！グッドバイブスで行こう！」');
           } else {
-            playVoice('unlock.mp3', '「よし、出発だな！飛ばしすぎんなよー！」');
+            playVoice('sys_unlock.mp3', '「よし、出発だな！飛ばしすぎんなよー！」');
           }
 
           startGeolocation();
@@ -339,9 +339,12 @@
         }
       });
 
-      // 6. GPS位置情報の監視
+      // 6. GPSトラッキング
       function startGeolocation() {
-        if (!('geolocation' in navigator)) return alert("このブラウザは位置情報に対応していません。");
+        if (!('geolocation' in navigator)) {
+          alert("このブラウザは位置情報に対応していません。");
+          return;
+        }
 
         watchId = navigator.geolocation.watchPosition(
           (position) => {
@@ -351,16 +354,22 @@
             let searchRadius = currentSpeed >= 80 ? 25.0 : (currentSpeed >= 50 ? 15.0 : 10.0);
             processNearbySpots(lat, lng, searchRadius);
           },
-          (error) => { console.error("GPSエラー:", error); statusBadge.textContent = "GPSエラー"; },
+          (error) => {
+            console.error("GPSエラー:", error);
+            statusBadge.textContent = "GPSエラー";
+          },
           { enableHighAccuracy: true, maximumAge: 0, timeout: 15000 }
         );
       }
 
       function stopGeolocation() {
-        if (watchId !== null) { navigator.geolocation.clearWatch(watchId); watchId = null; }
+        if (watchId !== null) {
+          navigator.geolocation.clearWatch(watchId);
+          watchId = null;
+        }
       }
 
-      // 7. 周辺スポットの抽出
+      // 7. 周辺スポット探索 & 案内
       function processNearbySpots(lat, lng, radiusKm) {
         if (!allSpots || allSpots.length === 0) return;
 
@@ -370,7 +379,10 @@
         for (const spot of allSpots) {
           if (!spot.lat || !spot.lng || skippedSpotIds.has(spot.id)) continue;
           const dist = calcDistance(lat, lng, spot.lat, spot.lng);
-          if (dist < minDistance) { minDistance = dist; nearest = spot; }
+          if (dist < minDistance) {
+            minDistance = dist;
+            nearest = spot;
+          }
         }
 
         if (nearest && minDistance <= radiusKm) {
@@ -403,9 +415,13 @@
       }
 
       function calcDistance(lat1, lon1, lat2, lon2) {
-        const R = 6371; const dLat = (lat2 - lat1) * Math.PI / 180; const dLon = (lon2 - lon1) * Math.PI / 180;
-        const a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon/2) * Math.sin(dLon/2);
-        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        const R = 6371;
+        const dLat = (lat2 - lat1) * Math.PI / 180;
+        const dLon = (lon2 - lon1) * Math.PI / 180;
+        const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                  Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+                  Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
       }
 
       // 8. アクションボタン
@@ -433,7 +449,7 @@
         if (currentNearestSpot) { 
           announceCurrentSpot(currentNearestSpot); 
         } else { 
-          playVoice('unlock.mp3', '「今日も安全運転で楽しく行こうね！」'); 
+          playVoice('sys_unlock.mp3', '「今日も安全運転で楽しく行こうね！」'); 
         }
       });
     });
