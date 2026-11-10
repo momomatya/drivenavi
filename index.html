@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Drive Concierge - Roadster Edition</title>
+  
+  <!-- favicon 404エラー抑制 -->
+  <link rel="icon" href="data:,">
+
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     
@@ -54,6 +58,8 @@
       color: #00f0ff;
       letter-spacing: 0.5px;
       text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+      cursor: pointer;
+      user-select: none;
     }
 
     .top-badge-group {
@@ -74,10 +80,31 @@
       transition: all 0.2s;
     }
     .persona-btn.selected {
-      background: #e6005c;
-      border-color: #ff3388;
-      color: #ffffff;
-      box-shadow: 0 0 8px rgba(255, 51, 136, 0.5);
+      background: #004466;
+      border-color: #00d2ff;
+      color: #00f0ff;
+      box-shadow: 0 0 8px rgba(0, 210, 255, 0.4);
+    }
+
+    /* 彼女モード用ピンク発光スタイル（初期は非表示） */
+    #btnPersonaKanojo {
+      display: none;
+    }
+    header.secret-unlocked #btnPersonaKanojo {
+      display: inline-block;
+      animation: unlockGlow 0.4s ease-out;
+    }
+    #btnPersonaKanojo.selected {
+      background: #e6005c !important;
+      border-color: #ff3388 !important;
+      color: #ffffff !important;
+      box-shadow: 0 0 10px rgba(255, 51, 136, 0.7) !important;
+    }
+
+    @keyframes unlockGlow {
+      0% { transform: scale(0.8); opacity: 0; }
+      50% { transform: scale(1.15); filter: drop-shadow(0 0 8px #ff3388); }
+      100% { transform: scale(1); opacity: 1; }
     }
 
     .status-badge {
@@ -319,12 +346,12 @@
 
   <div class="hazard-bar"></div>
 
-  <header>
+  <header id="mainHeader">
     <h1 id="appTitle">ドライブコンシェルジュ</h1>
     <div class="top-badge-group">
-      <button id="btnPersonaTsure" class="persona-btn">ツレ</button>
+      <button id="btnPersonaTsure" class="persona-btn selected">ツレ</button>
       <button id="btnPersonaDj" class="persona-btn">FM-DJ</button>
-      <button id="btnPersonaKanojo" class="persona-btn selected">彼女</button>
+      <button id="btnPersonaKanojo" class="persona-btn">彼女</button>
       <span id="statusBadge" class="status-badge">読込中</span>
     </div>
   </header>
@@ -365,7 +392,7 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      console.log("Drive Concierge initialized (Roadster Edition).");
+      console.log("Drive Concierge initialized (Full Datasets & Easter Egg Active).");
 
       const toggleNavBtn = document.getElementById('toggleNavBtn');
       const statusBadge = document.getElementById('statusBadge');
@@ -377,6 +404,8 @@
       const btnYes = document.getElementById('btnYes');
       const btnNo = document.getElementById('btnNo');
 
+      const mainHeader = document.getElementById('mainHeader');
+      const appTitle = document.getElementById('appTitle');
       const btnPersonaTsure = document.getElementById('btnPersonaTsure');
       const btnPersonaDj = document.getElementById('btnPersonaDj');
       const btnPersonaKanojo = document.getElementById('btnPersonaKanojo');
@@ -385,24 +414,31 @@
       let watchId = null;
       let currentSpeed = 0;
       
-      let spotsData = [];
+      let allSpots = [];
       let currentNearestSpot = null;
       let announcedSpotId = null;
       let skippedSpotIds = new Set();
-      let currentPersona = "kanojo";
+      let currentPersona = "tsure"; // 初期ペルソナ: ツレ
 
-      // 1. 道の駅スポットデータ（spots.json）の読み込み
+      // 1. 全スポット（道の駅 + メディアスポット）の結合ロード
       async function loadDatasets() {
         try {
           statusBadge.textContent = "読込中...";
-          const resSpots = await fetch('./data/spots.json');
-          spotsData = await resSpots.json();
+          const [resSpots, resMedia] = await Promise.all([
+            fetch('./data/spots.json'),
+            fetch('./data/media_spots.json')
+          ]);
+          
+          const spotsData = await resSpots.json();
+          const mediaSpotsData = await resMedia.json();
 
-          console.log(`データロード成功: 道の駅 ${spotsData.length}件`);
-          statusBadge.textContent = `${spotsData.length}件`;
+          allSpots = [...spotsData, ...mediaSpotsData];
+          console.log(`全データロード成功: 計 ${allSpots.length} 件 (道の駅: ${spotsData.length}, メディア: ${mediaSpotsData.length})`);
+          
+          statusBadge.textContent = `${allSpots.length}件`;
           statusBadge.classList.add('active');
         } catch (e) {
-          console.error("データ読み込みエラー:", e);
+          console.error("データロードエラー:", e);
           statusBadge.textContent = "読込失敗";
           spotName.textContent = "データ読込エラー";
         }
@@ -410,7 +446,33 @@
 
       loadDatasets();
 
-      // 2. ペルソナ切り替え
+      // 2. タイトル5回タップによる隠しコマンド（彼女モード解放）
+      let tapCount = 0;
+      let tapTimer = null;
+
+      appTitle.addEventListener('click', () => {
+        tapCount++;
+        clearTimeout(tapTimer);
+        tapTimer = setTimeout(() => { tapCount = 0; }, 2500); // 2.5秒間入力がなければリセット
+
+        if (tapCount >= 5) {
+          tapCount = 0;
+          unlockKanojoSecret();
+        }
+      });
+
+      function unlockKanojoSecret() {
+        if (!mainHeader.classList.contains('secret-unlocked')) {
+          mainHeader.classList.add('secret-unlocked');
+          setPersona('kanojo');
+          playVoice('kanojo', 'unlock', '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」');
+        } else {
+          // すでに解除済みの場合はそのまま彼女を選択
+          setPersona('kanojo');
+        }
+      }
+
+      // 3. ペルソナ切り替え
       function setPersona(persona) {
         currentPersona = persona;
         
@@ -422,7 +484,7 @@
           playVoice('tsure', 'unlock', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
         } else if (persona === 'dj') {
           playVoice('dj', 'unlock', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
-        } else {
+        } else if (persona === 'kanojo') {
           playVoice('kanojo', 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
         }
       }
@@ -431,7 +493,7 @@
       btnPersonaDj.addEventListener('click', () => setPersona('dj'));
       btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-      // 3. 音声再生処理
+      // 4. 音声再生処理（ファイル未生成時のフォールバック対応）
       function playVoice(category, filename, displayMessage = "") {
         const audioPath = `audio/${category}/${filename}.mp3`;
         const audio = new Audio(audioPath);
@@ -443,16 +505,16 @@
         audio.play().then(() => {
           console.log(`音声再生成功: ${audioPath}`);
         }).catch(err => {
-          console.warn(`音声再生失敗 (${audioPath})、フォールバック実行:`, err);
+          console.warn(`音声再生不可 (${audioPath})、ブラウザ音声でフォールバック:`, err);
           if ('speechSynthesis' in window && displayMessage) {
-            const uttr = new SpeechSynthesisUtterance(displayMessage);
+            const uttr = new SpeechSynthesisUtterance(displayMessage.replace(/^[「『]|[!！?？]*[」』]$/g, ''));
             uttr.lang = 'ja-JP';
             window.speechSynthesis.speak(uttr);
           }
         });
       }
 
-      // 4. 案内スタート / 停止トグル
+      // 5. 案内スタート / 停止トグル
       toggleNavBtn.addEventListener('click', () => {
         isRunning = !isRunning;
 
@@ -462,19 +524,26 @@
           statusBadge.textContent = "追従中";
           spotName.textContent = "現在地を測位中...";
           
-          playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+          if (currentPersona === 'kanojo') {
+            playVoice('kanojo', 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+          } else if (currentPersona === 'dj') {
+            playVoice('dj', 'unlock', '「ナビゲーション・スタート！グッドバイブスで行こう！」');
+          } else {
+            playVoice('tsure', 'unlock', '「よし、出発だな！飛ばしすぎんなよー！」');
+          }
+
           startGeolocation();
         } else {
           stopGeolocation();
           toggleNavBtn.textContent = "走行案内をスタート";
           toggleNavBtn.classList.remove('running');
-          statusBadge.textContent = `${spotsData.length}件`;
+          statusBadge.textContent = `${allSpots.length}件`;
           speechText.textContent = "走行案内を一時停止しました。";
           spotName.textContent = "待機中";
         }
       });
 
-      // 5. GPS位置情報の監視
+      // 6. GPS位置情報の監視
       function startGeolocation() {
         if (!('geolocation' in navigator)) {
           alert("このブラウザは位置情報に対応していません。");
@@ -486,8 +555,6 @@
             const lat = position.coords.latitude;
             const lng = position.coords.longitude;
             currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0;
-
-            console.log(`GPS測位成功: 緯度 ${lat.toFixed(5)}, 経度 ${lng.toFixed(5)}, 速度 ${Math.round(currentSpeed)}km/h`);
 
             let searchRadius = 10.0;
             if (currentSpeed >= 80) searchRadius = 25.0;
@@ -514,14 +581,14 @@
         }
       }
 
-      // 6. 最寄り道の駅の抽出と案内
+      // 7. 周辺スポットの抽出
       function processNearbySpots(lat, lng, radiusKm) {
-        if (!spotsData || spotsData.length === 0) return;
+        if (!allSpots || allSpots.length === 0) return;
 
         let nearest = null;
         let minDistance = 999999;
 
-        for (const spot of spotsData) {
+        for (const spot of allSpots) {
           if (!spot.lat || !spot.lng) continue;
           if (skippedSpotIds.has(spot.id)) continue;
 
@@ -573,7 +640,7 @@
         return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
       }
 
-      // 7. アクションボタン
+      // 8. アクションボタン
       btnYes.addEventListener('click', () => {
         if (currentNearestSpot && currentNearestSpot.lat && currentNearestSpot.lng) {
           playVoice(currentPersona, 'sys_nav_ok', '「わかった！ナビを開くね！」');
@@ -599,7 +666,7 @@
         if (currentNearestSpot) {
           announceCurrentSpot(currentNearestSpot);
         } else {
-          playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+          playVoice(currentPersona, 'unlock', '「今日も安全運転で楽しく行こうね！」');
         }
       });
     });
