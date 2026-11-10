@@ -1,9 +1,9 @@
-// Drive Concierge - Roadster Edition (Fully Integrated app.js - Audio Path Fixed)
+// Drive Concierge - Roadster Edition (Fully Integrated with Custom VOICEVOX Assets)
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Drive Concierge initialized for Roadster (v5).");
 
-    // DOM Elements Mapping (HTML側のIDと完全一致)
+    // DOM Elements Mapping
     const toggleNavBtn = document.getElementById('toggleNavBtn');
     const statusBadge = document.getElementById('statusBadge');
     const spotDistance = document.getElementById('spotDistance');
@@ -29,9 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let spotsData = [];
     let mediaSpotsData = [];
     let currentNearestSpot = null;
-    let currentPersona = "kanojo"; // 初期値: 彼女 (tsure / dj / kanojo)
+    let announcedSpotId = null; // 同じスポットを連続で何度も喋らないように記憶
+    let skippedSpotIds = new Set(); // 「パス」したスポットの一時スキップ用
+    let currentPersona = "kanojo"; // 初期値: 彼女
 
-    // 1. 全データ（道の駅 1200件＋メディアスポット）の読み込み
+    // 1. 全データ（道の駅＋メディアスポット）の読み込み
     async function loadDatasets() {
         try {
             statusBadge.textContent = "読込中...";
@@ -62,30 +64,28 @@ document.addEventListener('DOMContentLoaded', () => {
     function setPersona(persona) {
         currentPersona = persona;
         
-        // ボタンの見た目（selectedクラス）の切り替え
         if (btnPersonaTsure) btnPersonaTsure.classList.remove('selected');
         if (btnPersonaDj) btnPersonaDj.classList.remove('selected');
         if (btnPersonaKanojo) btnPersonaKanojo.classList.remove('selected');
 
         if (persona === 'tsure') {
             if (btnPersonaTsure) btnPersonaTsure.classList.add('selected');
-            playTsumugiVoice('tsure', 'welcome', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+            playVoice('tsure', 'unlock', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
         } else if (persona === 'dj') {
             if (btnPersonaDj) btnPersonaDj.classList.add('selected');
-            playTsumugiVoice('dj', 'welcome', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
+            playVoice('dj', 'unlock', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
         } else {
             if (btnPersonaKanojo) btnPersonaKanojo.classList.add('selected');
-            playTsumugiVoice('kanojo', 'welcome', '「ドライブを開始します。安全運転で行きましょう！」');
+            playVoice('kanojo', 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
         }
-        console.log("ペルソナ変更:", currentPersona);
     }
 
     if (btnPersonaTsure) btnPersonaTsure.addEventListener('click', () => setPersona('tsure'));
     if (btnPersonaDj) btnPersonaDj.addEventListener('click', () => setPersona('dj'));
     if (btnPersonaKanojo) btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-    // 3. ボイス（MP3）の再生関数（GitHub Pagesのサブディレクトリに対応したパス指定）
-    function playTsumugiVoice(category, filename, displayMessage = "") {
+    // 3. 音声再生関数（生成スクリプトの配置 audio/kanojo/{name}.mp3 に完全準拠）
+    function playVoice(category, filename, displayMessage = "") {
         const audioPath = `audio/${category}/${filename}.mp3`;
         const audio = new Audio(audioPath);
 
@@ -97,8 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(`音声再生成功: ${audioPath}`);
             if (micStatus) micStatus.textContent = "🔊 発話中...";
         }).catch(err => {
-            console.warn(`音声ファイル再生失敗 (${audioPath})、フォールバック実行:`, err);
-            // フォールバック（ブラウザ標準音声）
+            console.warn(`音声再生失敗 (${audioPath})、フォールバック実行:`, err);
+            // ファイルが無い場合のみブラウザ標準音声で読み上げ
             if ('speechSynthesis' in window && displayMessage) {
                 const uttr = new SpeechSynthesisUtterance(displayMessage);
                 uttr.lang = 'ja-JP';
@@ -122,13 +122,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 statusBadge.textContent = "GPS測位中...";
                 if (spotName) spotName.textContent = "現在地を測位中...";
                 
-                if (currentPersona === 'tsure') {
-                    playTsumugiVoice('tsure', 'welcome', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
-                } else if (currentPersona === 'dj') {
-                    playTsumugiVoice('dj', 'welcome', '「Yo! Drive Concierge起動！エンジン始動だ！」');
-                } else {
-                    playTsumugiVoice('kanojo', 'welcome', '「ドライブを開始します。安全運転で行きましょう！」');
-                }
+                // unlock.mp3（起動ボイス）を再生
+                playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
 
                 startGeolocation();
             } else {
@@ -142,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 5. GPS位置情報の監視開始（スマホ向け高精度化＆初回誤作動防止）
+    // 5. GPS位置情報の監視開始
     function startGeolocation() {
         if (!('geolocation' in navigator)) {
             alert("このブラウザは位置情報に対応していません。");
@@ -153,14 +148,12 @@ document.addEventListener('DOMContentLoaded', () => {
             (position) => {
                 const lat = position.coords.latitude;
                 const lng = position.coords.longitude;
-                currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0; // km/h変換
+                currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0;
 
                 statusBadge.textContent = "追跡中";
-
-                // スピード表示の更新
                 const roundedSpeed = Math.round(currentSpeed);
                 
-                // 速度に応じた索敵半径の動的変更
+                // 速度に応じた索敵半径
                 let searchRadius = 5.0; // km
                 if (currentSpeed >= 80) searchRadius = 20.0;
                 else if (currentSpeed >= 50) searchRadius = 10.0;
@@ -169,18 +162,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     speedStatus.textContent = `${roundedSpeed} km/h | 索敵: ${searchRadius.toFixed(1)}km`;
                 }
 
-                // 周辺スポットの検索と最寄りの抽出（道の駅 ＋ メディアスポットを統合）
                 processNearbySpots(lat, lng, searchRadius);
             },
             (error) => {
                 console.error("GPS取得エラー:", error);
                 statusBadge.textContent = "GPSエラー";
-                if (speechText) speechText.textContent = "GPS信号を探索中... 空の見晴らしの良い場所でお試しください。";
+                if (speechText) speechText.textContent = "GPS信号を探索中... 空の開けた場所でお試しください。";
             },
             {
-                enableHighAccuracy: true, // スマホのGPSを高精度モードに
-                maximumAge: 0,            // キャッシュされた古い位置情報を使わない
-                timeout: 15000            // タイムアウトを15秒に設定
+                enableHighAccuracy: true,
+                maximumAge: 0,
+                timeout: 15000
             }
         );
     }
@@ -193,17 +185,19 @@ document.addEventListener('DOMContentLoaded', () => {
         if (speedStatus) speedStatus.textContent = "0 km/h | 索敵: 5.0km";
     }
 
-    // 6. 周辺スポットの計算と最寄り抽出
+    // 6. 周辺スポットの計算と案内判定
     function processNearbySpots(lat, lng, radiusKm) {
-        // 道の駅データとメディアスポットデータを統合して検索
         const allSpots = [...spotsData, ...mediaSpotsData];
         if (!allSpots || allSpots.length === 0) return;
 
         let nearest = null;
-        let minDistance = 999999; // km
+        let minDistance = 999999;
 
         for (const spot of allSpots) {
             if (!spot.lat || !spot.lng) continue;
+            // パスしたスポットは除外
+            if (skippedSpotIds.has(spot.id)) continue;
+
             const dist = calcDistance(lat, lng, spot.lat, spot.lng);
             if (dist < minDistance) {
                 minDistance = dist;
@@ -221,10 +215,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 spotDistance.textContent = minDistance < 1 ? `${distMeters}m` : `${minDistance.toFixed(1)}km`;
             }
 
-            // ゲージのアニメーション制御
+            // ゲージのアニメーション
             let gaugePercent = Math.max(0, Math.min(100, (1 - (minDistance / radiusKm)) * 100));
             if (gaugeActive) {
                 gaugeActive.style.clipPath = `inset(${100 - gaugePercent}% 0 0 0)`;
+            }
+
+            // 新しいスポット圏内に入ったら、そのスポット専用のMP3を自動発話！
+            if (announcedSpotId !== nearest.id) {
+                announcedSpotId = nearest.id;
+                announceCurrentSpot(nearest);
             }
         } else {
             currentNearestSpot = null;
@@ -234,9 +234,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 2点間の距離計算 (Haversine公式)
+    // スポット案内を発話（スポットID.mp3 を再生）
+    function announceCurrentSpot(spot) {
+        if (!spot) return;
+        // dialogue に登録されたセリフ、なければデフォルト文
+        const dialogueText = spot.dialogue?.[currentPersona] || spot.dialogue?.kanojo || `「まもなく、${spot.name} です。寄っていきますか？」`;
+        
+        // 生成スクリプトで作った {spot.id}.mp3 を再生！
+        playVoice(currentPersona, spot.id, dialogueText);
+    }
+
+    // 距離計算 (Haversine公式)
     function calcDistance(lat1, lon1, lat2, lon2) {
-        const R = 6371; // 地球の半径 (km)
+        const R = 6371;
         const dLat = (lat2 - lat1) * Math.PI / 180;
         const dLon = (lon2 - lon1) * Math.PI / 180;
         const a = 
@@ -251,27 +261,38 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnYes) {
         btnYes.addEventListener('click', () => {
             if (currentNearestSpot && currentNearestSpot.lat && currentNearestSpot.lng) {
-                // Google Mapsの経路案内を開く
-                const mapUrl = `https://www.google.com/maps/dir/?api=1&destination=${currentNearestSpot.lat},${currentNearestSpot.lng}`;
-                window.open(mapUrl, '_blank');
+                // sys_nav_ok.mp3（ナビ起動ボイス）を再生
+                playVoice(currentPersona, 'sys_nav_ok', '「わかった！ナビを開くね！」');
+
+                setTimeout(() => {
+                    const mapUrl = `https://www.google.com/maps/dir/?api=1&destination=${currentNearestSpot.lat},${currentNearestSpot.lng}`;
+                    window.open(mapUrl, '_blank');
+                }, 1200);
             } else {
-                alert("現在案内中のスポットがありません。");
+                // sys_nav_err.mp3（エラーボイス）を再生
+                playVoice(currentPersona, 'sys_nav_err', '「まだスポットを案内してないよ！」');
             }
         });
     }
 
     if (btnNo) {
         btnNo.addEventListener('click', () => {
-            playTsumugiVoice(currentPersona, 'next', '「了解しました。次のスポットを探しますね」');
+            if (currentNearestSpot) {
+                // 現在のスポットを一時スキップリストに入れて次の候補を探す
+                skippedSpotIds.add(currentNearestSpot.id);
+                currentNearestSpot = null;
+                announcedSpotId = null;
+            }
+            playVoice(currentPersona, 'sys_mute', '「わかった、しばらく静かにしてるね！」');
         });
     }
 
     if (btnReplay) {
         btnReplay.addEventListener('click', () => {
             if (currentNearestSpot) {
-                playTsumugiVoice(currentPersona, 'spot_info', `「まもなく、${currentNearestSpot.name} です。寄っていきますか？」`);
+                announceCurrentSpot(currentNearestSpot);
             } else {
-                playTsumugiVoice(currentPersona, 'welcome', '「システム正常稼働中。安全運転で行きましょう！」');
+                playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
             }
         });
     }
