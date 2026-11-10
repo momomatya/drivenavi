@@ -7,7 +7,6 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     
-    /* SFコックピット調のディープブルー＆サイバーシアン基調 */
     body {
       background-color: #060b13;
       background-image: 
@@ -24,7 +23,6 @@
       overflow-x: hidden;
     }
 
-    /* ブルー仕様のサイバーハザードバー */
     .hazard-bar {
       background: repeating-linear-gradient(
         -45deg,
@@ -39,7 +37,6 @@
       margin-bottom: 6px;
     }
 
-    /* 最上部ステータスヘッダー */
     header {
       width: 100%;
       max-width: 480px;
@@ -99,7 +96,6 @@
       box-shadow: 0 0 8px rgba(0, 255, 204, 0.5);
     }
 
-    /* メインカード */
     .card {
       width: 100%;
       max-width: 480px;
@@ -116,7 +112,6 @@
       position: relative;
     }
 
-    /* 2重円弧ゲージ */
     .gauge-container {
       position: relative;
       width: 100%;
@@ -172,7 +167,6 @@
       font-family: "Impact", sans-serif;
     }
 
-    /* スポット名称枠 */
     .spot-info {
       text-align: center;
       border: 2px solid #0088cc;
@@ -196,7 +190,6 @@
       text-shadow: 0 0 10px rgba(0, 210, 255, 0.7);
     }
 
-    /* 吹き出し */
     .speech-bubble {
       background: #0a1b2d;
       border-radius: 8px;
@@ -224,7 +217,6 @@
       letter-spacing: 0.5px;
     }
 
-    /* もう一度聞くボタン */
     .replay-btn {
       width: 100%;
       padding: 8px;
@@ -245,7 +237,6 @@
       color: #ffffff;
     }
 
-    /* 巨大分割アクションボタン */
     .action-group {
       display: grid;
       grid-template-columns: 1.35fr 1fr;
@@ -301,7 +292,6 @@
       font-size: 1.15rem;
     }
 
-    /* 案内スタート / 停止トグル */
     .nav-toggle {
       width: 100%;
       max-width: 480px;
@@ -327,7 +317,6 @@
 </head>
 <body>
 
-  <!-- ブルーサイバーハザード帯 -->
   <div class="hazard-bar"></div>
 
   <header>
@@ -341,7 +330,6 @@
   </header>
 
   <div class="card">
-    <!-- 2重円弧距離ゲージ -->
     <div class="gauge-container">
       <div class="gauge-track"></div>
       <div id="gaugeActive" class="gauge-active"></div>
@@ -351,22 +339,18 @@
       </div>
     </div>
 
-    <!-- スポット名称 -->
     <div class="spot-info">
       <div id="spotName" class="spot-name">待機中</div>
     </div>
 
-    <!-- 特大セリフ吹き出し -->
     <div id="speechText" class="speech-bubble">
       「走行案内をスタート」を押すと、近くの立ち寄りスポットをお知らせします。
     </div>
 
-    <!-- もう一度聞く -->
     <button id="btnReplay" class="replay-btn">
       <span>🔊</span> もう一度聞く
     </button>
 
-    <!-- 巨大分割アクションボタン -->
     <div class="action-group">
       <button id="btnYes" class="btn btn-yes">
         <span class="btn-title">寄る！</span>
@@ -379,10 +363,9 @@
 
   <button id="toggleNavBtn" class="nav-toggle">走行案内をスタート</button>
 
-  <!-- 全ロジックを直下に内包（外部ファイルの読み込みキャッシュ事故を完全防止） -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      console.log("Drive Concierge initialized for Roadster (Single-file version).");
+      console.log("Drive Concierge initialized (Roadster Edition).");
 
       const toggleNavBtn = document.getElementById('toggleNavBtn');
       const statusBadge = document.getElementById('statusBadge');
@@ -403,28 +386,20 @@
       let currentSpeed = 0;
       
       let spotsData = [];
-      let mediaSpotsData = [];
       let currentNearestSpot = null;
       let announcedSpotId = null;
       let skippedSpotIds = new Set();
-      let currentPersona = "kanojo"; // 初期値: 彼女
+      let currentPersona = "kanojo";
 
-      // 1. スポットデータの読み込み
+      // 1. 道の駅スポットデータ（spots.json）の読み込み
       async function loadDatasets() {
         try {
           statusBadge.textContent = "読込中...";
-          const [resSpots, resMedia] = await Promise.all([
-            fetch('./data/spots.json'),
-            fetch('./data/media_spots.json')
-          ]);
-          
+          const resSpots = await fetch('./data/spots.json');
           spotsData = await resSpots.json();
-          mediaSpotsData = await resMedia.json();
 
-          const total = spotsData.length + mediaSpotsData.length;
-          console.log(`データロード成功: 計 ${total}件`);
-          
-          statusBadge.textContent = `${total}件`;
+          console.log(`データロード成功: 道の駅 ${spotsData.length}件`);
+          statusBadge.textContent = `${spotsData.length}件`;
           statusBadge.classList.add('active');
         } catch (e) {
           console.error("データ読み込みエラー:", e);
@@ -456,7 +431,7 @@
       btnPersonaDj.addEventListener('click', () => setPersona('dj'));
       btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-      // 3. 音声再生処理（GitHub Pagesのパス audio/{category}/{filename}.mp3 に完全対応）
+      // 3. 音声再生処理
       function playVoice(category, filename, displayMessage = "") {
         const audioPath = `audio/${category}/${filename}.mp3`;
         const audio = new Audio(audioPath);
@@ -487,15 +462,13 @@
           statusBadge.textContent = "追従中";
           spotName.textContent = "現在地を測位中...";
           
-          // unlock.mp3（起動ボイス）
           playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
-
           startGeolocation();
         } else {
           stopGeolocation();
           toggleNavBtn.textContent = "走行案内をスタート";
           toggleNavBtn.classList.remove('running');
-          statusBadge.textContent = `${spotsData.length + mediaSpotsData.length}件`;
+          statusBadge.textContent = `${spotsData.length}件`;
           speechText.textContent = "走行案内を一時停止しました。";
           spotName.textContent = "待機中";
         }
@@ -514,7 +487,9 @@
             const lng = position.coords.longitude;
             currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0;
 
-            let searchRadius = 10.0; // 索敵半径 10km
+            console.log(`GPS測位成功: 緯度 ${lat.toFixed(5)}, 経度 ${lng.toFixed(5)}, 速度 ${Math.round(currentSpeed)}km/h`);
+
+            let searchRadius = 10.0;
             if (currentSpeed >= 80) searchRadius = 25.0;
             else if (currentSpeed >= 50) searchRadius = 15.0;
 
@@ -539,15 +514,14 @@
         }
       }
 
-      // 6. 周辺スポットの抽出と案内判定
+      // 6. 最寄り道の駅の抽出と案内
       function processNearbySpots(lat, lng, radiusKm) {
-        const allSpots = [...spotsData, ...mediaSpotsData];
-        if (!allSpots || allSpots.length === 0) return;
+        if (!spotsData || spotsData.length === 0) return;
 
         let nearest = null;
         let minDistance = 999999;
 
-        for (const spot of allSpots) {
+        for (const spot of spotsData) {
           if (!spot.lat || !spot.lng) continue;
           if (skippedSpotIds.has(spot.id)) continue;
 
@@ -570,7 +544,6 @@
             gaugeActive.style.clipPath = `inset(${100 - gaugePercent}% 0 0 0)`;
           }
 
-          // 新しいスポット圏内に入ったら、生成した専用ボイス（{spot.id}.mp3）を自動再生！
           if (announcedSpotId !== nearest.id) {
             announcedSpotId = nearest.id;
             announceCurrentSpot(nearest);
@@ -586,8 +559,6 @@
       function announceCurrentSpot(spot) {
         if (!spot) return;
         const dialogueText = spot.dialogue?.[currentPersona] || spot.dialogue?.kanojo || `「まもなく、${spot.name} です。寄っていきますか？」`;
-        
-        // {spot.id}.mp3（例: m_0001.mp3 や風和里しばやまのID）を再生
         playVoice(currentPersona, spot.id, dialogueText);
       }
 
