@@ -1,5 +1,5 @@
 // ==========================================
-// Drive Concierge - メインスクリプト (UI制御 & 音声Lazy Loading & GPS連携)
+// Drive Concierge - メインスクリプト (UI制御 & 音声Lazy Loading & GPS連携 & WakeLock & Mute)
 // ==========================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let isRunning = false;
   let watchId = null;
   let currentSpeed = 0;
+  let wakeLock = null;
+  let isMuted = false; // サイレントモードフラグ
   
   let allSpots = [];
   let currentNearestSpot = null;
@@ -57,6 +59,29 @@ document.addEventListener('DOMContentLoaded', () => {
     window.speechSynthesis.onvoiceschanged = () => {
       window.speechSynthesis.getVoices();
     };
+  }
+
+  // --- 画面スリープ防止（Screen Wake Lock API） ---
+  async function requestWakeLock() {
+    try {
+      if ('wakeLock' in navigator) {
+        wakeLock = await navigator.wakeLock.request('screen');
+        console.log("【Wake Lock】画面の常時点灯を有効化しました。");
+        wakeLock.addEventListener('release', () => {
+          console.log("【Wake Lock】画面の常時点灯が解除されました。");
+        });
+      }
+    } catch (err) {
+      console.warn("Wake Lockの取得に失敗しました:", err);
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock !== null) {
+      wakeLock.release().then(() => {
+        wakeLock = null;
+      });
+    }
   }
 
   // --- 1. 全国スポットデータ (places_spots.json) の読み込み ---
@@ -101,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 3. キャラ別の機械音声（SpeechSynthesis）再生 ---
   function speakWithPersona(text, persona) {
+    if (isMuted) return; // サイレントモード時は発声しない
     if (!('speechSynthesis' in window) || !text) return;
 
     window.speechSynthesis.cancel();
@@ -108,19 +134,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const uttr = new SpeechSynthesisUtterance(cleanText);
     uttr.lang = 'ja-JP';
 
-    // ペルソナごとの声色チューニング
     if (persona === 'tsure') {
-      uttr.pitch = 0.85; // 低めの男性風トーン
-      uttr.rate = 1.05;  // 落ち着いたテンポ
+      uttr.pitch = 0.85; 
+      uttr.rate = 1.05;  
     } else if (persona === 'dj') {
-      uttr.pitch = 1.15; // 明るくハイテンション
-      uttr.rate = 1.25;  // ノリの良い早口
+      uttr.pitch = 1.15; 
+      uttr.rate = 1.25;  
     } else {
-      uttr.pitch = 1.25; // 高めの明るい声（彼女）
+      uttr.pitch = 1.25; 
       uttr.rate = 1.1;
     }
 
-    // 利用可能な日本語音声を割り当て
     const voices = window.speechSynthesis.getVoices();
     const jaVoices = voices.filter(v => v.lang.includes('ja') || v.lang.includes('JP'));
     if (jaVoices.length > 0) {
@@ -136,7 +160,25 @@ document.addEventListener('DOMContentLoaded', () => {
     window.speechSynthesis.speak(uttr);
   }
 
-  // --- 4. ペルソナ切り替え ---
+  // --- 4. 音声ファイル再生処理（彼女用MP3再生 & 失敗時フォールバック） ---
+  function playVoice(voiceFile, displayMessage = "") {
+    if (displayMessage) {
+      speechText.textContent = displayMessage;
+    }
+    if (isMuted) return; // サイレントモード時は再生しない
+
+    const audioPath = `./audio/${voiceFile}`;
+    const audio = new Audio(audioPath);
+    
+    audio.play().then(() => {
+      console.log(`音声再生成功: ${audioPath}`);
+    }).catch(err => {
+      console.warn(`音声ファイル再生不可 (${audioPath})、ブラウザ音声でフォールバック:`, err);
+      speakWithPersona(displayMessage, currentPersona);
+    });
+  }
+
+  // --- 5. ペルソナ切り替え ---
   function setPersona(persona, isSecretUnlock = false) {
     unlockAudio();
     currentPersona = persona;
@@ -157,7 +199,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const msg = isSecretUnlock 
         ? '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」' 
         : '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」';
-      // unlock.mp3 に修正済み
       playVoice('unlock.mp3', msg);
     }
   }
@@ -166,29 +207,14 @@ document.addEventListener('DOMContentLoaded', () => {
   btnPersonaDj.addEventListener('click', () => setPersona('dj'));
   btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-  // --- 5. 音声ファイル再生処理（彼女用MP3再生 & 失敗時フォールバック） ---
-  function playVoice(voiceFile, displayMessage = "") {
-    if (displayMessage) {
-      speechText.textContent = displayMessage;
-    }
-
-    const audioPath = `./audio/${voiceFile}`;
-    const audio = new Audio(audioPath);
-    
-    audio.play().then(() => {
-      console.log(`音声再生成功: ${audioPath}`);
-    }).catch(err => {
-      console.warn(`音声ファイル再生不可 (${audioPath})、ブラウザ音声でフォールバック:`, err);
-      speakWithPersona(displayMessage, currentPersona);
-    });
-  }
-
   // --- 6. 走行案内スタート / 停止 ---
   toggleNavBtn.addEventListener('click', () => {
     unlockAudio();
     isRunning = !isRunning;
 
     if (isRunning) {
+      requestWakeLock(); // 常時点灯スタート！
+
       toggleNavBtn.textContent = "走行案内を停止";
       toggleNavBtn.classList.add('running');
       statusBadge.textContent = "追従中";
@@ -197,7 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
       let startMsg = "";
       if (currentPersona === 'kanojo') {
         startMsg = '「今日も安全運転で楽しく行こうね！」';
-        // unlock.mp3 に修正済み
         playVoice('unlock.mp3', startMsg);
       } else if (currentPersona === 'dj') {
         startMsg = '「ナビゲーション・スタート！グッドバイブスで行こう！」';
@@ -211,6 +236,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       startGeolocation();
     } else {
+      releaseWakeLock(); // 常時点灯解除！（自動スリープ復帰）
+
       stopGeolocation();
       if ('speechSynthesis' in window) window.speechSynthesis.cancel();
       toggleNavBtn.textContent = "走行案内をスタート";
@@ -234,7 +261,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const lng = position.coords.longitude;
         currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0;
         
-        // 巡航速度に応じた検索半径（高速巡航時は探索範囲を拡張）
         let searchRadius = currentSpeed >= 80 ? 25.0 : (currentSpeed >= 50 ? 15.0 : 10.0);
         processNearbySpots(lat, lng, searchRadius);
       },
@@ -276,11 +302,9 @@ document.addEventListener('DOMContentLoaded', () => {
       spotName.textContent = nearest.name || "名称不明スポット";
       spotDistance.textContent = minDistance < 1 ? `${distMeters}m` : `${minDistance.toFixed(1)}km`;
 
-      // メーターゲージ更新
       let gaugePercent = Math.max(0, Math.min(100, (1 - (minDistance / radiusKm)) * 100));
       if (gaugeActive) gaugeActive.style.clipPath = `inset(${100 - gaugePercent}% 0 0 0)`;
 
-      // 新しいスポットに接近したら音声アナウンス
       if (announcedSpotId !== nearest.id) {
         announcedSpotId = nearest.id;
         announceCurrentSpot(nearest);
@@ -306,7 +330,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ハバサイン公式による距離計算 (km)
   function calcDistance(lat1, lon1, lat2, lon2) {
     const R = 6371;
     const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -317,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   }
 
-  // --- 9. アクションボタン ---
+  // --- 9. アクションボタン & サイレントモード切り替え ---
   btnYes.addEventListener('click', () => {
     unlockAudio();
     if (currentNearestSpot && currentNearestSpot.lat && currentNearestSpot.lng) {
@@ -358,19 +381,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // 音声ON / サイレントモード（トグル切り替え）
   btnReplay.addEventListener('click', () => {
     unlockAudio();
-    if (currentNearestSpot) { 
-      announceCurrentSpot(currentNearestSpot); 
-    } else { 
-      const idleMsg = '「今日も安全運転で楽しく行こうね！」';
-      speechText.textContent = idleMsg;
-      if (currentPersona === 'kanojo') {
-        // unlock.mp3 に修正済み
-        playVoice('unlock.mp3', idleMsg);
-      } else {
-        speakWithPersona(idleMsg, currentPersona);
+    isMuted = !isMuted;
+
+    if (isMuted) {
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      btnReplay.innerHTML = '🔇 サイレント中 (タップで解除)';
+      btnReplay.style.opacity = '0.6';
+    } else {
+      btnReplay.innerHTML = '🔊 音声ガイド中 (タップでミュート)';
+      btnReplay.style.opacity = '1.0';
+
+      // ミュート解除時に現在のスポットセリフを喋らせる
+      if (currentNearestSpot) {
+        announceCurrentSpot(currentNearestSpot);
       }
     }
   });
+
+  // 初期ボタンラベル設定
+  btnReplay.innerHTML = '🔊 音声ガイド中 (タップでミュート)';
 });
