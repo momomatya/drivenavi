@@ -1,1287 +1,637 @@
 <!DOCTYPE html>
-
 <html lang="ja">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-  <title>ドライブコンシェルジュ</title>
-
+  <title>Drive Concierge - Roadster Edition</title>
   <style>
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     
-
     /* SFコックピット調のディープブルー＆サイバーシアン基調 */
-
     body {
-
       background-color: #060b13;
-
       background-image: 
-
         linear-gradient(rgba(10, 20, 35, 0) 50%, rgba(0, 0, 0, 0.3) 50%), 
-
         linear-gradient(90deg, rgba(0, 150, 255, 0.03), rgba(0, 255, 200, 0.01), rgba(0, 100, 255, 0.03));
-
-      background-size: 100% 4px, 6px 100%; /* 走査線エフェクト */
-
+      background-size: 100% 4px, 6px 100%;
       color: #00d2ff;
-
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", sans-serif;
-
       min-height: 100vh;
-
       display: flex;
-
       flex-direction: column;
-
       align-items: center;
-
       padding: 12px;
-
-      overflow: hidden;
-
+      overflow-x: hidden;
     }
-
-
 
     /* ブルー仕様のサイバーハザードバー */
-
     .hazard-bar {
-
       background: repeating-linear-gradient(
-
         -45deg,
-
         #00aaff,
-
         #00aaff 10px,
-
         #041224 10px,
-
         #041224 20px
-
       );
-
       height: 6px;
-
       width: 100%;
-
+      max-width: 480px;
+      margin-bottom: 6px;
     }
-
-
 
     /* 最上部ステータスヘッダー */
-
     header {
-
       width: 100%;
-
       max-width: 480px;
-
       display: flex;
-
       justify-content: space-between;
-
       align-items: center;
-
-      margin: 6px 0 8px 0;
-
+      margin: 4px 0 8px 0;
       border-bottom: 2px solid #0088cc;
-
       padding-bottom: 6px;
-
     }
-
     
-
     h1 {
-
       font-size: 1.05rem;
-
       font-weight: 800;
-
       color: #00f0ff;
-
-      cursor: pointer;
-
-      user-select: none;
-
       letter-spacing: 0.5px;
-
       text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
-
     }
-
-
 
     .top-badge-group {
-
       display: flex;
-
-      gap: 6px;
-
+      gap: 5px;
       align-items: center;
-
     }
 
-
-
-    /* モード選択ボタン */
-
-    .mode-toggle-btn {
-
-      padding: 5px 9px;
-
-      border: 1px solid #005588;
-
-      background: #081a2e;
-
-      color: #70b0df;
-
+    .persona-btn {
+      background: #09131f;
+      border: 1px solid #103350;
+      color: #6699cc;
+      padding: 4px 8px;
       border-radius: 4px;
-
-      font-size: 0.75rem;
-
+      font-size: 0.72rem;
       font-weight: 700;
-
       cursor: pointer;
-
       transition: all 0.2s;
-
     }
-
-    .mode-toggle-btn.active {
-
-      background: #0088cc;
-
+    .persona-btn.selected {
+      background: #e6005c;
+      border-color: #ff3388;
       color: #ffffff;
-
-      border-color: #00f0ff;
-
-      box-shadow: 0 0 10px rgba(0, 210, 255, 0.6);
-
+      box-shadow: 0 0 8px rgba(255, 51, 136, 0.5);
     }
-
-
-
-    /* 隠し「彼女モード」 */
-
-    .mode-toggle-btn[data-mode="kanojo"] {
-
-      display: none;
-
-    }
-
-    .secret-unlocked .mode-toggle-btn[data-mode="kanojo"] {
-
-      display: inline-block;
-
-      animation: fadeIn 0.4s ease;
-
-      border-color: #ff55aa;
-
-    }
-
-    .mode-toggle-btn[data-mode="kanojo"].active {
-
-      background: #b5006b;
-
-      border-color: #ff55aa;
-
-      color: #ffffff;
-
-      box-shadow: 0 0 12px rgba(255, 85, 170, 0.7);
-
-    }
-
-
 
     .status-badge {
-
-      padding: 5px 8px;
-
+      padding: 4px 8px;
       border-radius: 4px;
-
-      font-size: 0.75rem;
-
+      font-size: 0.72rem;
       font-weight: 700;
-
       background: #09131f;
-
       border: 1px solid #103350;
-
       color: #5588aa;
-
     }
-
     .status-badge.active {
-
       background: #004466;
-
       color: #00ffcc;
-
       border-color: #00ffcc;
-
-      animation: blink 1s infinite alternate;
-
       box-shadow: 0 0 8px rgba(0, 255, 204, 0.5);
-
     }
-
-
 
     /* メインカード */
-
     .card {
-
       width: 100%;
-
       max-width: 480px;
-
       flex: 1;
-
       display: flex;
-
       flex-direction: column;
-
       background: #09121d;
-
       border-radius: 12px;
-
       padding: 14px;
-
       border: 2px solid #0077b6;
-
       justify-content: space-between;
-
       gap: 12px;
-
       box-shadow: inset 0 0 30px rgba(0, 150, 255, 0.15);
-
       position: relative;
-
     }
-
-
 
     /* 2重円弧ゲージ */
-
     .gauge-container {
-
       position: relative;
-
       width: 100%;
-
-      height: 105px;
-
+      height: 95px;
       display: flex;
-
       flex-direction: column;
-
       justify-content: flex-end;
-
       align-items: center;
-
-      margin-top: -6px;
-
+      margin-top: -4px;
     }
-
-
 
     .gauge-track {
-
       position: absolute;
-
-      width: 170px;
-
-      height: 85px;
-
+      width: 160px;
+      height: 80px;
       border: 10px double #0d2844;
-
       border-bottom: none;
-
-      border-top-left-radius: 85px;
-
-      border-top-right-radius: 85px;
-
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
       bottom: 0;
-
     }
-
     
-
     .gauge-active {
-
       position: absolute;
-
-      width: 170px;
-
-      height: 85px;
-
+      width: 160px;
+      height: 80px;
       border: 10px double #00d2ff;
-
       border-bottom: none;
-
-      border-top-left-radius: 85px;
-
-      border-top-right-radius: 85px;
-
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
       bottom: 0;
-
       clip-path: inset(0 0 0 0);
-
       filter: drop-shadow(0 0 6px #00aaff);
-
     }
-
-
 
     .gauge-value-box {
-
       position: relative;
-
       z-index: 2;
-
       text-align: center;
-
       margin-bottom: 2px;
-
     }
-
     .distance-label {
-
       font-size: 0.65rem;
-
       font-weight: 800;
-
       color: #5599cc;
-
       letter-spacing: 2px;
-
     }
-
     .distance-num {
-
-      font-size: 1.8rem;
-
+      font-size: 1.7rem;
       font-weight: 900;
-
       color: #00f0ff;
-
       text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
-
       font-family: "Impact", sans-serif;
-
     }
-
-
 
     /* スポット名称枠 */
-
     .spot-info {
-
       text-align: center;
-
       border: 2px solid #0088cc;
-
       background: #081829;
-
       padding: 8px 6px;
-
       position: relative;
-
     }
-
     .spot-info::before {
-
       content: "[ 最寄りスポット ]";
-
       display: block;
-
       font-size: 0.65rem;
-
       color: #00d2ff;
-
       margin-bottom: 4px;
-
       letter-spacing: 1px;
-
     }
-
     .spot-name {
-
-      font-size: 1.7rem;
-
-      font-weight: 900;
-
-      color: #ffffff;
-
-      line-height: 1.25;
-
-      text-shadow: 0 0 10px rgba(0, 210, 255, 0.7);
-
-    }
-
-
-
-    /* 吹き出し（特大フォント） */
-
-    .speech-bubble {
-
-      background: #0a1b2d;
-
-      border-radius: 8px;
-
-      padding: 16px 12px;
-
       font-size: 1.25rem;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.25;
+      text-shadow: 0 0 10px rgba(0, 210, 255, 0.7);
+    }
 
+    /* 吹き出し */
+    .speech-bubble {
+      background: #0a1b2d;
+      border-radius: 8px;
+      padding: 14px 12px;
+      font-size: 1.02rem;
       font-weight: 700;
-
       line-height: 1.45;
-
       color: #e2f1ff;
-
-      min-height: 110px;
-
+      min-height: 90px;
       display: flex;
-
       flex-direction: column;
-
       align-items: center;
-
       justify-content: center;
-
       text-align: center;
-
       border: 2px solid #005f9e;
-
       box-shadow: inset 0 0 15px rgba(0, 119, 182, 0.25);
-
       position: relative;
-
     }
-
     .speech-bubble::after {
-
       content: "STATUS: ACTIVE // DRIVE_CONCIERGE";
-
       position: absolute;
-
       bottom: 4px;
-
       font-size: 0.55rem;
-
-      color: #1e456d;
-
+      color: #2b5580;
       letter-spacing: 0.5px;
-
     }
-
-
 
     /* もう一度聞くボタン */
-
     .replay-btn {
-
       width: 100%;
-
-      padding: 9px;
-
+      padding: 8px;
       border: 1.5px solid #0077b6;
-
       background: #091a2e;
-
       color: #00d2ff;
-
       border-radius: 6px;
-
-      font-size: 0.85rem;
-
+      font-size: 0.8rem;
       font-weight: 700;
-
       cursor: pointer;
-
       display: flex;
-
       align-items: center;
-
       justify-content: center;
-
       gap: 6px;
-
     }
-
     .replay-btn:active {
-
       background: #0077b6;
-
       color: #ffffff;
-
     }
-
-
 
     /* 巨大分割アクションボタン */
-
     .action-group {
-
       display: grid;
-
       grid-template-columns: 1.35fr 1fr;
-
       gap: 12px;
-
-      height: 95px;
-
+      height: 75px;
     }
-
     .btn {
-
       border: 2px solid;
-
       border-radius: 12px;
-
       font-weight: 900;
-
       cursor: pointer;
-
       display: flex;
-
       flex-direction: column;
-
       align-items: center;
-
       justify-content: center;
-
-      gap: 3px;
-
-      position: relative;
-
+      gap: 2px;
     }
-
     .btn:active {
-
       transform: scale(0.96);
-
     }
-
     
-
-    /* 寄る！ボタン（高視認性エメラルドグリーン） */
-
     .btn-yes {
-
       background: #032b1a;
-
       border-color: #00ff88;
-
       color: #00ff88;
-
       box-shadow: 0 0 15px rgba(0, 255, 136, 0.25);
-
     }
-
     .btn-yes::before {
-
       content: "MAP経路案内";
-
-      font-size: 0.65rem;
-
+      font-size: 0.6rem;
       color: #00cc6a;
-
       letter-spacing: 1px;
-
     }
-
     .btn-yes .btn-title {
-
-      font-size: 1.8rem;
-
-      letter-spacing: 3px;
-
+      font-size: 1.35rem;
+      letter-spacing: 2px;
       text-shadow: 0 0 10px rgba(0, 255, 136, 0.7);
-
     }
-
-
-
-    /* パスボタン（ダークネイビー・スルー） */
 
     .btn-no {
-
       background: #101c2b;
-
       border-color: #2b4c6f;
-
       color: #8da4be;
-
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
     }
-
     .btn-no::before {
-
       content: "次の候補へ";
-
-      font-size: 0.65rem;
-
+      font-size: 0.6rem;
       color: #5d7591;
-
       letter-spacing: 1px;
-
     }
-
     .btn-no .btn-title {
-
-      font-size: 1.5rem;
-
+      font-size: 1.15rem;
     }
-
-
 
     /* 案内スタート / 停止トグル */
-
     .nav-toggle {
-
       width: 100%;
-
       max-width: 480px;
-
-      padding: 15px;
-
+      padding: 13px;
       border-radius: 8px;
-
       background: #0b1a2d;
-
       border: 2px solid #0077b6;
-
       color: #00d2ff;
-
-      font-size: 1.1rem;
-
+      font-size: 1.05rem;
       font-weight: 800;
-
       cursor: pointer;
-
       margin-top: 8px;
-
       letter-spacing: 1px;
-
       box-shadow: inset 0 0 12px rgba(0, 119, 182, 0.2);
-
     }
-
     .nav-toggle.running {
-
       background: #8b0000;
-
       border-color: #ff3333;
-
       color: #ffffff;
-
-      animation: blink 0.8s infinite alternate;
-
       box-shadow: 0 0 15px rgba(255, 51, 51, 0.6);
-
     }
-
-
-
-    @keyframes blink {
-
-      from { opacity: 1; }
-
-      to { opacity: 0.8; }
-
-    }
-
-    @keyframes fadeIn {
-
-      from { opacity: 0; transform: scale(0.9); }
-
-      to { opacity: 1; transform: scale(1); }
-
-    }
-
   </style>
-
 </head>
-
 <body>
 
-
-
   <!-- ブルーサイバーハザード帯 -->
-
   <div class="hazard-bar"></div>
 
-
-
   <header>
-
     <h1 id="appTitle">ドライブコンシェルジュ</h1>
-
     <div class="top-badge-group">
-
-      <button class="mode-toggle-btn active" data-mode="friend">ツレ</button>
-
-      <button class="mode-toggle-btn" data-mode="dj">FM-DJ</button>
-
-      <button class="mode-toggle-btn" data-mode="kanojo">彼女</button>
-
+      <button id="btnPersonaTsure" class="persona-btn">ツレ</button>
+      <button id="btnPersonaDj" class="persona-btn">FM-DJ</button>
+      <button id="btnPersonaKanojo" class="persona-btn selected">彼女</button>
       <span id="statusBadge" class="status-badge">読込中</span>
-
     </div>
-
   </header>
 
-
-
   <div class="card">
-
-    
-
     <!-- 2重円弧距離ゲージ -->
-
     <div class="gauge-container">
-
       <div class="gauge-track"></div>
-
       <div id="gaugeActive" class="gauge-active"></div>
-
       <div class="gauge-value-box">
-
         <div class="distance-label">DISTANCE</div>
-
         <div id="spotDistance" class="distance-num">---</div>
-
       </div>
-
     </div>
-
-
 
     <!-- スポット名称 -->
-
     <div class="spot-info">
-
       <div id="spotName" class="spot-name">待機中</div>
-
     </div>
-
-
 
     <!-- 特大セリフ吹き出し -->
-
     <div id="speechText" class="speech-bubble">
-
       「走行案内をスタート」を押すと、近くの立ち寄りスポットをお知らせします。
-
     </div>
-
-
 
     <!-- もう一度聞く -->
-
     <button id="btnReplay" class="replay-btn">
-
       <span>🔊</span> もう一度聞く
-
     </button>
 
-
-
     <!-- 巨大分割アクションボタン -->
-
     <div class="action-group">
-
       <button id="btnYes" class="btn btn-yes">
-
         <span class="btn-title">寄る！</span>
-
       </button>
-
       <button id="btnNo" class="btn btn-no">
-
         <span class="btn-title">パス</span>
-
       </button>
-
     </div>
-
   </div>
-
-
 
   <button id="toggleNavBtn" class="nav-toggle">走行案内をスタート</button>
 
-
-
+  <!-- 全ロジックを直下に内包（外部ファイルの読み込みキャッシュ事故を完全防止） -->
   <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log("Drive Concierge initialized for Roadster (Single-file version).");
 
-    let spots = [];
+      const toggleNavBtn = document.getElementById('toggleNavBtn');
+      const statusBadge = document.getElementById('statusBadge');
+      const spotDistance = document.getElementById('spotDistance');
+      const gaugeActive = document.getElementById('gaugeActive');
+      const spotName = document.getElementById('spotName');
+      const speechText = document.getElementById('speechText');
+      const btnReplay = document.getElementById('btnReplay');
+      const btnYes = document.getElementById('btnYes');
+      const btnNo = document.getElementById('btnNo');
 
-    let currentMode = 'friend';
+      const btnPersonaTsure = document.getElementById('btnPersonaTsure');
+      const btnPersonaDj = document.getElementById('btnPersonaDj');
+      const btnPersonaKanojo = document.getElementById('btnPersonaKanojo');
 
-    let currentSpot = null;
+      let isRunning = false;
+      let watchId = null;
+      let currentSpeed = 0;
+      
+      let spotsData = [];
+      let mediaSpotsData = [];
+      let currentNearestSpot = null;
+      let announcedSpotId = null;
+      let skippedSpotIds = new Set();
+      let currentPersona = "kanojo"; // 初期値: 彼女
 
-    let isTracking = false;
+      // 1. スポットデータの読み込み
+      async function loadDatasets() {
+        try {
+          statusBadge.textContent = "読込中...";
+          const [resSpots, resMedia] = await Promise.all([
+            fetch('./data/spots.json'),
+            fetch('./data/media_spots.json')
+          ]);
+          
+          spotsData = await resSpots.json();
+          mediaSpotsData = await resMedia.json();
 
-    let watchId = null;
-
-    let announcedSpots = new Set();
-
-    let isFirstPosition = true;
-
-
-
-    // 音声かぶり防止フラグ
-
-    let isStartingVoicePlaying = false; 
-
-
-
-    let secretTapCount = 0;
-
-    let secretTapTimer = null;
-
-
-
-    const statusBadge = document.getElementById('statusBadge');
-
-    const spotName = document.getElementById('spotName');
-
-    const spotDistance = document.getElementById('spotDistance');
-
-    const gaugeActive = document.getElementById('gaugeActive');
-
-    const speechText = document.getElementById('speechText');
-
-    const toggleNavBtn = document.getElementById('toggleNavBtn');
-
-    const modeHeader = document.querySelector('header');
-
-    const appTitle = document.getElementById('appTitle');
-
-    const btnReplay = document.getElementById('btnReplay');
-
-
-
-    // spots.jsonロード
-
-    async function loadSpots() {
-
-      try {
-
-        const res = await fetch('./data/spots.json?t=' + Date.now());
-
-        if (!res.ok) throw new Error('Network error');
-
-        spots = await res.json();
-
-        statusBadge.textContent = `${spots.length}件`;
-
-      } catch (err) {
-
-        statusBadge.textContent = '失敗';
-
-        speechText.textContent = 'スポットデータの読み込みに失敗しました。';
-
+          const total = spotsData.length + mediaSpotsData.length;
+          console.log(`データロード成功: 計 ${total}件`);
+          
+          statusBadge.textContent = `${total}件`;
+          statusBadge.classList.add('active');
+        } catch (e) {
+          console.error("データ読み込みエラー:", e);
+          statusBadge.textContent = "読込失敗";
+          spotName.textContent = "データ読込エラー";
+        }
       }
 
-    }
+      loadDatasets();
 
-    loadSpots();
+      // 2. ペルソナ切り替え
+      function setPersona(persona) {
+        currentPersona = persona;
+        
+        btnPersonaTsure.classList.toggle('selected', persona === 'tsure');
+        btnPersonaDj.classList.toggle('selected', persona === 'dj');
+        btnPersonaKanojo.classList.toggle('selected', persona === 'kanojo');
 
-
-
-    // タイトル5回タップで隠し彼女モード（解禁 ⇔ 再ロック）
-
-    appTitle.addEventListener('click', () => {
-
-      secretTapCount++;
-
-      clearTimeout(secretTapTimer);
-
-      secretTapTimer = setTimeout(() => { secretTapCount = 0; }, 3000);
-
-
-
-      if (secretTapCount >= 5) {
-
-        secretTapCount = 0;
-
-        toggleSecretMode();
-
+        if (persona === 'tsure') {
+          playVoice('tsure', 'unlock', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+        } else if (persona === 'dj') {
+          playVoice('dj', 'unlock', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
+        } else {
+          playVoice('kanojo', 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+        }
       }
 
-    });
+      btnPersonaTsure.addEventListener('click', () => setPersona('tsure'));
+      btnPersonaDj.addEventListener('click', () => setPersona('dj'));
+      btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
+      // 3. 音声再生処理（GitHub Pagesのパス audio/{category}/{filename}.mp3 に完全対応）
+      function playVoice(category, filename, displayMessage = "") {
+        const audioPath = `audio/${category}/${filename}.mp3`;
+        const audio = new Audio(audioPath);
 
+        if (displayMessage && speechText) {
+          speechText.textContent = displayMessage;
+        }
 
-    function toggleSecretMode() {
-
-      const isUnlocked = modeHeader.classList.contains('secret-unlocked');
-
-
-
-      if (!isUnlocked) {
-
-        if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
-
-        modeHeader.classList.add('secret-unlocked');
-
-
-
-        document.querySelectorAll('.mode-toggle-btn').forEach(b => b.classList.remove('active'));
-
-        const kanojoBtn = document.querySelector('.mode-toggle-btn[data-mode="kanojo"]');
-
-        kanojoBtn.classList.add('active');
-
-        currentMode = 'kanojo';
-
-
-
-        if (currentSpot) updateDisplay(currentSpot);
-
-        speak('……呼んだ？内緒のドライブ、連れてってくれるの？');
-
-      } else {
-
-        if (navigator.vibrate) navigator.vibrate(50);
-
-        modeHeader.classList.remove('secret-unlocked');
-
-
-
-        document.querySelectorAll('.mode-toggle-btn').forEach(b => b.classList.remove('active'));
-
-        const friendBtn = document.querySelector('.mode-toggle-btn[data-mode="friend"]');
-
-        friendBtn.classList.add('active');
-
-        currentMode = 'friend';
-
-
-
-        if (currentSpot) updateDisplay(currentSpot);
-
-        window.speechSynthesis.cancel();
-
+        audio.play().then(() => {
+          console.log(`音声再生成功: ${audioPath}`);
+        }).catch(err => {
+          console.warn(`音声再生失敗 (${audioPath})、フォールバック実行:`, err);
+          if ('speechSynthesis' in window && displayMessage) {
+            const uttr = new SpeechSynthesisUtterance(displayMessage);
+            uttr.lang = 'ja-JP';
+            window.speechSynthesis.speak(uttr);
+          }
+        });
       }
 
-    }
+      // 4. 案内スタート / 停止トグル
+      toggleNavBtn.addEventListener('click', () => {
+        isRunning = !isRunning;
 
+        if (isRunning) {
+          toggleNavBtn.textContent = "走行案内を停止";
+          toggleNavBtn.classList.add('running');
+          statusBadge.textContent = "追従中";
+          spotName.textContent = "現在地を測位中...";
+          
+          // unlock.mp3（起動ボイス）
+          playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
 
-
-    document.querySelectorAll('.mode-toggle-btn').forEach(btn => {
-
-      btn.addEventListener('click', () => {
-
-        document.querySelectorAll('.mode-toggle-btn').forEach(b => b.classList.remove('active'));
-
-        btn.classList.add('active');
-
-        currentMode = btn.dataset.mode;
-
-        if (currentSpot) updateDisplay(currentSpot);
-
+          startGeolocation();
+        } else {
+          stopGeolocation();
+          toggleNavBtn.textContent = "走行案内をスタート";
+          toggleNavBtn.classList.remove('running');
+          statusBadge.textContent = `${spotsData.length + mediaSpotsData.length}件`;
+          speechText.textContent = "走行案内を一時停止しました。";
+          spotName.textContent = "待機中";
+        }
       });
 
-    });
-
-
-
-    function getDistance(lat1, lon1, lat2, lon2) {
-
-      const R = 6378137;
-
-      const dLat = (lat2 - lat1) * Math.PI / 180;
-
-      const dLon = (lon2 - lon1) * Math.PI / 180;
-
-      const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-
-                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-
-                Math.sin(dLon / 2) * Math.sin(dLon / 2);
-
-      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-
-    }
-
-
-
-    function updateDisplay(spot, dist) {
-
-      spotName.textContent = spot.name;
-
-      
-
-      if (dist !== undefined) {
-
-        spotDistance.textContent = dist < 1000 ? `${Math.round(dist)}m` : `${(dist / 1000).toFixed(1)}km`;
-
-        
-
-        let ratio = Math.min(Math.max(dist / 3000, 0), 1); 
-
-        let percent = ratio * 100;
-
-        gaugeActive.style.clipPath = `inset(0 ${percent}% 0 0)`; 
-
-      } else {
-
-        spotDistance.textContent = "---";
-
-        gaugeActive.style.clipPath = `inset(0 100% 0 0)`; 
-
-      }
-
-      
-
-      const text = spot.dialogue[currentMode] || spot.name;
-
-      speechText.textContent = text;
-
-    }
-
-
-
-    function speak(text, onEndCallback) {
-
-      if (!('speechSynthesis' in window)) return;
-
-      window.speechSynthesis.cancel();
-
-      const uttr = new SpeechSynthesisUtterance(text);
-
-      uttr.lang = 'ja-JP';
-
-      uttr.rate = 1.0;
-
-      if (onEndCallback) {
-
-        uttr.onend = onEndCallback;
-
-      }
-
-      window.speechSynthesis.speak(uttr);
-
-    }
-
-
-
-    // もう一度聞く
-
-    btnReplay.addEventListener('click', () => {
-
-      if (currentSpot) {
-
-        speak(currentSpot.dialogue[currentMode]);
-
-      } else {
-
-        speak(speechText.textContent);
-
-      }
-
-    });
-
-
-
-    // 位置追従処理
-
-    function onLocationUpdate(position) {
-
-      // 案内開始コールが終わるまでは割り込みを抑止
-
-      if (isStartingVoicePlaying) return;
-
-
-
-      const { latitude, longitude } = position.coords;
-
-      let nearest = null;
-
-      let minDistance = Infinity;
-
-
-
-      for (const spot of spots) {
-
-        const d = getDistance(latitude, longitude, spot.lat, spot.lng);
-
-        if (d < minDistance) {
-
-          minDistance = d;
-
-          nearest = spot;
-
-        }
-
-      }
-
-
-
-      if (nearest) {
-
-        currentSpot = nearest;
-
-        updateDisplay(nearest, minDistance);
-
-
-
-        if (isFirstPosition || (minDistance <= 3000 && !announcedSpots.has(nearest.id))) {
-
-          isFirstPosition = false;
-
-          announcedSpots.add(nearest.id);
-
-          
-
-          setTimeout(() => {
-
-            speak(nearest.dialogue[currentMode]);
-
-          }, 300);
-
-        }
-
-      }
-
-    }
-
-
-
-    // 案内開始 / 停止
-
-    toggleNavBtn.addEventListener('click', () => {
-
-      if (!isTracking) {
-
-        if (!navigator.geolocation) {
-
-          alert('位置情報に対応していません。');
-
+      // 5. GPS位置情報の監視
+      function startGeolocation() {
+        if (!('geolocation' in navigator)) {
+          alert("このブラウザは位置情報に対応していません。");
           return;
-
         }
-
-        isTracking = true;
-
-        isFirstPosition = true;
-
-        isStartingVoicePlaying = true;
-
-        toggleNavBtn.textContent = '走行案内を停止';
-
-        toggleNavBtn.classList.add('running');
-
-        statusBadge.textContent = '追従中';
-
-        statusBadge.classList.add('active');
-
-
-
-        // 開始音声が終了してからスポット案内に移行
-
-        speak('ドライブ案内を開始します。安全運転で行きましょう。', () => {
-
-          setTimeout(() => {
-
-            isStartingVoicePlaying = false;
-
-          }, 500);
-
-        });
-
-
 
         watchId = navigator.geolocation.watchPosition(
+          (position) => {
+            const lat = position.coords.latitude;
+            const lng = position.coords.longitude;
+            currentSpeed = position.coords.speed ? position.coords.speed * 3.6 : 0;
 
-          onLocationUpdate,
+            let searchRadius = 10.0; // 索敵半径 10km
+            if (currentSpeed >= 80) searchRadius = 25.0;
+            else if (currentSpeed >= 50) searchRadius = 15.0;
 
-          (err) => { alert('GPS取得失敗: ' + err.message); },
-
-          { enableHighAccuracy: true, maximumAge: 0, timeout: 10000 }
-
+            processNearbySpots(lat, lng, searchRadius);
+          },
+          (error) => {
+            console.error("GPS取得エラー:", error);
+            statusBadge.textContent = "GPSエラー";
+          },
+          {
+            enableHighAccuracy: true,
+            maximumAge: 0,
+            timeout: 15000
+          }
         );
-
-      } else {
-
-        navigator.geolocation.clearWatch(watchId);
-
-        isTracking = false;
-
-        isStartingVoicePlaying = false;
-
-        toggleNavBtn.textContent = '走行案内をスタート';
-
-        toggleNavBtn.classList.remove('running');
-
-        statusBadge.textContent = `${spots.length}件`;
-
-        statusBadge.classList.remove('active');
-
-        window.speechSynthesis.cancel();
-
       }
 
-    });
-
-
-
-    // 寄る！ボタン
-
-    document.getElementById('btnYes').addEventListener('click', () => {
-
-      if (!currentSpot) return;
-
-      speak('案内をセットします！');
-
-      const navUrl = `https://www.google.com/maps/dir/?api=1&destination=${currentSpot.lat},${currentSpot.lng}`;
-
-      window.open(navUrl, '_blank');
-
-    });
-
-
-
-    // パスボタン
-
-    document.getElementById('btnNo').addEventListener('click', () => {
-
-      if (!currentSpot) return;
-
-      window.speechSynthesis.cancel();
-
-      if (currentMode === 'kanojo') {
-
-        speak('えぇ〜！通り過ぎちゃうの？次は絶対寄ってね！');
-
-      } else if (currentMode === 'friend') {
-
-        speak('了解、スルーな！先急ごうぜ。');
-
-      } else {
-
-        speak('承知いたしました。安全運転を継続してください。');
-
+      function stopGeolocation() {
+        if (watchId !== null) {
+          navigator.geolocation.clearWatch(watchId);
+          watchId = null;
+        }
       }
 
-    });
+      // 6. 周辺スポットの抽出と案内判定
+      function processNearbySpots(lat, lng, radiusKm) {
+        const allSpots = [...spotsData, ...mediaSpotsData];
+        if (!allSpots || allSpots.length === 0) return;
 
+        let nearest = null;
+        let minDistance = 999999;
+
+        for (const spot of allSpots) {
+          if (!spot.lat || !spot.lng) continue;
+          if (skippedSpotIds.has(spot.id)) continue;
+
+          const dist = calcDistance(lat, lng, spot.lat, spot.lng);
+          if (dist < minDistance) {
+            minDistance = dist;
+            nearest = spot;
+          }
+        }
+
+        if (nearest && minDistance <= radiusKm) {
+          currentNearestSpot = nearest;
+          const distMeters = Math.round(minDistance * 1000);
+          
+          spotName.textContent = nearest.name || "名称不明スポット";
+          spotDistance.textContent = minDistance < 1 ? `${distMeters}m` : `${minDistance.toFixed(1)}km`;
+
+          let gaugePercent = Math.max(0, Math.min(100, (1 - (minDistance / radiusKm)) * 100));
+          if (gaugeActive) {
+            gaugeActive.style.clipPath = `inset(${100 - gaugePercent}% 0 0 0)`;
+          }
+
+          // 新しいスポット圏内に入ったら、生成した専用ボイス（{spot.id}.mp3）を自動再生！
+          if (announcedSpotId !== nearest.id) {
+            announcedSpotId = nearest.id;
+            announceCurrentSpot(nearest);
+          }
+        } else {
+          currentNearestSpot = null;
+          spotName.textContent = "周辺にスポットなし";
+          spotDistance.textContent = "---";
+          if (gaugeActive) gaugeActive.style.clipPath = `inset(100% 0 0 0)`;
+        }
+      }
+
+      function announceCurrentSpot(spot) {
+        if (!spot) return;
+        const dialogueText = spot.dialogue?.[currentPersona] || spot.dialogue?.kanojo || `「まもなく、${spot.name} です。寄っていきますか？」`;
+        
+        // {spot.id}.mp3（例: m_0001.mp3 や風和里しばやまのID）を再生
+        playVoice(currentPersona, spot.id, dialogueText);
+      }
+
+      function calcDistance(lat1, lon1, lat2, lon2) {
+        const R = 6371;
+        const dLat = (lat2 - lat1) * Math.PI / 180;
+        const dLon = (lon2 - lon1) * Math.PI / 180;
+        const a = 
+          Math.sin(dLat/2) * Math.sin(dLat/2) +
+          Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+          Math.sin(dLon/2) * Math.sin(dLon/2);
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      }
+
+      // 7. アクションボタン
+      btnYes.addEventListener('click', () => {
+        if (currentNearestSpot && currentNearestSpot.lat && currentNearestSpot.lng) {
+          playVoice(currentPersona, 'sys_nav_ok', '「わかった！ナビを開くね！」');
+          setTimeout(() => {
+            const mapUrl = `https://www.google.com/maps/dir/?api=1&destination=${currentNearestSpot.lat},${currentNearestSpot.lng}`;
+            window.open(mapUrl, '_blank');
+          }, 1200);
+        } else {
+          playVoice(currentPersona, 'sys_nav_err', '「まだスポットを案内してないよ！」');
+        }
+      });
+
+      btnNo.addEventListener('click', () => {
+        if (currentNearestSpot) {
+          skippedSpotIds.add(currentNearestSpot.id);
+          currentNearestSpot = null;
+          announcedSpotId = null;
+        }
+        playVoice(currentPersona, 'sys_mute', '「わかった、しばらく静かにしてるね！」');
+      });
+
+      btnReplay.addEventListener('click', () => {
+        if (currentNearestSpot) {
+          announceCurrentSpot(currentNearestSpot);
+        } else {
+          playVoice(currentPersona, 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+        }
+      });
+    });
   </script>
-
 </body>
-
-</html> 
+</html>
