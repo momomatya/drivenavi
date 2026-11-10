@@ -135,13 +135,13 @@ document.addEventListener('DOMContentLoaded', () => {
     uttr.lang = 'ja-JP';
 
     if (persona === 'tsure') {
-      uttr.pitch = 0.85; 
-      uttr.rate = 1.05;  
+      uttr.pitch = 0.85; // 低めの男性風トーン
+      uttr.rate = 1.05;  // 落ち着いたテンポ
     } else if (persona === 'dj') {
-      uttr.pitch = 1.15; 
-      uttr.rate = 1.25;  
+      uttr.pitch = 1.15; // 明るくハイテンション
+      uttr.rate = 1.25;  // ノリの良い早口
     } else {
-      uttr.pitch = 1.25; 
+      uttr.pitch = 1.25; // 高めの明るい声（彼女フォールバック用）
       uttr.rate = 1.1;
     }
 
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.speechSynthesis.speak(uttr);
   }
 
-  // --- 4. 音声ファイル再生処理（彼女用MP3再生 & 失敗時フォールバック） ---
+  // --- 4. 音声ファイル再生処理（MP3再生 & 失敗時フォールバック） ---
   function playVoice(voiceFile, displayMessage = "") {
     if (displayMessage) {
       speechText.textContent = displayMessage;
@@ -199,6 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const msg = isSecretUnlock 
         ? '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」' 
         : '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」';
+      // 解放・選択時は unlock.mp3
       playVoice('unlock.mp3', msg);
     }
   }
@@ -213,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isRunning = !isRunning;
 
     if (isRunning) {
-      requestWakeLock(); // 常時点灯スタート！
+      requestWakeLock(); // 常時点灯スタート
 
       toggleNavBtn.textContent = "走行案内を停止";
       toggleNavBtn.classList.add('running');
@@ -223,7 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
       let startMsg = "";
       if (currentPersona === 'kanojo') {
         startMsg = '「今日も安全運転で楽しく行こうね！」';
-        playVoice('unlock.mp3', startMsg);
+        // 彼女モードは開始専用ボイス sys_start.mp3 を再生
+        playVoice('sys_start.mp3', startMsg);
       } else if (currentPersona === 'dj') {
         startMsg = '「ナビゲーション・スタート！グッドバイブスで行こう！」';
         speechText.textContent = startMsg;
@@ -236,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       startGeolocation();
     } else {
-      releaseWakeLock(); // 常時点灯解除！（自動スリープ復帰）
+      releaseWakeLock(); // 常時点灯解除（自動スリープ復帰）
 
       stopGeolocation();
       if ('speechSynthesis' in window) window.speechSynthesis.cancel();
@@ -394,7 +396,6 @@ document.addEventListener('DOMContentLoaded', () => {
       btnReplay.innerHTML = '🔊 音声ガイド中 (タップでミュート)';
       btnReplay.style.opacity = '1.0';
 
-      // ミュート解除時に現在のスポットセリフを喋らせる
       if (currentNearestSpot) {
         announceCurrentSpot(currentNearestSpot);
       }
