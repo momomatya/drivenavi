@@ -33,18 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
   let skippedSpotIds = new Set();
   let currentPersona = "tsure"; 
 
-  // --- iOS Safari / PWA 自動再生制限解除（Autoplay Policy ） ---
-  let isAudioed = false;
+  // --- iOS Safari / PWA 自動再生制限解除（Autoplay Policy Unlock） ---
+  let isAudioUnlocked = false;
   const SILENT_WAV = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA";
 
-  function Audio() {
-    if (isAudioed) return;
+  function unlockAudio() {
+    if (isAudioUnlocked) return;
     const dummy = new Audio(SILENT_WAV);
     dummy.play().then(() => {
       dummy.pause();
       dummy.currentTime = 0;
-      isAudioed = true;
-      console.log("【Audio ed】ブラウザの音声制限を解除しました。");
+      isAudioUnlocked = true;
+      console.log("【Audio Unlocked】ブラウザの音声制限を解除しました。");
     }).catch(() => {});
   }
 
@@ -157,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const msg = isSecretUnlock 
         ? '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」' 
         : '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」';
+      // unlock.mp3 に修正済み
       playVoice('unlock.mp3', msg);
     }
   }
@@ -196,6 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
       let startMsg = "";
       if (currentPersona === 'kanojo') {
         startMsg = '「今日も安全運転で楽しく行こうね！」';
+        // unlock.mp3 に修正済み
         playVoice('unlock.mp3', startMsg);
       } else if (currentPersona === 'dj') {
         startMsg = '「ナビゲーション・スタート！グッドバイブスで行こう！」';
@@ -364,6 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const idleMsg = '「今日も安全運転で楽しく行こうね！」';
       speechText.textContent = idleMsg;
       if (currentPersona === 'kanojo') {
+        // unlock.mp3 に修正済み
         playVoice('unlock.mp3', idleMsg);
       } else {
         speakWithPersona(idleMsg, currentPersona);
