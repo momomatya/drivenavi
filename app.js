@@ -52,6 +52,13 @@ document.addEventListener('DOMContentLoaded', () => {
   document.body.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
   document.body.addEventListener('click', unlockAudio, { once: true });
 
+  // 音声リスト読み込み（非同期で初期化されるブラウザ対策）
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.onvoiceschanged = () => {
+      window.speechSynthesis.getVoices();
+    };
+  }
+
   // --- 1. 全国スポットデータ (places_spots.json) の読み込み ---
   async function loadDatasets() {
     try {
@@ -92,7 +99,44 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // --- 3. ペルソナ切り替え ---
+  // --- 3. キャラ別の機械音声（SpeechSynthesis）再生 ---
+  function speakWithPersona(text, persona) {
+    if (!('speechSynthesis' in window) || !text) return;
+
+    window.speechSynthesis.cancel();
+    const cleanText = text.replace(/^[「『]|[!！?？]*[」』]$/g, '');
+    const uttr = new SpeechSynthesisUtterance(cleanText);
+    uttr.lang = 'ja-JP';
+
+    // ペルソナごとの声色チューニング
+    if (persona === 'tsure') {
+      uttr.pitch = 0.85; // 低めの男性風トーン
+      uttr.rate = 1.05;  // 落ち着いたテンポ
+    } else if (persona === 'dj') {
+      uttr.pitch = 1.15; // 明るくハイテンション
+      uttr.rate = 1.25;  // ノリの良い早口
+    } else {
+      uttr.pitch = 1.25; // 高めの明るい声（彼女）
+      uttr.rate = 1.1;
+    }
+
+    // 利用可能な日本語音声を割り当て
+    const voices = window.speechSynthesis.getVoices();
+    const jaVoices = voices.filter(v => v.lang.includes('ja') || v.lang.includes('JP'));
+    if (jaVoices.length > 0) {
+      if (persona === 'tsure') {
+        const maleVoice = jaVoices.find(v => v.name.includes('Ichiro') || v.name.includes('Male') || v.name.includes('Otoya') || v.name.includes('Keita'));
+        uttr.voice = maleVoice || jaVoices[0];
+      } else {
+        const femaleVoice = jaVoices.find(v => v.name.includes('Ayumi') || v.name.includes('Haruka') || v.name.includes('Female') || v.name.includes('Nanami') || v.name.includes('Kyoko'));
+        uttr.voice = femaleVoice || jaVoices[0];
+      }
+    }
+
+    window.speechSynthesis.speak(uttr);
+  }
+
+  // --- 4. ペルソナ切り替え ---
   function setPersona(persona, isSecretUnlock = false) {
     unlockAudio();
     currentPersona = persona;
@@ -102,15 +146,18 @@ document.addEventListener('DOMContentLoaded', () => {
     btnPersonaKanojo.classList.toggle('selected', persona === 'kanojo');
 
     if (persona === 'tsure') {
-      playVoice('sys_unlock.mp3', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+      const msg = '「おっ、野郎ドライブだな！安全第一で行くぞ！」';
+      speechText.textContent = msg;
+      speakWithPersona(msg, 'tsure');
     } else if (persona === 'dj') {
-      playVoice('sys_unlock.mp3', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
+      const msg = '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」';
+      speechText.textContent = msg;
+      speakWithPersona(msg, 'dj');
     } else if (persona === 'kanojo') {
-      if (isSecretUnlock) {
-        playVoice('sys_unlock.mp3', '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」');
-      } else {
-        playVoice('sys_unlock.mp3', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
-      }
+      const msg = isSecretUnlock 
+        ? '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」' 
+        : '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」';
+      playVoice('sys_unlock.mp3', msg);
     }
   }
 
@@ -118,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
   btnPersonaDj.addEventListener('click', () => setPersona('dj'));
   btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-  // --- 4. 音声再生処理（Lazy Loading & ブラウザ音声フォールバック） ---
+  // --- 5. 音声ファイル再生処理（彼女用MP3再生 & 失敗時フォールバック） ---
   function playVoice(voiceFile, displayMessage = "") {
     if (displayMessage) {
       speechText.textContent = displayMessage;
@@ -131,17 +178,11 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(`音声再生成功: ${audioPath}`);
     }).catch(err => {
       console.warn(`音声ファイル再生不可 (${audioPath})、ブラウザ音声でフォールバック:`, err);
-      if ('speechSynthesis' in window && displayMessage) {
-        window.speechSynthesis.cancel();
-        const textToSpeak = displayMessage.replace(/^[「『]|[!！?？]*[」』]$/g, '');
-        const uttr = new SpeechSynthesisUtterance(textToSpeak);
-        uttr.lang = 'ja-JP';
-        window.speechSynthesis.speak(uttr);
-      }
+      speakWithPersona(displayMessage, currentPersona);
     });
   }
 
-  // --- 5. 走行案内スタート / 停止 ---
+  // --- 6. 走行案内スタート / 停止 ---
   toggleNavBtn.addEventListener('click', () => {
     unlockAudio();
     isRunning = !isRunning;
@@ -152,17 +193,24 @@ document.addEventListener('DOMContentLoaded', () => {
       statusBadge.textContent = "追従中";
       spotName.textContent = "現在地を測位中...";
       
+      let startMsg = "";
       if (currentPersona === 'kanojo') {
-        playVoice('sys_unlock.mp3', '「今日も安全運転で楽しく行こうね！」');
+        startMsg = '「今日も安全運転で楽しく行こうね！」';
+        playVoice('sys_unlock.mp3', startMsg);
       } else if (currentPersona === 'dj') {
-        playVoice('sys_unlock.mp3', '「ナビゲーション・スタート！グッドバイブスで行こう！」');
+        startMsg = '「ナビゲーション・スタート！グッドバイブスで行こう！」';
+        speechText.textContent = startMsg;
+        speakWithPersona(startMsg, 'dj');
       } else {
-        playVoice('sys_unlock.mp3', '「よし、出発だな！飛ばしすぎんなよー！」');
+        startMsg = '「よし、出発だな！飛ばしすぎんなよー！」';
+        speechText.textContent = startMsg;
+        speakWithPersona(startMsg, 'tsure');
       }
 
       startGeolocation();
     } else {
       stopGeolocation();
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
       toggleNavBtn.textContent = "走行案内をスタート";
       toggleNavBtn.classList.remove('running');
       statusBadge.textContent = `${allSpots.length}件`;
@@ -171,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // --- 6. GPSトラッキング ---
+  // --- 7. GPSトラッキング ---
   function startGeolocation() {
     if (!('geolocation' in navigator)) {
       alert("このブラウザは位置情報に対応していません。");
@@ -203,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // --- 7. 周辺スポット探索 & 接近判定 ---
+  // --- 8. 周辺スポット探索 & 接近判定 ---
   function processNearbySpots(lat, lng, radiusKm) {
     if (!allSpots || allSpots.length === 0) return;
 
@@ -246,8 +294,14 @@ document.addEventListener('DOMContentLoaded', () => {
   function announceCurrentSpot(spot) {
     if (!spot) return;
     const dialogueText = spot.dialogue?.[currentPersona] || spot.dialogue?.kanojo || `「まもなく、${spot.name} です。寄っていきますか？」`;
-    const voiceFile = spot.voice_file || `${spot.id}.mp3`;
-    playVoice(voiceFile, dialogueText);
+    speechText.textContent = dialogueText;
+
+    if (currentPersona === 'kanojo') {
+      const voiceFile = spot.voice_file || `${spot.id}.mp3`;
+      playVoice(voiceFile, dialogueText);
+    } else {
+      speakWithPersona(dialogueText, currentPersona);
+    }
   }
 
   // ハバサイン公式による距離計算 (km)
@@ -261,16 +315,28 @@ document.addEventListener('DOMContentLoaded', () => {
     return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   }
 
-  // --- 8. アクションボタン ---
+  // --- 9. アクションボタン ---
   btnYes.addEventListener('click', () => {
     unlockAudio();
     if (currentNearestSpot && currentNearestSpot.lat && currentNearestSpot.lng) {
-      playVoice('sys_nav_ok.mp3', '「わかった！ナビを開くね！」');
+      const okMsg = '「わかった！ナビを開くね！」';
+      speechText.textContent = okMsg;
+      if (currentPersona === 'kanojo') {
+        playVoice('sys_nav_ok.mp3', okMsg);
+      } else {
+        speakWithPersona(okMsg, currentPersona);
+      }
       setTimeout(() => {
         window.open(`https://www.google.com/maps/dir/?api=1&destination=${currentNearestSpot.lat},${currentNearestSpot.lng}`, '_blank');
       }, 1200);
     } else {
-      playVoice('sys_nav_err.mp3', '「まだスポットを案内してないよ！」');
+      const errMsg = '「まだスポットを案内してないよ！」';
+      speechText.textContent = errMsg;
+      if (currentPersona === 'kanojo') {
+        playVoice('sys_nav_err.mp3', errMsg);
+      } else {
+        speakWithPersona(errMsg, currentPersona);
+      }
     }
   });
 
@@ -281,7 +347,13 @@ document.addEventListener('DOMContentLoaded', () => {
       currentNearestSpot = null; 
       announcedSpotId = null;
     }
-    playVoice('sys_mute.mp3', '「わかった、しばらく静かにしてるね！」');
+    const muteMsg = '「わかった、しばらく静かにしてるね！」';
+    speechText.textContent = muteMsg;
+    if (currentPersona === 'kanojo') {
+      playVoice('sys_mute.mp3', muteMsg);
+    } else {
+      speakWithPersona(muteMsg, currentPersona);
+    }
   });
 
   btnReplay.addEventListener('click', () => {
@@ -289,7 +361,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (currentNearestSpot) { 
       announceCurrentSpot(currentNearestSpot); 
     } else { 
-      playVoice('sys_unlock.mp3', '「今日も安全運転で楽しく行こうね！」'); 
+      const idleMsg = '「今日も安全運転で楽しく行こうね！」';
+      speechText.textContent = idleMsg;
+      if (currentPersona === 'kanojo') {
+        playVoice('sys_unlock.mp3', idleMsg);
+      } else {
+        speakWithPersona(idleMsg, currentPersona);
+      }
     }
   });
 });
