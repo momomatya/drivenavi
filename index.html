@@ -197,7 +197,7 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      console.log("Drive Concierge initialized (Double-Voice Fixed).");
+      console.log("Drive Concierge initialized (Nationwide Places Edition).");
 
       const toggleNavBtn = document.getElementById('toggleNavBtn');
       const statusBadge = document.getElementById('statusBadge');
@@ -225,19 +225,12 @@
       let skippedSpotIds = new Set();
       let currentPersona = "tsure"; 
 
-      // 1. 全スポットの結合ロード
+      // 1. 全国スポットデータ (places_spots.json) の単一ロード
       async function loadDatasets() {
         try {
           statusBadge.textContent = "読込中...";
-          const [resSpots, resMedia] = await Promise.all([
-            fetch('./places_spots.json'),
-            fetch('./data/media_spots.json')
-          ]);
-          
-          const spotsData = await resSpots.json();
-          const mediaSpotsData = await resMedia.json();
-
-          allSpots = [...spotsData, ...mediaSpotsData];
+          const res = await fetch('./places_spots.json');
+          allSpots = await res.json();
           statusBadge.textContent = `${allSpots.length}件`;
           statusBadge.classList.add('active');
         } catch (e) {
@@ -265,13 +258,13 @@
       function unlockKanojoSecret() {
         if (!mainHeader.classList.contains('secret-unlocked')) {
           mainHeader.classList.add('secret-unlocked');
-          setPersona('kanojo', true); // isSecretフラグを立てて専用処理へ
+          setPersona('kanojo', true);
         } else {
           setPersona('kanojo');
         }
       }
 
-      // 3. ペルソナ切り替え（二重再生を防止）
+      // 3. ペルソナ切り替え
       function setPersona(persona, isSecretUnlock = false) {
         currentPersona = persona;
         
@@ -280,15 +273,14 @@
         btnPersonaKanojo.classList.toggle('selected', persona === 'kanojo');
 
         if (persona === 'tsure') {
-          playVoice('tsure', 'unlock', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
+          playVoice('unlock.mp3', '「おっ、野郎ドライブだな！安全第一で行くぞ！」');
         } else if (persona === 'dj') {
-          playVoice('dj', 'unlock', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
+          playVoice('unlock.mp3', '「Yo! Drive Conciergeへようこそ。最高のグルーブを届けちゃうぜ！」');
         } else if (persona === 'kanojo') {
           if (isSecretUnlock) {
-            // 解放時限定のテキスト表示（MP3自体はunlock.mp3を1回だけ再生）
-            playVoice('kanojo', 'unlock', '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」');
+            playVoice('unlock.mp3', '「【シークレット解除】お待たせ！つむぎだよ！内緒で一緒にドライブ行こ？」');
           } else {
-            playVoice('kanojo', 'unlock', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
+            playVoice('unlock.mp3', '「お待たせ！ドライブコンシェルジュ、つむぎだよ！今日も安全運転で楽しく行こうね！」');
           }
         }
       }
@@ -297,17 +289,15 @@
       btnPersonaDj.addEventListener('click', () => setPersona('dj'));
       btnPersonaKanojo.addEventListener('click', () => setPersona('kanojo'));
 
-// 4. 音声再生処理
+      // 4. 音声再生処理（audio/ 直下の MP3 を再生、フォールバック付き）
       function playVoice(voiceFile, displayMessage = "") {
-        // spot.voice_file (例: "spot_2000.mp3") を直接 audio/ 直下から取得
-        const audioPath = `audio/${voiceFile}`;
+        if (displayMessage) {
+          speechText.textContent = displayMessage;
+        }
+
+        const audioPath = `./audio/${voiceFile}`;
         const audio = new Audio(audioPath);
         
-        audio.play().catch(error => {
-          console.error("音声再生エラー:", error);
-        });
-      }
-
         audio.play().then(() => {
           console.log(`音声再生成功: ${audioPath}`);
         }).catch(err => {
@@ -331,11 +321,11 @@
           spotName.textContent = "現在地を測位中...";
           
           if (currentPersona === 'kanojo') {
-            playVoice('kanojo', 'unlock', '「今日も安全運転で楽しく行こうね！」');
+            playVoice('unlock.mp3', '「今日も安全運転で楽しく行こうね！」');
           } else if (currentPersona === 'dj') {
-            playVoice('dj', 'unlock', '「ナビゲーション・スタート！グッドバイブスで行こう！」');
+            playVoice('unlock.mp3', '「ナビゲーション・スタート！グッドバイブスで行こう！」');
           } else {
-            playVoice('tsure', 'unlock', '「よし、出発だな！飛ばしすぎんなよー！」');
+            playVoice('unlock.mp3', '「よし、出発だな！飛ばしすぎんなよー！」');
           }
 
           startGeolocation();
@@ -408,7 +398,8 @@
       function announceCurrentSpot(spot) {
         if (!spot) return;
         const dialogueText = spot.dialogue?.[currentPersona] || spot.dialogue?.kanojo || `「まもなく、${spot.name} です。寄っていきますか？」`;
-        playVoice(currentPersona, spot.id, dialogueText);
+        const voiceFile = spot.voice_file || `${spot.id}.mp3`;
+        playVoice(voiceFile, dialogueText);
       }
 
       function calcDistance(lat1, lon1, lat2, lon2) {
@@ -420,25 +411,30 @@
       // 8. アクションボタン
       btnYes.addEventListener('click', () => {
         if (currentNearestSpot && currentNearestSpot.lat && currentNearestSpot.lng) {
-          playVoice(currentPersona, 'sys_nav_ok', '「わかった！ナビを開くね！」');
+          playVoice('sys_nav_ok.mp3', '「わかった！ナビを開くね！」');
           setTimeout(() => {
             window.open(`https://www.google.com/maps/dir/?api=1&destination=${currentNearestSpot.lat},${currentNearestSpot.lng}`, '_blank');
           }, 1200);
         } else {
-          playVoice(currentPersona, 'sys_nav_err', '「まだスポットを案内してないよ！」');
+          playVoice('sys_nav_err.mp3', '「まだスポットを案内してないよ！」');
         }
       });
 
       btnNo.addEventListener('click', () => {
         if (currentNearestSpot) {
-          skippedSpotIds.add(currentNearestSpot.id); currentNearestSpot = null; announcedSpotId = null;
+          skippedSpotIds.add(currentNearestSpot.id); 
+          currentNearestSpot = null; 
+          announcedSpotId = null;
         }
-        playVoice(currentPersona, 'sys_mute', '「わかった、しばらく静かにしてるね！」');
+        playVoice('sys_mute.mp3', '「わかった、しばらく静かにしてるね！」');
       });
 
       btnReplay.addEventListener('click', () => {
-        if (currentNearestSpot) { announceCurrentSpot(currentNearestSpot); } 
-        else { playVoice(currentPersona, 'unlock', '「今日も安全運転で楽しく行こうね！」'); }
+        if (currentNearestSpot) { 
+          announceCurrentSpot(currentNearestSpot); 
+        } else { 
+          playVoice('unlock.mp3', '「今日も安全運転で楽しく行こうね！」'); 
+        }
       });
     });
   </script>
