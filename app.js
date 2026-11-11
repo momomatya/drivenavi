@@ -161,7 +161,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 // --- 4. 音声ファイル再生処理（Web Audio API & 順番待ちキュー） ---
-  let audioContext = null;
   let isVoicePlaying = false; // 現在喋っているかどうかのフラグ
   let voiceQueue = [];        // 喋るセリフの順番待ちリスト
 
