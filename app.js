@@ -170,7 +170,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const audioPath = `./audio/${voiceFile}`;
 
     try {
-      unlockAudio(); // ここでContextを起こす
+      // AudioContextがなければ作る
+      if (!audioContext) {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        audioContext = new AudioContext();
+      }
+      // 休止状態なら確実に再開するのを待つ！
+      if (audioContext.state === 'suspended') {
+        await audioContext.resume();
+      }
 
       // MP3ファイルの取得とデコード
       const response = await fetch(audioPath);
@@ -178,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const arrayBuffer = await response.arrayBuffer();
       const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
 
-      // 音源ソースを作成して再生（裏の音楽とミックスされる）
+      // 音源ソースを作成して再生（裏の音楽とミックス）
       const source = audioContext.createBufferSource();
       source.buffer = audioBuffer;
       source.connect(audioContext.destination);
@@ -190,7 +198,6 @@ document.addEventListener('DOMContentLoaded', () => {
       speakWithPersona(displayMessage, currentPersona);
     }
   }
-
 
   // --- 5. ペルソナ切り替え ---
   function setPersona(persona, isSecretUnlock = false) {
