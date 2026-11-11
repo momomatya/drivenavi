@@ -35,26 +35,26 @@ document.addEventListener('DOMContentLoaded', () => {
   let skippedSpotIds = new Set();
   let currentPersona = "tsure"; 
 
-  // --- iOS Safari / PWA 自動再生制限解除（Autoplay Policy Unlock） ---
-  let isAudioUnlocked = false;
-  const SILENT_WAV = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA";
+// --- Web Audio API 初期化 & iOS 自動再生制限解除 ---
+  let audioContext = null;
 
   function unlockAudio() {
-    if (isAudioUnlocked) return;
-    const dummy = new Audio(SILENT_WAV);
-    dummy.play().then(() => {
-      dummy.pause();
-      dummy.currentTime = 0;
-      isAudioUnlocked = true;
-      console.log("【Audio Unlocked】ブラウザの音声制限を解除しました。");
-    }).catch(() => {});
+    if (!audioContext) {
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      audioContext = new AudioContext();
+    }
+    if (audioContext.state === 'suspended') {
+      audioContext.resume().then(() => {
+        console.log("【Audio Unlocked】Web Audio API を再開しました。");
+      });
+    }
   }
 
-  // 初回タップで音声制限解除
+  // 初回タップでWeb Audio APIの再生ロックを解除（裏の音楽を止めない）
   document.body.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
   document.body.addEventListener('click', unlockAudio, { once: true });
-
   // 音声リスト読み込み（非同期で初期化されるブラウザ対策）
+
   if ('speechSynthesis' in window) {
     window.speechSynthesis.onvoiceschanged = () => {
       window.speechSynthesis.getVoices();
@@ -160,23 +160,37 @@ document.addEventListener('DOMContentLoaded', () => {
     window.speechSynthesis.speak(uttr);
   }
 
-  // --- 4. 音声ファイル再生処理（MP3再生 & 失敗時フォールバック） ---
-  function playVoice(voiceFile, displayMessage = "") {
+  // --- 4. 音声ファイル再生処理（Web Audio API） ---
+  async function playVoice(voiceFile, displayMessage = "") {
     if (displayMessage) {
       speechText.textContent = displayMessage;
     }
-    if (isMuted) return; // サイレントモード時は再生しない
+    if (isMuted) return;
 
     const audioPath = `./audio/${voiceFile}`;
-    const audio = new Audio(audioPath);
-    
-    audio.play().then(() => {
-      console.log(`音声再生成功: ${audioPath}`);
-    }).catch(err => {
-      console.warn(`音声ファイル再生不可 (${audioPath})、ブラウザ音声でフォールバック:`, err);
+
+    try {
+      unlockAudio(); // ここでContextを起こす
+
+      // MP3ファイルの取得とデコード
+      const response = await fetch(audioPath);
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      const arrayBuffer = await response.arrayBuffer();
+      const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+
+      // 音源ソースを作成して再生（裏の音楽とミックスされる）
+      const source = audioContext.createBufferSource();
+      source.buffer = audioBuffer;
+      source.connect(audioContext.destination);
+      source.start(0);
+
+      console.log(`音声再生成功 (Web Audio API): ${audioPath}`);
+    } catch (err) {
+      console.warn(`音声ファイル再生不可 (${audioPath})、フォールバック:`, err);
       speakWithPersona(displayMessage, currentPersona);
-    });
+    }
   }
+
 
   // --- 5. ペルソナ切り替え ---
   function setPersona(persona, isSecretUnlock = false) {

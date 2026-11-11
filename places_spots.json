@@ -66947,5 +66947,3350 @@
       "dj": "「Biker oasis! 関西各地からマシンが集結する名阪国道のメガステーション！」",
       "kanojo": "「針テラスに到着！広い道の駅でバイクや車がいっぱい集まってるね！」"
     }
+  },
+  {
+    "id": "spot_5908",
+    "name": "ながめの丘",
+    "address": "〒243-0122 神奈川県厚木市森の里５丁目１９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.452625,
+    "lng": 139.3015505,
+    "voice_file": "spot_5908.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5909",
+    "name": "七沢展望台",
+    "address": "〒243-0121 神奈川県厚木市七沢",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4438573,
+    "lng": 139.28376169999999,
+    "voice_file": "spot_5909.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5910",
+    "name": "鳶尾山観光展望台",
+    "address": "〒243-0205 神奈川県厚木市棚沢",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4991383,
+    "lng": 139.3285406,
+    "voice_file": "spot_5910.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5911",
+    "name": "天覧台公園",
+    "address": "〒243-0204 神奈川県厚木市鳶尾４丁目１３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.492917299999995,
+    "lng": 139.3254421,
+    "voice_file": "spot_5911.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5912",
+    "name": "もみじ展望台",
+    "address": "〒243-0122 神奈川県厚木市森の里４丁目４８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.449951999999996,
+    "lng": 139.3019268,
+    "voice_file": "spot_5912.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5913",
+    "name": "白山展望台",
+    "address": "〒243-0213 神奈川県厚木市飯山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.471630399999995,
+    "lng": 139.2985913,
+    "voice_file": "spot_5913.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5914",
+    "name": "七沢森林公園",
+    "address": "〒243-0121 神奈川県厚木市七沢９０１−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.4475498,
+    "lng": 139.30172249999998,
+    "voice_file": "spot_5914.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5915",
+    "name": "飯山白山森林公園",
+    "address": "〒243-0215 神奈川県厚木市飯山５６００",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.47,
+    "lng": 139.29999999999998,
+    "voice_file": "spot_5915.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5916",
+    "name": "不動の滝",
+    "address": "〒243-0121 神奈川県厚木市七沢",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4517893,
+    "lng": 139.250133,
+    "voice_file": "spot_5916.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5917",
+    "name": "厚木パノラマタワー",
+    "address": "〒243-0807 神奈川県厚木市金田９５２−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4517848,
+    "lng": 139.3696754,
+    "voice_file": "spot_5917.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5918",
+    "name": "カフェあつめ木",
+    "address": "〒243-0003 神奈川県厚木市寿町１丁目４−１３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.444047399999995,
+    "lng": 139.368473,
+    "voice_file": "spot_5918.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5919",
+    "name": "カフェ 鐵馬厩",
+    "address": "〒243-0201 神奈川県厚木市上荻野１８５９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.5111509,
+    "lng": 139.30563039999998,
+    "voice_file": "spot_5919.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5920",
+    "name": "Cafe 4分休符",
+    "address": "〒243-0213 神奈川県厚木市飯山３５４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4686166,
+    "lng": 139.3311457,
+    "voice_file": "spot_5920.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5921",
+    "name": "HAPPY cafe 食堂",
+    "address": "〒243-0125 神奈川県厚木市小野２２３６−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.436073799999996,
+    "lng": 139.3140228,
+    "voice_file": "spot_5921.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5922",
+    "name": "厚木 licks",
+    "address": "〒243-0815 神奈川県厚木市妻田西３丁目２８−２７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.467061199999996,
+    "lng": 139.35242789999998,
+    "voice_file": "spot_5922.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5923",
+    "name": "南蛮屋ガーデン本店",
+    "address": "〒243-0806 神奈川県厚木市下依知１丁目１−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.470750599999995,
+    "lng": 139.3652509,
+    "voice_file": "spot_5923.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5924",
+    "name": "ＩＣＨＩ ＣＡＦＥ",
+    "address": "〒243-0803 神奈川県厚木市山際８９４−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.5080002,
+    "lng": 139.3617215,
+    "voice_file": "spot_5924.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5925",
+    "name": "HATIS COFFEE（ハティスコーヒー）",
+    "address": "〒243-0003 神奈川県厚木市寿町３丁目７−１５ Bar HATIS内",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4452798,
+    "lng": 139.3635984,
+    "voice_file": "spot_5925.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5926",
+    "name": "カフェ鈴木",
+    "address": "〒243-0018 神奈川県厚木市中町３丁目５−６ ロックヒルズ本厚木駅前 1F",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4406223,
+    "lng": 139.3627045,
+    "voice_file": "spot_5926.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5927",
+    "name": "ATSUGI COFFEE",
+    "address": "〒243-0018 神奈川県厚木市中町３丁目３−９ 厚木アーバンプラザ 1F",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4400908,
+    "lng": 139.3605735,
+    "voice_file": "spot_5927.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5928",
+    "name": "カフェジャルダン",
+    "address": "〒243-0121 神奈川県厚木市七沢１３５９−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4473639,
+    "lng": 139.2961909,
+    "voice_file": "spot_5928.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5929",
+    "name": "gram 本厚木店",
+    "address": "〒243-0012 神奈川県厚木市幸町６−４ アパルトマン・ドゥ・マリー",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4404217,
+    "lng": 139.36884849999998,
+    "voice_file": "spot_5929.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5930",
+    "name": "喫茶店nil cafe",
+    "address": "〒243-0014 神奈川県厚木市旭町１丁目３２−１１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4372915,
+    "lng": 139.3654041,
+    "voice_file": "spot_5930.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5931",
+    "name": "カフェ・ファゼンダ本厚木店",
+    "address": "〒243-0013 神奈川県厚木市泉町１−１ 小田急本厚木ミロード B1",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4395368,
+    "lng": 139.3641204,
+    "voice_file": "spot_5931.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5932",
+    "name": "カフェレストラン BON",
+    "address": "〒243-0018 神奈川県厚木市中町２丁目４−１３ B1F",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.440438,
+    "lng": 139.3652315,
+    "voice_file": "spot_5932.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5933",
+    "name": "ESKY COFFEE By Izzy's Cafe 本厚木店",
+    "address": "〒243-0018 神奈川県厚木市中町２丁目１３−１０ 厚木オリンピックマンション 102号室",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4433059,
+    "lng": 139.3656969,
+    "voice_file": "spot_5933.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5934",
+    "name": "INSIDE",
+    "address": "〒243-0003 神奈川県厚木市寿町２丁目１−５ 神崎ビル 1F",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.443605600000005,
+    "lng": 139.365533,
+    "voice_file": "spot_5934.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5935",
+    "name": "厚木珈琲 The Roastery",
+    "address": "〒243-0001 神奈川県厚木市東町３−７ 1F",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4447263,
+    "lng": 139.3695999,
+    "voice_file": "spot_5935.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5936",
+    "name": "メルシィ商店",
+    "address": "〒243-0125 神奈川県厚木市小野２２９３−３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.435626899999995,
+    "lng": 139.3136444,
+    "voice_file": "spot_5936.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5937",
+    "name": "green＆cafe 珈音（Kanon）",
+    "address": "〒243-0816 神奈川県厚木市林５丁目１−１６",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4569358,
+    "lng": 139.3519982,
+    "voice_file": "spot_5937.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5938",
+    "name": "食堂 一二九",
+    "address": "〒243-0801 神奈川県厚木市上依知１３５１ 食堂一二九",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.50906,
+    "lng": 139.3593611,
+    "voice_file": "spot_5938.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5939",
+    "name": "みや古食堂",
+    "address": "〒259-1332 神奈川県秦野市菖蒲１３３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3656473,
+    "lng": 139.1610789,
+    "voice_file": "spot_5939.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5940",
+    "name": "厚木PA(外回り)あつぎ食堂",
+    "address": "〒243-0804 神奈川県厚木市関口字御嶽下７０４ 首都圏中央連絡自動車道 厚木ＰＡ外回り",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4897499,
+    "lng": 139.3687591,
+    "voice_file": "spot_5940.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5941",
+    "name": "梅昇",
+    "address": "〒243-0803 神奈川県厚木市山際５０１−７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.497433799999996,
+    "lng": 139.362211,
+    "voice_file": "spot_5941.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5942",
+    "name": "PEPPERS DRIVE-IN",
+    "address": "〒254-0005 神奈川県平塚市城所１１２９−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.369954299999996,
+    "lng": 139.3219246,
+    "voice_file": "spot_5942.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5943",
+    "name": "喜久地",
+    "address": "〒243-0217 神奈川県厚木市三田南３丁目１−３８ 喜久地ビル",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.472878,
+    "lng": 139.346843,
+    "voice_file": "spot_5943.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5944",
+    "name": "見晴しドライブイン",
+    "address": "〒252-0171 神奈川県相模原市緑区与瀬１５６２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.619873999999996,
+    "lng": 139.179451,
+    "voice_file": "spot_5944.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5945",
+    "name": "内田屋食堂",
+    "address": "〒243-0004 神奈川県厚木市水引１丁目１６−３６",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4489158,
+    "lng": 139.3603374,
+    "voice_file": "spot_5945.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5946",
+    "name": "花屋食堂",
+    "address": "〒259-1116 神奈川県伊勢原市石田３３５−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4166808,
+    "lng": 139.3418101,
+    "voice_file": "spot_5946.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5947",
+    "name": "そば八",
+    "address": "〒243-0026 神奈川県厚木市下津古久３２８−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.404109,
+    "lng": 139.35602300000002,
+    "voice_file": "spot_5947.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5948",
+    "name": "ごはんどき 厚木北店",
+    "address": "〒243-0203 神奈川県厚木市下荻野１２００−１３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4755745,
+    "lng": 139.34552929999998,
+    "voice_file": "spot_5948.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5949",
+    "name": "だるま家 本店",
+    "address": "〒243-0033 神奈川県厚木市温水２２５７−１８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4504382,
+    "lng": 139.3353659,
+    "voice_file": "spot_5949.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5950",
+    "name": "厚木PA (内回り)",
+    "address": "〒243-0804 神奈川県厚木市山際字南街道１７２８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4910004,
+    "lng": 139.3694275,
+    "voice_file": "spot_5950.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5951",
+    "name": "だるま家 船子店",
+    "address": "〒243-0034 神奈川県厚木市船子１２５６−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.426449600000005,
+    "lng": 139.34913319999998,
+    "voice_file": "spot_5951.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5952",
+    "name": "龍泉",
+    "address": "〒243-0206 神奈川県厚木市下川入１９−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5038462,
+    "lng": 139.35138709999998,
+    "voice_file": "spot_5952.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5953",
+    "name": "野郎めし 海老名店",
+    "address": "〒243-0426 神奈川県海老名市門沢橋６丁目１７−４５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4063678,
+    "lng": 139.3839363,
+    "voice_file": "spot_5953.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5954",
+    "name": "菜の花台 駐車場",
+    "address": "〒259-1301 神奈川県秦野市羽根",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.41037540000001,
+    "lng": 139.2096114,
+    "voice_file": "spot_5954.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5955",
+    "name": "菜の花台",
+    "address": "〒259-1301 神奈川県秦野市羽根",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4100117,
+    "lng": 139.20868529999998,
+    "voice_file": "spot_5955.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5956",
+    "name": "ヤビツ峠",
+    "address": "〒257-0023 神奈川県秦野市寺山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4278493,
+    "lng": 139.2193432,
+    "voice_file": "spot_5956.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5957",
+    "name": "丹沢百景",
+    "address": "〒259-1334 神奈川県秦野市柳川１３１２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3801646,
+    "lng": 139.1593662,
+    "voice_file": "spot_5957.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5958",
+    "name": "弘法山 展望所 駐車場",
+    "address": "〒257-0031 神奈川県秦野市曽屋",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.374803799999995,
+    "lng": 139.2436831,
+    "voice_file": "spot_5958.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5959",
+    "name": "北矢名見晴らし台",
+    "address": "〒257-0006 神奈川県秦野市北矢名６６６−１１１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3784722,
+    "lng": 139.2663425,
+    "voice_file": "spot_5959.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5960",
+    "name": "弘法山公園",
+    "address": "〒257-0031 神奈川県秦野市曽屋５８９０",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3721513,
+    "lng": 139.243082,
+    "voice_file": "spot_5960.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5961",
+    "name": "浅間山",
+    "address": "〒257-0031 神奈川県秦野市曽屋",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.370889,
+    "lng": 139.23910429999998,
+    "voice_file": "spot_5961.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5962",
+    "name": "畑の展望台",
+    "address": "〒259-1324 神奈川県秦野市千村",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3613511,
+    "lng": 139.1771212,
+    "voice_file": "spot_5962.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5963",
+    "name": "弘法山",
+    "address": "〒257-0003 神奈川県秦野市南矢名１５１０-イ",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.375456400000004,
+    "lng": 139.2502728,
+    "voice_file": "spot_5963.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5964",
+    "name": "秦野戸川公園",
+    "address": "〒259-1304 神奈川県秦野市堀山下１５１３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.4048267,
+    "lng": 139.1702369,
+    "voice_file": "spot_5964.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5965",
+    "name": "秦野名水 春嶽湧水",
+    "address": "〒257-0021 神奈川県秦野市蓑毛９２６",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.424923199999995,
+    "lng": 139.228208,
+    "voice_file": "spot_5965.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5966",
+    "name": "丹沢大山国定公園",
+    "address": "〒259-1302 神奈川県秦野市菩提",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.410634400000006,
+    "lng": 139.2097954,
+    "voice_file": "spot_5966.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5967",
+    "name": "秦野ガス・ネイチャーパークくずは (くずはの広場)",
+    "address": "〒257-0031 神奈川県秦野市曽屋１１３７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3829257,
+    "lng": 139.2185383,
+    "voice_file": "spot_5967.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5968",
+    "name": "表丹沢県民の森",
+    "address": "〒259-1335 神奈川県秦野市三廻部",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4197343,
+    "lng": 139.1551489,
+    "voice_file": "spot_5968.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5969",
+    "name": "渋沢丘陵",
+    "address": "〒257-0014 神奈川県秦野市今泉１３４９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3634868,
+    "lng": 139.1997586,
+    "voice_file": "spot_5969.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5970",
+    "name": "ゆるぎの丘",
+    "address": "〒259-1204 神奈川県平塚市上吉沢",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3375721,
+    "lng": 139.2812432,
+    "voice_file": "spot_5970.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5971",
+    "name": "緑水庵",
+    "address": "〒257-0021 神奈川県秦野市蓑毛２６９−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4099623,
+    "lng": 139.23160479999999,
+    "voice_file": "spot_5971.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5972",
+    "name": "出雲大社相模分祠",
+    "address": "〒257-0015 神奈川県秦野市平沢１２２１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3709128,
+    "lng": 139.2094251,
+    "voice_file": "spot_5972.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5973",
+    "name": "黒竜の滝",
+    "address": "〒259-1304 神奈川県秦野市堀山下",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4201812,
+    "lng": 139.1573036,
+    "voice_file": "spot_5973.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5974",
+    "name": "なたね",
+    "address": "〒257-0031 神奈川県秦野市曽屋５５０２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3629779,
+    "lng": 139.24876509999999,
+    "voice_file": "spot_5974.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5975",
+    "name": "KAFE 六月園 Kanagawa",
+    "address": "〒257-0003 神奈川県秦野市南矢名２丁目７−１８ 小沢ハイツ １Ｆ",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.371091799999995,
+    "lng": 139.2734205,
+    "voice_file": "spot_5975.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5976",
+    "name": "きまぐれ喫茶",
+    "address": "〒257-0000 神奈川県秦野市寺山羽風１７００",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4347211,
+    "lng": 139.2120822,
+    "voice_file": "spot_5976.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5977",
+    "name": "山くじらコーヒー",
+    "address": "〒257-0021 神奈川県秦野市蓑毛７１７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4161546,
+    "lng": 139.22822829999998,
+    "voice_file": "spot_5977.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5978",
+    "name": "YAMA CAFE",
+    "address": "〒259-1304 神奈川県秦野市堀山下１４８７−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.404855399999995,
+    "lng": 139.1687677,
+    "voice_file": "spot_5978.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5979",
+    "name": "ヤビツ峠レストハウス 丹沢MON",
+    "address": "〒257-0023 神奈川県秦野市寺山 字鷹採1728-1",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4278879,
+    "lng": 139.21964950000003,
+    "voice_file": "spot_5979.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5980",
+    "name": "珈琲 11月の雨",
+    "address": "〒257-0035 神奈川県秦野市本町１丁目１−３ 小椋ビル 1階",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3716977,
+    "lng": 139.22641579999998,
+    "voice_file": "spot_5980.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5981",
+    "name": "ほりかわ珈琲店",
+    "address": "〒259-1305 神奈川県秦野市堀川９３−１ ノイエサトウ A101",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3796648,
+    "lng": 139.1864349,
+    "voice_file": "spot_5981.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5982",
+    "name": "Bio食堂（ビオショクドウ）",
+    "address": "〒257-0011 神奈川県秦野市尾尻９３２−３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3697271,
+    "lng": 139.2260135,
+    "voice_file": "spot_5982.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5983",
+    "name": "71 cafe",
+    "address": "〒257-0031 神奈川県秦野市曽屋３５２０−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3762927,
+    "lng": 139.235269,
+    "voice_file": "spot_5983.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5984",
+    "name": "モントレー",
+    "address": "〒257-0043 神奈川県秦野市栄町６−１７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3744724,
+    "lng": 139.2271669,
+    "voice_file": "spot_5984.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5985",
+    "name": "カフェグレース「蔵」",
+    "address": "〒259-1304 神奈川県秦野市堀山下８１５−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3930425,
+    "lng": 139.1783116,
+    "voice_file": "spot_5985.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5986",
+    "name": "ユーミーカフェ",
+    "address": "〒257-0003 神奈川県秦野市南矢名３丁目９−７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3671205,
+    "lng": 139.2730862,
+    "voice_file": "spot_5986.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5987",
+    "name": "Contrale Market by ALCENTRO",
+    "address": "〒257-0035 神奈川県秦野市本町２丁目３−２０",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.372048899999996,
+    "lng": 139.2281858,
+    "voice_file": "spot_5987.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5988",
+    "name": "きょうのおやつとコーヒー",
+    "address": "〒257-0043 神奈川県秦野市栄町５−８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.374597099999995,
+    "lng": 139.2258019,
+    "voice_file": "spot_5988.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5989",
+    "name": "kikskaffe",
+    "address": "〒259-1325 神奈川県秦野市萩が丘1−１−４ 1F",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3738749,
+    "lng": 139.182683,
+    "voice_file": "spot_5989.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5990",
+    "name": "コメダ珈琲店 秦野店",
+    "address": "〒257-0031 神奈川県秦野市曽屋１５４７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.379131799999996,
+    "lng": 139.2146166,
+    "voice_file": "spot_5990.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5991",
+    "name": "葉っぱのきもち 森のカフェ",
+    "address": "〒259-1111 神奈川県伊勢原市西富岡１０６７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.420219599999996,
+    "lng": 139.29491,
+    "voice_file": "spot_5991.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_5992",
+    "name": "かふぇ風の庵",
+    "address": "〒257-0004 神奈川県秦野市下大槻２２０−５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3611182,
+    "lng": 139.26176759999998,
+    "voice_file": "spot_5992.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5993",
+    "name": "御殿場市富士見十二景 #9 富士見台(高堤防)",
+    "address": "〒412-0035 静岡県御殿場市中山５７６−５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2535552,
+    "lng": 138.9189337,
+    "voice_file": "spot_5993.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5994",
+    "name": "屋上展望スペース",
+    "address": "〒412-0043 静岡県御殿場市新橋１８４８−６",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.299116399999996,
+    "lng": 138.9330626,
+    "voice_file": "spot_5994.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5995",
+    "name": "富士仏舎利塔",
+    "address": "〒412-0026 静岡県御殿場市東田中３３９５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.284685599999996,
+    "lng": 138.9563186,
+    "voice_file": "spot_5995.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_5996",
+    "name": "富士仏舎利塔平和公園",
+    "address": "〒412-0026 静岡県御殿場市東田中３４２２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.2854351,
+    "lng": 138.954819,
+    "voice_file": "spot_5996.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_5997",
+    "name": "富士見ヶ丘公園",
+    "address": "〒412-0033 静岡県御殿場市神山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.2438478,
+    "lng": 138.9762944,
+    "voice_file": "spot_5997.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5998",
+    "name": "富士山樹空の森",
+    "address": "〒412-0008 静岡県御殿場市印野１３８０−１５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2966878,
+    "lng": 138.8691545,
+    "voice_file": "spot_5998.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_5999",
+    "name": "御殿場口新五合目",
+    "address": "〒412-0006 静岡県御殿場市中畑２１１０−１０",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.335894499999995,
+    "lng": 138.7946369,
+    "voice_file": "spot_5999.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6000",
+    "name": "誓いの丘公園",
+    "address": "〒410-1313 静岡県駿東郡小山町竹之下３６６０−５９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.333683,
+    "lng": 139.0011264,
+    "voice_file": "spot_6000.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6001",
+    "name": "富士見台",
+    "address": "〒412-0032 静岡県御殿場市二子",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.264897,
+    "lng": 138.9764726,
+    "voice_file": "spot_6001.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6002",
+    "name": "駒門風穴",
+    "address": "〒412-0038 静岡県御殿場市駒門６９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.250653799999995,
+    "lng": 138.91376889999998,
+    "voice_file": "spot_6002.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6003",
+    "name": "FUJIMI CAFE",
+    "address": "〒412-0023 静岡県御殿場市深沢１８１６",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.282723,
+    "lng": 138.983013,
+    "voice_file": "spot_6003.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6004",
+    "name": "十里木高原展望台",
+    "address": "〒410-1231 静岡県裾野市須山２３１１−３１９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2532948,
+    "lng": 138.7855246,
+    "voice_file": "spot_6004.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6005",
+    "name": "水ケ塚公園",
+    "address": "〒410-1231 静岡県裾野市須山２３０８ 須山2308−５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3046033,
+    "lng": 138.77092629999999,
+    "voice_file": "spot_6005.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6006",
+    "name": "御胎内清宏園",
+    "address": "〒412-0008 静岡県御殿場市印野１３８２−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.298375,
+    "lng": 138.862395,
+    "voice_file": "spot_6006.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6007",
+    "name": "富士山御殿場・はこね観光案内所",
+    "address": "〒412-0043 静岡県御殿場市新橋１９４０−１０",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3006958,
+    "lng": 138.9352064,
+    "voice_file": "spot_6007.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6008",
+    "name": "ありがた山(富士見十二景)",
+    "address": "〒412-0033 静岡県御殿場市神山５６４−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.234305600000006,
+    "lng": 138.925267,
+    "voice_file": "spot_6008.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6009",
+    "name": "御殿場プレミアム・アウトレット",
+    "address": "〒412-0023 静岡県御殿場市深沢１３１２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.307271,
+    "lng": 138.9656467,
+    "voice_file": "spot_6009.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6010",
+    "name": "御殿場高原時之栖",
+    "address": "〒412-0033 静岡県御殿場市神山７１９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2357896,
+    "lng": 138.9250904,
+    "voice_file": "spot_6010.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6011",
+    "name": "休憩櫓",
+    "address": "〒412-0006 静岡県御殿場市中畑２０９３−６２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.321261899999996,
+    "lng": 138.881475,
+    "voice_file": "spot_6011.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6012",
+    "name": "富士松カフェ",
+    "address": "〒412-0023 静岡県御殿場市深沢１８４７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.28941280000001,
+    "lng": 138.9651696,
+    "voice_file": "spot_6012.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6013",
+    "name": "ＪＡふじ伊豆 ファーマーズ御殿場",
+    "address": "〒412-0041 静岡県御殿場市茱萸沢５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.30865000000001,
+    "lng": 138.926275,
+    "voice_file": "spot_6013.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6014",
+    "name": "駒門パーキングエリア（下り）",
+    "address": "〒412-0033 静岡県御殿場市神山１９２５−１３３ 地内 東名高速道路",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2389063,
+    "lng": 138.9089627,
+    "voice_file": "spot_6014.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6015",
+    "name": "足柄浪漫館 あしがら湯",
+    "address": "〒410-1315 静岡県駿東郡小山町桑木５９９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3126891,
+    "lng": 138.9670726,
+    "voice_file": "spot_6015.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6016",
+    "name": "冒険の丘",
+    "address": "〒412-0008 静岡県御殿場市印野１３８０−４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.295273099999996,
+    "lng": 138.8686926,
+    "voice_file": "spot_6016.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6017",
+    "name": "EXPASA足柄(上り)",
+    "address": "〒412-0023 静岡県御殿場市深沢字前沢１８０１−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.314497599999996,
+    "lng": 138.9636088,
+    "voice_file": "spot_6017.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6018",
+    "name": "木の花の湯",
+    "address": "〒412-0023 静岡県御殿場市深沢２８３９−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3047806,
+    "lng": 138.9668921,
+    "voice_file": "spot_6018.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6019",
+    "name": "ZEN CAFE GOTEMBA",
+    "address": "〒412-0034 静岡県御殿場市大坂３６７−４３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.2464656,
+    "lng": 138.9171084,
+    "voice_file": "spot_6019.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6020",
+    "name": "GARDEN CROSS CAFE",
+    "address": "〒412-0042 静岡県御殿場市萩原６０５−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3060129,
+    "lng": 138.9326265,
+    "voice_file": "spot_6020.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6021",
+    "name": "TRERRE",
+    "address": "〒412-0045 静岡県御殿場市川島田２３６−５５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.295938299999996,
+    "lng": 138.92138029999998,
+    "voice_file": "spot_6021.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6022",
+    "name": "Cafe & Bakery TOMARIGI",
+    "address": "〒412-0024 静岡県御殿場市東山１０８２−１０７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.293979799999995,
+    "lng": 138.9584285,
+    "voice_file": "spot_6022.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6023",
+    "name": "TIGRE BLANC",
+    "address": "〒412-0026 静岡県御殿場市東田中１５００−１５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.2904851,
+    "lng": 138.95315739999998,
+    "voice_file": "spot_6023.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6024",
+    "name": "Green Side Cafe",
+    "address": "〒412-0026 静岡県御殿場市東田中４１２０",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.2808846,
+    "lng": 138.9401608,
+    "voice_file": "spot_6024.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6025",
+    "name": "サンノトコロ",
+    "address": "〒412-0044 静岡県御殿場市杉名沢３０６−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.2925684,
+    "lng": 138.9185315,
+    "voice_file": "spot_6025.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6026",
+    "name": "農家カフェHARU",
+    "address": "〒412-0037 静岡県御殿場市中清水３３３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2608616,
+    "lng": 138.9185315,
+    "voice_file": "spot_6026.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6027",
+    "name": "コナズ珈琲御殿場",
+    "address": "〒412-0027 静岡県御殿場市西田 中字松ノ木割51-1",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3062809,
+    "lng": 138.924613,
+    "voice_file": "spot_6027.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6028",
+    "name": "cafe Repost",
+    "address": "〒412-0043 静岡県御殿場市新橋１９４０−１０ 観光案内所 併設",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3007037,
+    "lng": 138.93523919999998,
+    "voice_file": "spot_6028.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6029",
+    "name": "Gotemba Apartment store",
+    "address": "〒412-0042 静岡県御殿場市萩原７２０−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.303883299999995,
+    "lng": 138.9334488,
+    "voice_file": "spot_6029.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6030",
+    "name": "Cafe156",
+    "address": "〒412-0004 静岡県御殿場市北久原２７５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3191068,
+    "lng": 138.9294228,
+    "voice_file": "spot_6030.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6031",
+    "name": "Linus cafe",
+    "address": "〒412-0043 静岡県御殿場市新橋１８２１−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.2976295,
+    "lng": 138.9329541,
+    "voice_file": "spot_6031.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6032",
+    "name": "MIYAKO CAFE",
+    "address": "〒412-0043 静岡県御殿場市新橋",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.296783,
+    "lng": 138.936124,
+    "voice_file": "spot_6032.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6033",
+    "name": "イノクラCAFE 【athlete Chiffon】",
+    "address": "〒412-0039 静岡県御殿場市竈１８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.2677517,
+    "lng": 138.92428239999998,
+    "voice_file": "spot_6033.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6034",
+    "name": "カフェくまのたまご",
+    "address": "〒412-0028 静岡県御殿場市御殿場５４４−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3151991,
+    "lng": 138.943702,
+    "voice_file": "spot_6034.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6035",
+    "name": "GKB CAFE",
+    "address": "〒412-0033 静岡県御殿場市神山７１９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.235680699999996,
+    "lng": 138.9243014,
+    "voice_file": "spot_6035.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6036",
+    "name": "COCO 茶 Caf'e",
+    "address": "〒412-0026 静岡県御殿場市東田中２丁目１−９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3006169,
+    "lng": 138.93941379999998,
+    "voice_file": "spot_6036.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6037",
+    "name": "和漢喫茶 咲良 サクラ",
+    "address": "〒412-0042 静岡県御殿場市萩原９９２ １１５ 桜道ふとん店内",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.3106651,
+    "lng": 138.90635469999998,
+    "voice_file": "spot_6037.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6038",
+    "name": "宮ヶ瀬湖畔園地",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９４０−４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.5246113,
+    "lng": 139.22563929999998,
+    "voice_file": "spot_6038.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6039",
+    "name": "岬の展望台",
+    "address": "〒252-0155 神奈川県相模原市緑区鳥屋",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.536373,
+    "lng": 139.2231303,
+    "voice_file": "spot_6039.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6040",
+    "name": "宮ヶ瀬ダム",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5420936,
+    "lng": 139.2495649,
+    "voice_file": "spot_6040.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6041",
+    "name": "グラススライダー",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９４０−１５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5268152,
+    "lng": 139.224456,
+    "voice_file": "spot_6041.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6042",
+    "name": "鳥居原園地",
+    "address": "〒252-0155 神奈川県相模原市緑区鳥屋",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.5380855,
+    "lng": 139.2216209,
+    "voice_file": "spot_6042.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6043",
+    "name": "宮ヶ瀬湖畔園地 イルミネーション",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９４０−４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5245969,
+    "lng": 139.2251632,
+    "voice_file": "spot_6043.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6044",
+    "name": "宮ヶ瀬ダム周辺振興財団",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９４０−１５ やまなみセンター別館 みやがせミーヤ館",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.525348,
+    "lng": 139.2242078,
+    "voice_file": "spot_6044.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6045",
+    "name": "宮ヶ瀬ダム展望塔",
+    "address": "〒252-0156 神奈川県愛甲郡相模原市緑区青山２１４５−５０ 相模川水系広域ダム管理事務所",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5424194,
+    "lng": 139.2494072,
+    "voice_file": "spot_6045.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6046",
+    "name": "宮ヶ瀬水の郷交流館",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９５１−３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.52654810000001,
+    "lng": 139.225541,
+    "voice_file": "spot_6046.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6047",
+    "name": "宮ヶ瀬湖",
+    "address": "神奈川県 宮ヶ瀬湖",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.529829,
+    "lng": 139.2296697,
+    "voice_file": "spot_6047.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6048",
+    "name": "宮ヶ瀬湖畔園地 セグウェイツアー",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９４０−１５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5249321,
+    "lng": 139.2247909,
+    "voice_file": "spot_6048.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6049",
+    "name": "水の郷大吊り橋",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬９５４−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5241385,
+    "lng": 139.22817799999999,
+    "voice_file": "spot_6049.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6050",
+    "name": "宮ヶ瀬ダム水とエネルギー館",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原５１５７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.539956,
+    "lng": 139.2484954,
+    "voice_file": "spot_6050.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6051",
+    "name": "鳥居原ふれあいの館",
+    "address": "〒252-0155 神奈川県相模原市緑区鳥屋１６７４ 相模原市立鳥居原ふれあいの館",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.538914999999996,
+    "lng": 139.222051,
+    "voice_file": "spot_6051.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6052",
+    "name": "宮ヶ瀬ダム インクライン",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原５１５７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.541019,
+    "lng": 139.2493034,
+    "voice_file": "spot_6052.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6053",
+    "name": "仏果山展望台",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5208849,
+    "lng": 139.2581289,
+    "voice_file": "spot_6053.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6054",
+    "name": "宮ヶ瀬水の郷第1駐車場",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5244285,
+    "lng": 139.2232373,
+    "voice_file": "spot_6054.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6055",
+    "name": "やまびこ大橋",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5243671,
+    "lng": 139.2342847,
+    "voice_file": "spot_6055.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6056",
+    "name": "塩川滝",
+    "address": "〒243-0306 神奈川県愛甲郡愛川町田代塩川瀧",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.52422,
+    "lng": 139.2769291,
+    "voice_file": "spot_6056.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6057",
+    "name": "宮ヶ瀬ダム遊覧船乗り場",
+    "address": "〒243-0111 神奈川県愛甲郡清川村宮ヶ瀬",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.524347399999996,
+    "lng": 139.2280214,
+    "voice_file": "spot_6057.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6058",
+    "name": "神奈川県立あいかわ公園",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原５４２３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.5416942,
+    "lng": 139.2564026,
+    "voice_file": "spot_6058.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6059",
+    "name": "箕輪耕地",
+    "address": "〒243-0301 神奈川県愛甲郡愛川町角田",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5251073,
+    "lng": 139.3176124,
+    "voice_file": "spot_6059.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6060",
+    "name": "八菅山 展望台",
+    "address": "〒243-0305 神奈川県愛甲郡愛川町八菅山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5150128,
+    "lng": 139.3200732,
+    "voice_file": "spot_6060.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6061",
+    "name": "石小屋ダム",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原５１８１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5387516,
+    "lng": 139.25569110000004,
+    "voice_file": "spot_6061.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6062",
+    "name": "服部牧場",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原６０８７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5483674,
+    "lng": 139.2600963,
+    "voice_file": "spot_6062.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6063",
+    "name": "塩川滝 駐車場",
+    "address": "〒243-0306 神奈川県愛甲郡愛川町半原９４９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5248687,
+    "lng": 139.27701399999998,
+    "voice_file": "spot_6063.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6064",
+    "name": "愛川橋",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.539361299999996,
+    "lng": 139.2787074,
+    "voice_file": "spot_6064.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6065",
+    "name": "冒険の森",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.5432541,
+    "lng": 139.2566745,
+    "voice_file": "spot_6065.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6066",
+    "name": "宮ヶ瀬ヴィレッジ",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原２５７４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5347863,
+    "lng": 139.27060799999998,
+    "voice_file": "spot_6066.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6067",
+    "name": "愛川ふれあいの村",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原３３９０",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.537071,
+    "lng": 139.263085,
+    "voice_file": "spot_6067.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6068",
+    "name": "松葉沢 ホタルの里",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5403309,
+    "lng": 139.26850539999998,
+    "voice_file": "spot_6068.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6069",
+    "name": "cafe ひとあし",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原１９４６−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.542238499999996,
+    "lng": 139.2757923,
+    "voice_file": "spot_6069.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6070",
+    "name": "あいかわ公園 工芸工房村",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原５４２３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.5400773,
+    "lng": 139.25472259999998,
+    "voice_file": "spot_6070.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6071",
+    "name": "古民家山十邸",
+    "address": "〒243-0303 神奈川県愛甲郡愛川町中津485番地１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5157889,
+    "lng": 139.3307791,
+    "voice_file": "spot_6071.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6072",
+    "name": "志田峠",
+    "address": "〒252-0154 神奈川県相模原市緑区長竹３９００",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5483396,
+    "lng": 139.27676119999998,
+    "voice_file": "spot_6072.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6073",
+    "name": "大沢の滝",
+    "address": "〒243-0307 神奈川県愛甲郡愛川町半原５１５３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.5396388,
+    "lng": 139.25148869999998,
+    "voice_file": "spot_6073.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6074",
+    "name": "仙石原すすき草原",
+    "address": "〒250-0631 神奈川県足柄下郡箱根町仙石原",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2592974,
+    "lng": 139.00318579999998,
+    "voice_file": "spot_6074.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6075",
+    "name": "飛竜の滝",
+    "address": "〒250-0314 神奈川県足柄下郡箱根町畑宿",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2167726,
+    "lng": 139.0533403,
+    "voice_file": "spot_6075.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6076",
+    "name": "千条の滝",
+    "address": "〒250-0406 神奈川県足柄下郡箱根町小涌谷５０７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2351242,
+    "lng": 139.0501396,
+    "voice_file": "spot_6076.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6077",
+    "name": "飛烟の瀧",
+    "address": "〒250-0311 神奈川県足柄下郡箱根町湯本６８２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.2293768,
+    "lng": 139.0948937,
+    "voice_file": "spot_6077.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6078",
+    "name": "神奈川県立西丹沢ビジターセンター",
+    "address": "〒258-0201 神奈川県足柄上郡山北町中川８６７",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.47202,
+    "lng": 139.0629803,
+    "voice_file": "spot_6078.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6079",
+    "name": "神奈川県立 山北つぶらの公園",
+    "address": "〒258-0121 神奈川県足柄上郡山北町都夫良野６７５−５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.369659899999995,
+    "lng": 139.0518487,
+    "voice_file": "spot_6079.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6080",
+    "name": "洒水の滝",
+    "address": "〒258-0114 神奈川県足柄上郡山北町平山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3519997,
+    "lng": 139.0624064,
+    "voice_file": "spot_6080.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6081",
+    "name": "丹沢湖",
+    "address": "神奈川県足柄上郡山北町 丹沢湖",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4134107,
+    "lng": 139.04004989999999,
+    "voice_file": "spot_6081.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6082",
+    "name": "塔ノ岳",
+    "address": "〒243-0112 神奈川県足柄上郡山北町玄倉",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.454217199999995,
+    "lng": 139.1635192,
+    "voice_file": "spot_6082.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6083",
+    "name": "夕滝",
+    "address": "〒258-0204 神奈川県足柄上郡足柄上郡山世附 北町",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4097138,
+    "lng": 139.0005602,
+    "voice_file": "spot_6083.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6084",
+    "name": "大野山",
+    "address": "〒258-0121 神奈川県足柄上郡山北町皆瀬川",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3870541,
+    "lng": 139.0495445,
+    "voice_file": "spot_6084.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6085",
+    "name": "丹沢湖記念館・三保の家",
+    "address": "〒258-0203 神奈川県足柄上郡山北町神尾田７５９−４９",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.414262099999995,
+    "lng": 139.0433037,
+    "voice_file": "spot_6085.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6086",
+    "name": "丹沢山",
+    "address": "〒258-0202 神奈川県足柄上郡山北町玄倉 丹沢山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.474534,
+    "lng": 139.1628398,
+    "voice_file": "spot_6086.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6087",
+    "name": "山北町立 中川温泉ぶなの湯",
+    "address": "〒258-0201 神奈川県足柄上郡山北町中川６４５−８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4438838,
+    "lng": 139.04956719999998,
+    "voice_file": "spot_6087.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6088",
+    "name": "丹沢湖無料駐車場 (尾崎駐車場)",
+    "address": "〒258-0203 神奈川県足柄上郡山北町神尾田",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.412123799999996,
+    "lng": 139.0436104,
+    "voice_file": "spot_6088.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6089",
+    "name": "中川の箒杉",
+    "address": "〒258-0201 神奈川県足柄上郡山北町中川７０１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.458209,
+    "lng": 139.059443,
+    "voice_file": "spot_6089.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6090",
+    "name": "丹沢山地",
+    "address": "〒258-0202 神奈川県足柄上郡山北町玄倉 丹沢山地",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4754731,
+    "lng": 139.1046423,
+    "voice_file": "spot_6090.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6091",
+    "name": "山北町ふるさと交流センター",
+    "address": "〒258-0113 神奈川県足柄上郡山北町山北１８４０−１５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.361112999999996,
+    "lng": 139.08041799999998,
+    "voice_file": "spot_6091.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6092",
+    "name": "山北鉄道公園",
+    "address": "〒258-0113 神奈川県足柄上郡山北町山北１９８１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3603075,
+    "lng": 139.0788068,
+    "voice_file": "spot_6092.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6093",
+    "name": "河村城址歴史公園",
+    "address": "〒258-0113 神奈川県足柄上郡山北町山北",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3553664,
+    "lng": 139.0774092,
+    "voice_file": "spot_6093.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6094",
+    "name": "丹沢湖記念館",
+    "address": "〒258-0203 神奈川県足柄上郡山北町神尾田７５９−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.414444599999996,
+    "lng": 139.0430079,
+    "voice_file": "spot_6094.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6095",
+    "name": "最明寺史跡公園",
+    "address": "〒258-0004 神奈川県足柄上郡松田町松田庶子",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3672276,
+    "lng": 139.1257665,
+    "voice_file": "spot_6095.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6096",
+    "name": "松田山ハーブガーデン",
+    "address": "〒258-0003 神奈川県足柄上郡松田町松田惣領２９５１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3515296,
+    "lng": 139.13766460000002,
+    "voice_file": "spot_6096.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6097",
+    "name": "神山清水公園",
+    "address": "〒258-0002 神奈川県足柄上郡松田町神山２０８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3461566,
+    "lng": 139.1489446,
+    "voice_file": "spot_6097.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6098",
+    "name": "西平畑公園",
+    "address": "〒258-0003 神奈川県足柄上郡松田町松田惣領２９５１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3521439,
+    "lng": 139.1376647,
+    "voice_file": "spot_6098.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6099",
+    "name": "コキアの里",
+    "address": "〒258-0003 神奈川県足柄上郡松田町松田惣領",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3545802,
+    "lng": 139.13703429999998,
+    "voice_file": "spot_6099.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6100",
+    "name": "あぐりパーク嵯峨山苑",
+    "address": "〒258-0004 神奈川県足柄上郡松田町松田惣領２８５３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.354857599999995,
+    "lng": 139.1417641,
+    "voice_file": "spot_6100.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6101",
+    "name": "高松山 山頂",
+    "address": "〒258-0111 神奈川県足柄上郡山北町向原 Unnamed Road",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.389544,
+    "lng": 139.1023921,
+    "voice_file": "spot_6101.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6102",
+    "name": "やどりき水源林",
+    "address": "〒258-0001 神奈川県足柄上郡松田町寄地内",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.4206346,
+    "lng": 139.1310756,
+    "voice_file": "spot_6102.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6103",
+    "name": "タケ山展望台",
+    "address": "〒258-0001 神奈川県足柄上郡松田町寄 94X8+FJ",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.398716,
+    "lng": 139.1166199,
+    "voice_file": "spot_6103.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6104",
+    "name": "松田町寄ロウバイ園",
+    "address": "〒258-0001 神奈川県足柄上郡松田町寄３４１５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.402610599999996,
+    "lng": 139.1400674,
+    "voice_file": "spot_6104.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6105",
+    "name": "富士見塚",
+    "address": "〒258-0011 神奈川県足柄上郡大井町篠窪",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3472612,
+    "lng": 139.1644943,
+    "voice_file": "spot_6105.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6106",
+    "name": "寄展望台",
+    "address": "〒258-0001 神奈川県足柄上郡松田町寄",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4030197,
+    "lng": 139.1416036,
+    "voice_file": "spot_6106.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6107",
+    "name": "松田町の河津桜",
+    "address": "〒258-0003 神奈川県足柄上郡松田町松田惣領２９６４−１ 西平畑公園チェリーナの丘",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3514395,
+    "lng": 139.137068,
+    "voice_file": "spot_6107.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6108",
+    "name": "松田山ハーブ館",
+    "address": "〒258-0003 神奈川県足柄上郡松田町松田惣領２９５１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3515296,
+    "lng": 139.13766460000002,
+    "voice_file": "spot_6108.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6109",
+    "name": "森のみち",
+    "address": "〒258-0019 神奈川県足柄上郡大井町金子",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.3283371,
+    "lng": 139.1623165,
+    "voice_file": "spot_6109.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6110",
+    "name": "自然館",
+    "address": "〒258-0003 神奈川県足柄上郡松田町松田惣領",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "scenic",
+    "lat": 35.3532757,
+    "lng": 139.1379743,
+    "voice_file": "spot_6110.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6111",
+    "name": "寄自然休養村",
+    "address": "〒258-0001 神奈川県足柄上郡松田町寄５４３５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.384049399999995,
+    "lng": 139.1311917,
+    "voice_file": "spot_6111.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6112",
+    "name": "大山阿夫利神社",
+    "address": "〒259-1107 神奈川県伊勢原市大山３５５",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4318672,
+    "lng": 139.2380301,
+    "voice_file": "spot_6112.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6113",
+    "name": "雨降山大山寺",
+    "address": "〒259-1107 神奈川県伊勢原市大山７２４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.429289,
+    "lng": 139.239372,
+    "voice_file": "spot_6113.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6114",
+    "name": "こま参道",
+    "address": "〒259-1107 神奈川県伊勢原市大山５７４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4246955,
+    "lng": 139.24796089999998,
+    "voice_file": "spot_6114.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6115",
+    "name": "大山観光電鉄大山ケーブル駅",
+    "address": "〒259-1107 神奈川県伊勢原市大山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4279546,
+    "lng": 139.2445254,
+    "voice_file": "spot_6115.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6116",
+    "name": "大山山頂",
+    "address": "〒259-1107 神奈川県伊勢原市大山１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4408294,
+    "lng": 139.2312856,
+    "voice_file": "spot_6116.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6117",
+    "name": "茶寮 石尊",
+    "address": "〒259-1107 神奈川県伊勢原市大山１２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "cafe",
+    "lat": 35.4318434,
+    "lng": 139.238316,
+    "voice_file": "spot_6117.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6118",
+    "name": "大山獅子(日本三大獅子山)",
+    "address": "〒259-1107 神奈川県伊勢原市大山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4316733,
+    "lng": 139.2380904,
+    "voice_file": "spot_6118.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6119",
+    "name": "大山観光案内所",
+    "address": "〒259-1107 神奈川県伊勢原市大山５４５−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.424385799999996,
+    "lng": 139.24894849999998,
+    "voice_file": "spot_6119.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6120",
+    "name": "大山旧参道",
+    "address": "〒259-1102 神奈川県伊勢原市大山９１７−３",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4192604,
+    "lng": 139.2576836,
+    "voice_file": "spot_6120.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6121",
+    "name": "大山",
+    "address": "〒243-0121 神奈川県厚木市七沢 大山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.441365999999995,
+    "lng": 139.2311457,
+    "voice_file": "spot_6121.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6122",
+    "name": "大山ケーブル乗り場",
+    "address": "〒259-1107 神奈川県伊勢原市大山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4276379,
+    "lng": 139.244295,
+    "voice_file": "spot_6122.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6123",
+    "name": "伊勢原市営 大山第二駐車場(とうふ広場)",
+    "address": "〒259-1107 神奈川県伊勢原市大山５４１−２",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4246342,
+    "lng": 139.2490029,
+    "voice_file": "spot_6123.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6124",
+    "name": "茶湯寺（涅槃寺）",
+    "address": "〒259-1107 神奈川県伊勢原市大山７４４",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4251862,
+    "lng": 139.2460175,
+    "voice_file": "spot_6124.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6125",
+    "name": "大山桜",
+    "address": "〒259-1102 神奈川県伊勢原市子易",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4218208,
+    "lng": 139.2605831,
+    "voice_file": "spot_6125.mp3",
+    "dialogue": {
+      "tsure": "「ナビのおすすめスポットだ！せっかくだし見ていこうぜ！」",
+      "dj": "「Check it out! 近くのホットなスポットに到着だ！」",
+      "kanojo": "「ナビがここをおすすめしてるよ！一緒に行ってみよっ！」"
+    }
+  },
+  {
+    "id": "spot_6126",
+    "name": "大山観光案内所 有料駐車場",
+    "address": "〒259-1107 神奈川県伊勢原市大山５４５−１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4243356,
+    "lng": 139.2490449,
+    "voice_file": "spot_6126.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6127",
+    "name": "とうふ坂",
+    "address": "〒259-1107 神奈川県伊勢原市大山５４８",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4241628,
+    "lng": 139.2484967,
+    "voice_file": "spot_6127.mp3",
+    "dialogue": {
+      "tsure": "「おっ、ここ良さそうだな！ちょっと車停めて休んでくか。」",
+      "dj": "「Awesome stop! ドライブの疲れを癒やすナイスなプレイス！」",
+      "kanojo": "「ここすごく良さそう！少し寄り道していかない？」"
+    }
+  },
+  {
+    "id": "spot_6128",
+    "name": "良辨滝",
+    "address": "〒259-1107 神奈川県伊勢原市大山４７１",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4233349,
+    "lng": 139.25157249999998,
+    "voice_file": "spot_6128.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
+  },
+  {
+    "id": "spot_6129",
+    "name": "禊の大滝",
+    "address": "〒259-1107 神奈川県伊勢原市大山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.41847,
+    "lng": 139.25315999999998,
+    "voice_file": "spot_6129.mp3",
+    "dialogue": {
+      "tsure": "「いい雰囲気の場所見つけたぜ！コーヒーでも飲みたい気分だな。」",
+      "dj": "「Chill out time! リラックスできる極上の空間でひと休み！」",
+      "kanojo": "「わぁ、素敵な場所！写真撮ってもいいかな？」"
+    }
+  },
+  {
+    "id": "spot_6130",
+    "name": "天狗の鼻突き岩",
+    "address": "〒259-1107 神奈川県伊勢原市大山",
+    "source": "Google Places API (Kanagawa/Gotemba)",
+    "category": "route",
+    "lat": 35.4332667,
+    "lng": 139.2326895,
+    "voice_file": "spot_6130.mp3",
+    "dialogue": {
+      "tsure": "「この辺り、走ってて気持ちいいな！景色も最高だぜ。」",
+      "dj": "「Driving groove! ロケーション抜群のエリアをクルージング！」",
+      "kanojo": "「綺麗な景色だね！ドライブ気分がすっごく盛り上がるよ！」"
+    }
   }
 ]

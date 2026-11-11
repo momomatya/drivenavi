@@ -1,0 +1,6090 @@
+
+additional_spots_800.json
+
+100%
+[
+  {
+    "id": "spot_5001",
+    "name": "成田山新勝寺 表参道",
+    "address": "千葉県成田市本町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.75064,
+    "lng": 140.32761,
+    "voice_file": "spot_5001.mp3",
+    "dialogue": {
+      "tsure": "「うなぎの香ばしい匂いがたまんねえな。表参道で一本食ってくか！」",
+      "dj": "「Historic vibes! 成田山表参道の香ばしいグルーヴを感じていこうぜ！」",
+      "kanojo": "「成田山の表参道が近いよ！焼きたてのお団子食べ歩きしたいな〜！」"
+    }
+  },
+  {
+    "id": "spot_5002",
+    "name": "十余里パーク・三里塚",
+    "address": "千葉県成田市三里塚",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.77341,
+    "lng": 140.30127,
+    "voice_file": "spot_5002.mp3",
+    "dialogue": {
+      "tsure": "「成田空港の裏手ストレートだ。滑走路沿いを抜けてくぞ。」",
+      "dj": "「Runway side cruise! 飛行機のエンジン音を感じるストレート！」",
+      "kanojo": "「空港の滑走路沿いを通るよ！大きな飛行機が見えるかも！」"
+    }
+  },
+  {
+    "id": "spot_5003",
+    "name": "坂田ヶ池総合公園",
+    "address": "千葉県成田市栄町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.80464,
+    "lng": 140.36617,
+    "voice_file": "spot_5003.mp3",
+    "dialogue": {
+      "tsure": "「静かな水辺の公園だな。ちょっと車停めて伸びしてくか。」",
+      "dj": "「Green chill out! 水辺と緑に囲まれた癒やしのパーキングスポット！」",
+      "kanojo": "「坂田ヶ池公園が近いよ！吊り橋をお散歩してみない？」"
+    }
+  },
+  {
+    "id": "spot_5004",
+    "name": "利根川河川敷緑地（佐原）",
+    "address": "千葉県香取市佐原",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.74983,
+    "lng": 140.29707,
+    "voice_file": "spot_5004.mp3",
+    "dialogue": {
+      "tsure": "「利根川沿いのロングストレート！見晴らし最高だな。」",
+      "dj": "「Riverside cruise! どこまでも続く利根川のストレートウェイ！」",
+      "kanojo": "「利根川の土手沿いロードだよ！川風がすっごく気持ちいい！」"
+    }
+  },
+  {
+    "id": "spot_5005",
+    "name": "水郷佐原 山車会館",
+    "address": "千葉県香取市佐原",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.79975,
+    "lng": 140.31826,
+    "voice_file": "spot_5005.mp3",
+    "dialogue": {
+      "tsure": "「小江戸佐原の町並みだ。蔵造りの路地をゆっくり流すか。」",
+      "dj": "「Little Edo groove! レトロな小江戸の風情漂う佐原ストリート！」",
+      "kanojo": "「佐原の古い町並みだよ！川沿いの柳がとっても風情あるね！」"
+    }
+  },
+  {
+    "id": "spot_5006",
+    "name": "大利根飛行場周辺",
+    "address": "千葉県印旛郡栄町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.76827,
+    "lng": 140.33011,
+    "voice_file": "spot_5006.mp3",
+    "dialogue": {
+      "tsure": "「グライダーが飛んでるの見えるぞ。のどかな土手沿いだ。」",
+      "dj": "「Sky glider view! 大空を舞うグライダーを眺めるオープンエリア！」",
+      "kanojo": "「大利根飛行場が近いよ！空を飛ぶグライダーが見えるかな？」"
+    }
+  },
+  {
+    "id": "spot_5007",
+    "name": "房総風土記の丘",
+    "address": "千葉県印旛郡栄町龍角寺",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.73301,
+    "lng": 140.27301,
+    "voice_file": "spot_5007.mp3",
+    "dialogue": {
+      "tsure": "「古墳と雑木林のワインディング。落ち着いたいいルートだ。」",
+      "dj": "「Heritage forest! 古代のロマンと緑あふれるワインディングロード！」",
+      "kanojo": "「風土記の丘が近いよ！緑がいっぱいで深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5008",
+    "name": "印旛沼 サンセットヒルズ",
+    "address": "千葉県佐倉市飯野",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.76093,
+    "lng": 140.34172,
+    "voice_file": "spot_5008.mp3",
+    "dialogue": {
+      "tsure": "「印旛沼を一望できる夕日スポットだな。ちょっと眺めてくか！」",
+      "dj": "「Sunset view point! 印旛沼を黄金色に染めるサンセットパノラマ！」",
+      "kanojo": "「サンセットヒルズが近いよ！印旛沼の夕日がすっごく綺麗なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5009",
+    "name": "佐倉ふるさと広場（オランダ風車）",
+    "address": "千葉県佐倉市臼井田",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.77595,
+    "lng": 140.363,
+    "voice_file": "spot_5009.mp3",
+    "dialogue": {
+      "tsure": "「大きな風車が見えてきたぞ。季節の花が綺麗だな。」",
+      "dj": "「Windmill breeze! 巨大なオランダ風車と季節の花が咲くリバーサイド！」",
+      "kanojo": "「オランダ風車が見えてきたよ！チューリップやひまわりが咲いてるかな？」"
+    }
+  },
+  {
+    "id": "spot_5010",
+    "name": "栗山川ふれあいの里",
+    "address": "千葉県香取郡多古町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.77285,
+    "lng": 140.30011,
+    "voice_file": "spot_5010.mp3",
+    "dialogue": {
+      "tsure": "「多古米の田園風景を抜ける快走路だ。アクセル一定で流すぞ。」",
+      "dj": "「Paddy field drive! 見渡す限りの田園ロードを爽快クルージング！」",
+      "kanojo": "「栗山川沿いの田園ロードだよ！緑の景色がどこまでも続いてるね！」"
+    }
+  },
+  {
+    "id": "spot_5011",
+    "name": "野島埼灯台",
+    "address": "千葉県南房総市白浜町白浜",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.18051,
+    "lng": 139.89752,
+    "voice_file": "spot_5011.mp3",
+    "dialogue": {
+      "tsure": "「房総最南端の岬だ！岩場のベンチで太平洋眺めてくか！」",
+      "dj": "「Southern edge! 房総半島の最南端、太平洋の大海原を望むスポット！」",
+      "kanojo": "「野島埼灯台に来たよ！房総の一番南の海、すっごく広大だね！」"
+    }
+  },
+  {
+    "id": "spot_5012",
+    "name": "安房グリーンライン（トンネル区間）",
+    "address": "千葉県南房総市白浜町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.16651,
+    "lng": 139.96853,
+    "voice_file": "spot_5012.mp3",
+    "dialogue": {
+      "tsure": "「信号のない快走ワインディング！リズムよくコーナーを駆け抜けるぞ！」",
+      "dj": "「Flowing winding! リズミカルな中速コーナーが続く快走グリーンライン！」",
+      "kanojo": "「安房グリーンラインを走ってるよ！緑のトンネルが気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5013",
+    "name": "道の駅 三芳村 鄙の里",
+    "address": "千葉県南房総市川田",
+    "source": "Custom Curated Touring",
+    "category": "cafe",
+    "lat": 35.17915,
+    "lng": 139.96631,
+    "voice_file": "spot_5013.mp3",
+    "dialogue": {
+      "tsure": "「ここの濃厚ビン牛乳とソフトクリームはマジで外せねえぞ！」",
+      "dj": "「Milky treat! 房総自慢の搾りたてミルクと絶品バーガーをCheck！」",
+      "kanojo": "「三芳村の鄙の里だよ！おいしい牛乳ソフト食べていかない？」"
+    }
+  },
+  {
+    "id": "spot_5014",
+    "name": "白浜オーシャンロード",
+    "address": "千葉県南房総市白浜町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.1849,
+    "lng": 139.90822,
+    "voice_file": "spot_5014.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの爽快ストレート！潮風浴びながら流すぞ！」",
+      "dj": "「Coastline cruiser! 潮風を感じてパームツリーの街道を駆け抜けるぜ！」",
+      "kanojo": "「海沿いの白浜ロードだよ！水平線がキラキラ光って綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5015",
+    "name": "千倉潮風王国",
+    "address": "千葉県南房総市千倉町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.12311,
+    "lng": 139.90474,
+    "voice_file": "spot_5015.mp3",
+    "dialogue": {
+      "tsure": "「千倉の海沿い広場だ。海産物見たり芝生で一息つくか。」",
+      "dj": "「Ocean king! 千倉の荒波をバックにしたダイナミックな海岸スポット！」",
+      "kanojo": "「潮風王国が近いよ！大きな漁船が展示してあるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5016",
+    "name": "鴨川松島",
+    "address": "千葉県鴨川市貝渚",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.18883,
+    "lng": 139.99384,
+    "voice_file": "spot_5016.mp3",
+    "dialogue": {
+      "tsure": "「大小の島が浮かぶ絶景ポイントだな。ちょっと減速して眺めるか。」",
+      "dj": "「Miniature archipelago! 鴨川の海岸に浮かぶ美しい島々のパノラマ！」",
+      "kanojo": "「鴨川松島が見えてきたよ！海に浮かぶ小さな島が絵葉書みたい！」"
+    }
+  },
+  {
+    "id": "spot_5017",
+    "name": "嶺岡中央林道（パラグライダー離陸場）",
+    "address": "千葉県鴨川市細野",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.18261,
+    "lng": 140.00758,
+    "voice_file": "spot_5017.mp3",
+    "dialogue": {
+      "tsure": "「尾根沿いを走るパノラマルート！太平洋と山並みが見渡せるぞ！」",
+      "dj": "「Ridge line drive! 房総の尾根を駆け抜ける絶景の天空ルート！」",
+      "kanojo": "「嶺岡林道の展望台だよ！山の上から海まで見渡せるね！」"
+    }
+  },
+  {
+    "id": "spot_5018",
+    "name": "大山千枚田（夜間ライトアップ）",
+    "address": "千葉県鴨川市平塚",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.18258,
+    "lng": 139.93669,
+    "voice_file": "spot_5018.mp3",
+    "dialogue": {
+      "tsure": "「階段状の棚田が美しいな。日本の原風景って感じだ。」",
+      "dj": "「Terraced rice fields! 幾重にも連なる美しい日本の原風景！」",
+      "kanojo": "「大山千枚田が近いよ！幾段にも重なる棚田がすごく幻想的！」"
+    }
+  },
+  {
+    "id": "spot_5019",
+    "name": "清澄養老ライン（県道81号）",
+    "address": "千葉県鴨川市清澄",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.11255,
+    "lng": 139.99876,
+    "voice_file": "spot_5019.mp3",
+    "dialogue": {
+      "tsure": "「タイトな山道だけど新緑と紅葉が最高だな。慎重にクリアするぞ。」",
+      "dj": "「Mountain pass groove! 房総の深い山あいを抜けるワインディング！」",
+      "kanojo": "「清澄養老ラインだよ！山の中をくねくね走るから気をつけてね！」"
+    }
+  },
+  {
+    "id": "spot_5020",
+    "name": "養老渓谷・粟又の滝",
+    "address": "千葉県夷隅郡大多喜町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.15739,
+    "lng": 139.9841,
+    "voice_file": "spot_5020.mp3",
+    "dialogue": {
+      "tsure": "「養老渓谷の名瀑だ。マイナスイオン浴びてリフレッシュすっか！」",
+      "dj": "「Water slide waterfall! 滑らかな岩肌を流れる養老渓谷のシンボル！」",
+      "kanojo": "「粟又の滝が近いよ！水流の音がすっごく涼しげで癒やされるね！」"
+    }
+  },
+  {
+    "id": "spot_5021",
+    "name": "筒森もみじ谷",
+    "address": "千葉県夷隅郡大多喜町筒森",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.18963,
+    "lng": 140.00238,
+    "voice_file": "spot_5021.mp3",
+    "dialogue": {
+      "tsure": "「秋は一面真っ赤に染まる紅葉ロードだ。木漏れ日が最高だな。」",
+      "dj": "「Autumn foliage valley! 谷一面を鮮やかに彩る房総屈指の紅葉スポット！」",
+      "kanojo": "「もみじ谷の近くだよ！秋には山全体が真っ赤になって綺麗なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5022",
+    "name": "大多喜城展望広場",
+    "address": "千葉県夷隅郡大多喜町大多喜",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.14261,
+    "lng": 139.91133,
+    "voice_file": "spot_5022.mp3",
+    "dialogue": {
+      "tsure": "「城下町を見下ろす城址だな。歴史のロマンを感じるぜ。」",
+      "dj": "「Samurai fortress! 徳川四天王・本多忠勝の城下町を一望！」",
+      "kanojo": "「大多喜城が近いよ！小さなお城が高台にちょこんと立ってて可愛い！」"
+    }
+  },
+  {
+    "id": "spot_5023",
+    "name": "鹿野山 九十九谷展望公園",
+    "address": "千葉県君津市鹿野山",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.15537,
+    "lng": 139.98938,
+    "voice_file": "spot_5023.mp3",
+    "dialogue": {
+      "tsure": "「水墨画みたいな九十九谷の雲海！ここは絶対見ておくべき絶景だぞ！」",
+      "dj": "「Sea of clouds! 幾重にも重なる山並みが織りなすパノラマビュー！」",
+      "kanojo": "「九十九谷展望公園だよ！水墨画みたいに山が重なってて感動的！」"
+    }
+  },
+  {
+    "id": "spot_5024",
+    "name": "マザー牧場 パノラマビュー",
+    "address": "千葉県富津市田倉",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.19568,
+    "lng": 139.98267,
+    "voice_file": "spot_5024.mp3",
+    "dialogue": {
+      "tsure": "「鹿野山のワインディングを上りきった高原エリア！東京湾も見えるぞ。」",
+      "dj": "「Highland breeze! 高原の風と東京湾の眺望が広がるドライブウェイ！」",
+      "kanojo": "「マザー牧場の近くだよ！広〜い牧草地が見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5025",
+    "name": "もみじロード（県道182号）",
+    "address": "千葉県富津市山中",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.14282,
+    "lng": 139.92425,
+    "voice_file": "spot_5025.mp3",
+    "dialogue": {
+      "tsure": "「志駒川沿いのゆるやかなコーナーが続く人気快走ルートだな！」",
+      "dj": "「Maple cruising! 川沿いのリズミカルなカーブが心地いいもみじロード！」",
+      "kanojo": "「もみじロードに入ったよ！道沿いに木々が並んでてドライブにぴったり！」"
+    }
+  },
+  {
+    "id": "spot_5026",
+    "name": "金谷フェリー港",
+    "address": "千葉県富津市金谷",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.09858,
+    "lng": 139.97448,
+    "voice_file": "spot_5026.mp3",
+    "dialogue": {
+      "tsure": "「久里浜行きの東京湾フェリー乗り場だ。磯の香りがいいね。」",
+      "dj": "「Bay ferry port! 対岸の三浦半島へ船が往来するシーサイドポート！」",
+      "kanojo": "「金谷港フェリー乗り場だよ！東京湾を行き交うフェリーが見えるね！」"
+    }
+  },
+  {
+    "id": "spot_5027",
+    "name": "富津岬 明治百年記念展望塔",
+    "address": "千葉県富津市富津",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.11649,
+    "lng": 139.92535,
+    "voice_file": "spot_5027.mp3",
+    "dialogue": {
+      "tsure": "「東京湾に突き出た岬の突端！富士山と行き交う巨大船が一望だぞ！」",
+      "dj": "「Futtsu point summit! 東京湾のど真ん中に突き出た近未来展望タワー！」",
+      "kanojo": "「富津岬の展望塔に来たよ！五葉松の形をした不思議なタワーだね！」"
+    }
+  },
+  {
+    "id": "spot_5028",
+    "name": "屏風ヶ浦展望台",
+    "address": "千葉県銚子市潮見町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.66364,
+    "lng": 140.69966,
+    "voice_file": "spot_5028.mp3",
+    "dialogue": {
+      "tsure": "「東洋のドーバーと言われる海食崖だ！断崖絶壁がダイナミックだな！」",
+      "dj": "「Dover of the Orient! どこまでも続く切り立った断崖のダイナミズム！」",
+      "kanojo": "「屏風ヶ浦が見えるよ！海に削られた断崖がずっと続いてて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5029",
+    "name": "銚子ドーバーライン",
+    "address": "千葉県銚子市春日台",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.5958,
+    "lng": 140.7426,
+    "voice_file": "spot_5029.mp3",
+    "dialogue": {
+      "tsure": "「アップダウンと海の眺めが最高なシーニックウェイ！アクセル踏みたくなるな！」",
+      "dj": "「Roller coaster sea view! 丘と海をダイナミックに駆け抜けるハイウェイ！」",
+      "kanojo": "「銚子ドーバーラインだよ！高台から海を見下ろしながら走れて爽快！」"
+    }
+  },
+  {
+    "id": "spot_5030",
+    "name": "君ヶ浜しおさい公園",
+    "address": "千葉県銚子市君ヶ浜",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.68257,
+    "lng": 140.65082,
+    "voice_file": "spot_5030.mp3",
+    "dialogue": {
+      "tsure": "「犬吠埼灯台をバックに白波が砕ける名所だ。海風が染みるな。」",
+      "dj": "「Surf & Lighthouse! 白亜の灯台と打ち寄せる波が織りなす名景スポット！」",
+      "kanojo": "「君ヶ浜海岸だよ！白い灯台と打ち寄せる波がとっても綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5031",
+    "name": "九十九里ビーチライン（県道30号）",
+    "address": "千葉県山武郡横芝光町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.68767,
+    "lng": 140.75375,
+    "voice_file": "spot_5031.mp3",
+    "dialogue": {
+      "tsure": "「海岸線と並行するロングストレート！流すだけで気分爽快だぜ！」",
+      "dj": "「Straight beach line! どこまでも続く海岸ロードをクルージング！」",
+      "kanojo": "「九十九里ビーチラインだよ！真っ直ぐな道でドライブ気分満点！」"
+    }
+  },
+  {
+    "id": "spot_5032",
+    "name": "蓮沼海浜公園",
+    "address": "千葉県山武市蓮沼ホ",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.63569,
+    "lng": 140.75332,
+    "voice_file": "spot_5032.mp3",
+    "dialogue": {
+      "tsure": "「広大な海浜公園だな。ちょっとパーキングして缶コーヒーでも飲むか。」",
+      "dj": "「Seaside leisure zone! 潮風香る広大なシーサイドリゾートパーク！」",
+      "kanojo": "「蓮沼海浜公園が近いよ！ミニトレインや展望台もあるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5033",
+    "name": "白里海岸駐車場",
+    "address": "千葉県大網白里市南今泉",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.59393,
+    "lng": 140.64058,
+    "voice_file": "spot_5033.mp3",
+    "dialogue": {
+      "tsure": "「九十九里の砂浜が目の前だ！波の音聞きながら一休みすっか。」",
+      "dj": "「Pacific beach front! 雄大な太平洋の波打ち際に広がるコーストエリア！」",
+      "kanojo": "「白里海岸に来たよ！砂浜が広くてサーファーの人たちがいっぱい！」"
+    }
+  },
+  {
+    "id": "spot_5034",
+    "name": "釣ヶ崎海岸（志田下）",
+    "address": "千葉県長生郡一宮町東浪見",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.6727,
+    "lng": 140.67138,
+    "voice_file": "spot_5034.mp3",
+    "dialogue": {
+      "tsure": "「サーフィンの聖地だな！鳥居と海の組み合わせが渋くてカッコいいぜ。」",
+      "dj": "「Olympic surf beach! 世界のサーファーが集う聖なる海岸鳥居スポット！」",
+      "kanojo": "「釣ヶ崎海岸だよ！砂浜に建つ鳥居がすっごく神聖な雰囲気だね！」"
+    }
+  },
+  {
+    "id": "spot_5035",
+    "name": "一宮海岸シーサイドロード",
+    "address": "千葉県長生郡一宮町一宮",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.60953,
+    "lng": 140.72024,
+    "voice_file": "spot_5035.mp3",
+    "dialogue": {
+      "tsure": "「海沿いのカフェやサーフショップが並ぶカリフォルニアっぽい通りだな。」",
+      "dj": "「California coastal vibes! ヤシの木とカフェが並ぶウェストコースト風ロード！」",
+      "kanojo": "「一宮の海岸通りだよ！おしゃれなカフェやお店がたくさん並んでるね！」"
+    }
+  },
+  {
+    "id": "spot_5036",
+    "name": "定峰峠（峠の茶屋）",
+    "address": "埼玉県秩父郡東秩父村白石",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.99578,
+    "lng": 139.13477,
+    "voice_file": "spot_5036.mp3",
+    "dialogue": {
+      "tsure": "「頭文字Dでも有名な定峰峠だ！タイトなヘアピンの連続、集中して攻めるぞ！」",
+      "dj": "「Legendary pass! イニDの舞台にもなった峠道の聖地、定峰峠をアタック！」",
+      "kanojo": "「定峰峠を上ってるよ！カーブがたくさん続くからしっかりハンドル握ってね！」"
+    }
+  },
+  {
+    "id": "spot_5037",
+    "name": "白石峠",
+    "address": "埼玉県比企郡ときがわ町大野",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.99305,
+    "lng": 139.09456,
+    "voice_file": "spot_5037.mp3",
+    "dialogue": {
+      "tsure": "「自転車や走り屋が集まるヒルクライムスポット！勾配がキツいぜ！」",
+      "dj": "「Steep hill climb! 走りごたえ満点、奥武蔵の激坂ワインディング！」",
+      "kanojo": "「白石峠に来たよ！急な坂道だけど木漏れ日の中を登っていくね！」"
+    }
+  },
+  {
+    "id": "spot_5038",
+    "name": "堂平山天文台（星と緑の創造センター）",
+    "address": "埼玉県比企郡ときがわ町大野",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.02985,
+    "lng": 139.05767,
+    "voice_file": "spot_5038.mp3",
+    "dialogue": {
+      "tsure": "「関東平野が一望できる360度大パノラマ！夜景もヤバいスポットだぞ！」",
+      "dj": "「Top of the world! 関東平野をまるごと見下ろす天空の天文台ドーム！」",
+      "kanojo": "「堂平山の山頂だよ！空が広くて遠くの街まで全部見渡せちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5039",
+    "name": "美の山公園（美の山山頂展望台）",
+    "address": "埼玉県秩父市黒谷",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.96707,
+    "lng": 139.07921,
+    "voice_file": "spot_5039.mp3",
+    "dialogue": {
+      "tsure": "「秩父盆地を見下ろす夜景と雲海の名所！春は桜が一面に咲き乱れるぞ！」",
+      "dj": "「Sea of clouds sanctuary! 秩父盆地を取り囲む山並みと夜景の大パノラマ！」",
+      "kanojo": "「美の山公園が近いよ！春は桜、夜は夜景がすっごく綺麗なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5040",
+    "name": "長瀞岩畳",
+    "address": "埼玉県秩父郡長瀞町長瀞",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.03492,
+    "lng": 139.15186,
+    "voice_file": "spot_5040.mp3",
+    "dialogue": {
+      "tsure": "「荒川の清流と天然記念物の岩畳だ！川沿いを散策して涼んでくか？」",
+      "dj": "「Geological wonder! 荒川の激流が削り出した国の天然記念物、長瀞岩畳！」",
+      "kanojo": "「長瀞の岩畳だよ！川下りの船が見えるかな？ちょっと寄っていこ！」"
+    }
+  },
+  {
+    "id": "spot_5041",
+    "name": "秩父高原牧場（天空のポピー）",
+    "address": "埼玉県秩父郡東秩父村坂本",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.9766,
+    "lng": 139.07463,
+    "voice_file": "spot_5041.mp3",
+    "dialogue": {
+      "tsure": "「高原の丘一面に広がるパノラマ！濃厚ソフトクリーム食ってくか！」",
+      "dj": "「Highland poppy field! 空の青と緑の丘が広がる爽快な天空の牧場！」",
+      "kanojo": "「秩父高原牧場に来たよ！ミルクソフトクリームが有名なんだって！食べたいな！」"
+    }
+  },
+  {
+    "id": "spot_5042",
+    "name": "秩父ミューズパーク 旅立ちの丘展望台",
+    "address": "埼玉県秩父市久那",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.9954,
+    "lng": 139.15369,
+    "voice_file": "spot_5042.mp3",
+    "dialogue": {
+      "tsure": "「秩父市街と武甲山を一望できるブリッジ展望台だな！」",
+      "dj": "「Echoing bridge view! 武甲山をバックに秩父市街を一望する展望ブリッジ！」",
+      "kanojo": "「ミューズパークの展望台だよ！旅立ちの日にのメロディが流れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5043",
+    "name": "浦山ダム（秩父さくら湖）",
+    "address": "埼玉県秩父市荒川久那",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.00028,
+    "lng": 139.06791,
+    "voice_file": "spot_5043.mp3",
+    "dialogue": {
+      "tsure": "「巨大な重力式コンクリートダム！堤体の上からの眺めは足がすくむぜ！」",
+      "dj": "「Massive concrete dam! 巨大ダムが迫るワインディングと湖畔の絶景！」",
+      "kanojo": "「浦山ダムの近くだよ！すっごく大きなダムで上から見ると迫力満点！」"
+    }
+  },
+  {
+    "id": "spot_5044",
+    "name": "雁坂みち（国道140号・ループ橋）",
+    "address": "埼玉県秩父市大滝",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.96202,
+    "lng": 139.05851,
+    "voice_file": "spot_5044.mp3",
+    "dialogue": {
+      "tsure": "「雷電廿四木橋の巨大ループ！SF映画みたいな巨大構造物を登るぞ！」",
+      "dj": "「Mega loop bridge! 宙に浮かぶ巨大ループ橋を駆け上がるダイナミックロード！」",
+      "kanojo": "「大きなループ橋が見えてきたよ！まるでジェットコースターみたい！」"
+    }
+  },
+  {
+    "id": "spot_5045",
+    "name": "三峯神社 随身門前",
+    "address": "埼玉県秩父市大滝",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.95393,
+    "lng": 139.05217,
+    "voice_file": "spot_5045.mp3",
+    "dialogue": {
+      "tsure": "「関東最強のパワースポット三峯神社！山の澄んだ空気がピリッとしてるぜ！」",
+      "dj": "「Spiritual peak! 標高1100mの山深き地に鎮座する狼信仰の聖地！」",
+      "kanojo": "「三峯神社が近いよ！静かで神聖な空気が漂ってて背筋が伸びるね！」"
+    }
+  },
+  {
+    "id": "spot_5046",
+    "name": "有間ダム（名栗湖）",
+    "address": "埼玉県飯能市下名栗",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.98567,
+    "lng": 139.04956,
+    "voice_file": "spot_5046.mp3",
+    "dialogue": {
+      "tsure": "「名栗の奥にあるロックフィルダム！湖畔にバイクや車が集まる定番スポットだ。」",
+      "dj": "「Rock-fill lake cruise! 水辺を囲む山並みが美しい名栗の人気スポット！」",
+      "kanojo": "「名栗湖の有間ダムに来たよ！静かな湖畔で深呼吸して休憩しよう！」"
+    }
+  },
+  {
+    "id": "spot_5047",
+    "name": "嵐山渓谷展望台",
+    "address": "埼玉県比企郡嵐山町鎌形",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.04731,
+    "lng": 139.29502,
+    "voice_file": "spot_5047.mp3",
+    "dialogue": {
+      "tsure": "「武蔵国の嵐山と呼ばれる名勝だな。槻川のせせらぎが心地いいぜ。」",
+      "dj": "「Musashi Arashiyama! 京都を彷彿とさせる清流と紅葉の渓谷美！」",
+      "kanojo": "「嵐山渓谷だよ！秋はモミジが真っ赤になって京都嵐山みたいなんだって！」"
+    }
+  },
+  {
+    "id": "spot_5048",
+    "name": "寄居 円良田湖",
+    "address": "埼玉県大里郡寄居町末野",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.09595,
+    "lng": 139.29594,
+    "voice_file": "spot_5048.mp3",
+    "dialogue": {
+      "tsure": "「山あいに広がる静かな人造湖。湖畔をぐるっと回る静かな道だ。」",
+      "dj": "「Quiet reservoir loop! 静かな湖畔をマイペースに流す癒やしのルート！」",
+      "kanojo": "「円良田湖の周りを走るよ！水辺の景色が静かで落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5049",
+    "name": "間瀬峠",
+    "address": "埼玉県秩父郡長瀞町井戸",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.02699,
+    "lng": 139.25516,
+    "voice_file": "spot_5049.mp3",
+    "dialogue": {
+      "tsure": "「タイトでうっそうとしたワインディング！往年の走り屋スポットだな。」",
+      "dj": "「Old school pass! 往年のエンスーたちが愛したテクニカル峠ウェイ！」",
+      "kanojo": "「間瀬峠の山道だよ！ちょっと道が狭いからすれ違いに気をつけてね！」"
+    }
+  },
+  {
+    "id": "spot_5050",
+    "name": "子授け地蔵駐車場（表筑波スカイライン）",
+    "address": "茨城県石岡市小幡",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.22168,
+    "lng": 140.14969,
+    "voice_file": "spot_5050.mp3",
+    "dialogue": {
+      "tsure": "「スカイラインの定番休憩ポイント！土浦の街並みが見渡せるぞ！」",
+      "dj": "「Skyline pit stop! 土浦から霞ヶ浦まで見下ろすパーキングスポット！」",
+      "kanojo": "「子授け地蔵駐車場だよ！ここからの見晴らし、すっごく広々してて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5051",
+    "name": "不動峠",
+    "address": "茨城県つくば市神郡",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.23796,
+    "lng": 140.15094,
+    "voice_file": "spot_5051.mp3",
+    "dialogue": {
+      "tsure": "「自転車ヒルクライムの聖地！狭いヘアピンが連続するテクニカルセクションだ！」",
+      "dj": "「Bicycle hill climb mecca! タイトコーナーが連続する峠の難所！」",
+      "kanojo": "「不動峠を越えるよ！急カーブが続くからゆっくり行こうね！」"
+    }
+  },
+  {
+    "id": "spot_5052",
+    "name": "八郷盆地フルーツライン",
+    "address": "茨城県石岡市辻",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.25769,
+    "lng": 140.14486,
+    "voice_file": "spot_5052.mp3",
+    "dialogue": {
+      "tsure": "「のどかな果樹園と里山を抜ける快走ルート！秋は柿や梨の直売が並ぶぞ。」",
+      "dj": "「Fruit line cruise! 果樹園と里山が広がる穏やかなワインディング！」",
+      "kanojo": "「フルーツラインを走ってるよ！季節の果物の直売所がいっぱいあるね！」"
+    }
+  },
+  {
+    "id": "spot_5053",
+    "name": "霞ヶ浦総合公園 風車前広場",
+    "address": "茨城県土浦市大岩田",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.19916,
+    "lng": 140.13353,
+    "voice_file": "spot_5053.mp3",
+    "dialogue": {
+      "tsure": "「霞ヶ浦の湖畔に立つオランダ風車！水辺の風が気持ちいいな。」",
+      "dj": "「Lakeside windmill! 日本第2の湖・霞ヶ浦の湖畔に佇むシンボル風車！」",
+      "kanojo": "「霞ヶ浦総合公園に来たよ！大きな風車と湖がとっても爽快だね！」"
+    }
+  },
+  {
+    "id": "spot_5054",
+    "name": "霞ヶ浦湖岸道路（天王崎公園方面）",
+    "address": "茨城県行方市麻生",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.24608,
+    "lng": 140.16438,
+    "voice_file": "spot_5054.mp3",
+    "dialogue": {
+      "tsure": "「湖の真横をどこまでも走れるロングレイクサイドウェイ！」",
+      "dj": "「Waterfront endless drive! 地平線まで続くかのような湖岸のストレート！」",
+      "kanojo": "「霞ヶ浦のすぐ横を走ってるよ！まるで海辺をドライブしてるみたい！」"
+    }
+  },
+  {
+    "id": "spot_5055",
+    "name": "天王崎公園展望台",
+    "address": "茨城県行方市麻生",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.19876,
+    "lng": 140.20439,
+    "voice_file": "spot_5055.mp3",
+    "dialogue": {
+      "tsure": "「霞ヶ浦越しに富士山と筑波山を両方望める絶景ビュースポットだな！」",
+      "dj": "「Twin mountain panorama! 霞ヶ浦の水平線上に筑波山と富士を望むパノラマ！」",
+      "kanojo": "「天王崎公園だよ！夕暮れ時には湖に夕日が沈んですっごくロマンチック！」"
+    }
+  },
+  {
+    "id": "spot_5056",
+    "name": "大洗磯前神社 神磯の鳥居",
+    "address": "茨城県東茨城郡大洗町磯浜町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.50012,
+    "lng": 140.47669,
+    "voice_file": "spot_5056.mp3",
+    "dialogue": {
+      "tsure": "「岩礁の上に立つ神聖な鳥居！打ち寄せる白波とのコラボが圧巻だぞ！」",
+      "dj": "「Sacred ocean torii! 荒波逆巻く岩礁に立つ神話の鳥居スポット！」",
+      "kanojo": "「神磯の鳥居が近いよ！海の中に立つ鳥居に波が当たって神秘的だね！」"
+    }
+  },
+  {
+    "id": "spot_5057",
+    "name": "大洗サンビーチ海岸線",
+    "address": "茨城県東茨城郡大洗町大貫町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.48838,
+    "lng": 140.47723,
+    "voice_file": "spot_5057.mp3",
+    "dialogue": {
+      "tsure": "「広大な遠浅のビーチ！リフレクション写真が撮れるウユニ塩湖風スポットだ。」",
+      "dj": "「Mirror beach vibes! 潮が引くと空が鏡のように映る広大なビーチフロント！」",
+      "kanojo": "「大洗サンビーチだよ！砂浜が広くて空が水面に映って綺麗なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5058",
+    "name": "国営ひたち海浜公園 みはらしの丘周辺",
+    "address": "茨城県ひたちなか市馬渡",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.42054,
+    "lng": 140.54173,
+    "voice_file": "spot_5058.mp3",
+    "dialogue": {
+      "tsure": "「春はネモフィラ、秋はコキアで丘一面が染まる世界的人気スポットだな！」",
+      "dj": "「World famous hill! 青のネモフィラと紅のコキアが織りなす絶景の丘！」",
+      "kanojo": "「ひたち海浜公園の近くだよ！一面お花畑の丘、いつか見に行ってみたいな！」"
+    }
+  },
+  {
+    "id": "spot_5059",
+    "name": "竜神大吊橋",
+    "address": "茨城県常陸太田市天下野町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.44523,
+    "lng": 140.53535,
+    "voice_file": "spot_5059.mp3",
+    "dialogue": {
+      "tsure": "「本州一の歩行者専用吊橋！バンジージャンプで有名なスリルスポットだぞ！」",
+      "dj": "「Mega suspension bridge! 峡谷を渡る巨大吊橋と大自然のパノラマ！」",
+      "kanojo": "「竜神大吊橋だよ！すっごく高くて長い橋！渡るのちょっとドキドキするね！」"
+    }
+  },
+  {
+    "id": "spot_5060",
+    "name": "袋田の滝 観瀑台",
+    "address": "茨城県久慈郡大子町袋田",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.45914,
+    "lng": 140.5186,
+    "voice_file": "spot_5060.mp3",
+    "dialogue": {
+      "tsure": "「日本三名瀑の一つ、四段に流れる大滝！冬は完全氷瀑することもあるぞ！」",
+      "dj": "「Four-tiered waterfall! 岩壁を四段に落ちる日本三名瀑の大迫力！」",
+      "kanojo": "「袋田の滝が近いよ！四段になって水が流れる大迫力の滝なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5061",
+    "name": "明智平展望台（ロープウェイ山頂）",
+    "address": "栃木県日光市細尾町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.78398,
+    "lng": 139.59466,
+    "voice_file": "spot_5061.mp3",
+    "dialogue": {
+      "tsure": "「華厳の滝、中禅寺湖、男体山をワンフレームに収める日光最強の展望台だ！」",
+      "dj": "「Grand panorama! 華厳の滝と中禅寺湖を同時に見下ろす日光一の絶景！」",
+      "kanojo": "「明智平展望台だよ！華厳の滝と中禅寺湖が両方見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5062",
+    "name": "竜頭の滝 茶屋前",
+    "address": "栃木県日光市中宮祠",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.75413,
+    "lng": 139.55736,
+    "voice_file": "spot_5062.mp3",
+    "dialogue": {
+      "tsure": "「龍の頭みたいに二筋に分かれて流れる名瀑！茶屋のお団子食ってくか！」",
+      "dj": "「Dragon head falls! 巨岩を二つに裂いて激しく流れ落ちる迫力の清流！」",
+      "kanojo": "「竜頭の滝に来たよ！龍の頭に見える滝なんだって。お団子もおいしそう！」"
+    }
+  },
+  {
+    "id": "spot_5063",
+    "name": "湯滝 観瀑台",
+    "address": "栃木県日光市湯元",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.79952,
+    "lng": 139.49552,
+    "voice_file": "spot_5063.mp3",
+    "dialogue": {
+      "tsure": "「湯ノ湖から豪快に流れ落ちる滝！目の前の展望台から水しぶきを感じるぞ！」",
+      "dj": "「Dynamic cascade! 湯ノ湖の南端から轟音を響かせて落ちるワイルドな滝！」",
+      "kanojo": "「湯滝の近くだよ！展望台のすぐ目の前まで水が迫ってきてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5064",
+    "name": "日光杉並木街道（国道119号）",
+    "address": "栃木県日光市瀬川",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.7578,
+    "lng": 139.56379,
+    "voice_file": "spot_5064.mp3",
+    "dialogue": {
+      "tsure": "「世界最長の並木道！樹齢数百年の巨大な杉並木が続く歴史街道だぞ。」",
+      "dj": "「Cedar avenue! ギネス記録を持つ世界最長の並木道、厳かな緑のトンネル！」",
+      "kanojo": "「日光杉並木街道に入ったよ！背の高い杉の木がずっと続いてて厳かな雰囲気！」"
+    }
+  },
+  {
+    "id": "spot_5065",
+    "name": "八方ヶ原大間々台展望台",
+    "address": "栃木県矢板市下伊佐野",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.71959,
+    "lng": 139.54306,
+    "voice_file": "spot_5065.mp3",
+    "dialogue": {
+      "tsure": "「ツツジの群生と関東平野の眺望！イニD東堂塾のホームコースとしても有名だな！」",
+      "dj": "「Touhou school battleground! イニDの舞台にもなった八方ヶ原の天空展望台！」",
+      "kanojo": "「八方ヶ原の大間々台だよ！夏はレンゲツツジが山一面に咲くんだって！」"
+    }
+  },
+  {
+    "id": "spot_5066",
+    "name": "大笹牧場 レストハウス",
+    "address": "栃木県日光市瀬尾",
+    "source": "Custom Curated Touring",
+    "category": "cafe",
+    "lat": 36.70508,
+    "lng": 139.53301,
+    "voice_file": "spot_5066.mp3",
+    "dialogue": {
+      "tsure": "「霧降高原道路を抜けた先の広大な牧場！ジンギスカンとブラウンスイスソフトだ！」",
+      "dj": "「Highland cattle ranch! 霧降高原のワインディングを抜けた先のオアシス！」",
+      "kanojo": "「大笹牧場に到着！広〜い放牧場で、濃厚なソフトクリーム食べようよ！」"
+    }
+  },
+  {
+    "id": "spot_5067",
+    "name": "日塩もみじライン（峠茶屋付近）",
+    "address": "栃木県日光市川治温泉高原",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 37.03381,
+    "lng": 139.92873,
+    "voice_file": "spot_5067.mp3",
+    "dialogue": {
+      "tsure": "「鬼怒川と塩原を結ぶ有料級ワインディング！秋の紅葉トンネルは圧巻だ！」",
+      "dj": "「Maple scenic pass! 富士見台や峠茶屋が点在する走りごたえ満点の峠道！」",
+      "kanojo": "「日塩もみじラインだよ！カーブのたびに綺麗な山の景色が広がるね！」"
+    }
+  },
+  {
+    "id": "spot_5068",
+    "name": "回顧の吊橋（みかえりのつりばし）",
+    "address": "栃木県那須塩原市関谷",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 37.08501,
+    "lng": 139.9834,
+    "voice_file": "spot_5068.mp3",
+    "dialogue": {
+      "tsure": "「箒川渓谷にかかる吊橋！渡った先の滝を思わず振り返りたくなる絶景だ。」",
+      "dj": "「Valley suspension bridge! 渓谷の美しさに誰もが振り返るという名勝スポット！」",
+      "kanojo": "「回顧の吊橋だよ！川にかかる吊橋からの景色が絵みたいに美しいね！」"
+    }
+  },
+  {
+    "id": "spot_5069",
+    "name": "もみじ谷大吊橋",
+    "address": "栃木県那須塩原市関谷",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 37.05702,
+    "lng": 139.93515,
+    "voice_file": "spot_5069.mp3",
+    "dialogue": {
+      "tsure": "「塩原ダム湖にかかる無補剛桁歩道吊橋としては本州最大級！眺めが広大だぞ！」",
+      "dj": "「Grand lake bridge! 塩原ダム湖を跨ぐ大迫力の吊橋パノラマ！」",
+      "kanojo": "「もみじ谷大吊橋が近いよ！湖の上を渡る長〜い吊橋、渡ってみる？」"
+    }
+  },
+  {
+    "id": "spot_5070",
+    "name": "那須平成の森 フィールドセンター",
+    "address": "栃木県那須郡那須町高久丙",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 37.05202,
+    "lng": 139.96964,
+    "voice_file": "spot_5070.mp3",
+    "dialogue": {
+      "tsure": "「旧御用邸用地の原生林！静かで豊かな大自然を肌で感じられる場所だ。」",
+      "dj": "「Imperial forest! 御用邸の森が公開された豊かな自然が息づく癒やしのサンクチュアリ！」",
+      "kanojo": "「平成の森だよ！豊かな木々がそのまま残されてて森の香りが心地いいね！」"
+    }
+  },
+  {
+    "id": "spot_5071",
+    "name": "殺生石・千体地蔵",
+    "address": "栃木県那須郡那須町湯本",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.99813,
+    "lng": 139.91464,
+    "voice_file": "spot_5071.mp3",
+    "dialogue": {
+      "tsure": "「九尾の狐伝説の残る荒涼とした奇岩地帯！硫黄の香りが立ち込めてるぞ。」",
+      "dj": "「Volcanic myth stone! 九尾の狐伝説が眠る岩肌と硫黄香るミステリアスゾーン！」",
+      "kanojo": "「殺生石の近くだよ！昔の伝説がある不思議な岩なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5072",
+    "name": "妙義山パノラマパーク",
+    "address": "群馬県甘楽郡下仁田町上小坂",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.34882,
+    "lng": 138.67236,
+    "voice_file": "spot_5072.mp3",
+    "dialogue": {
+      "tsure": "「ギザギザの奇峰・妙義山が目の前にそびえ立つ！菜の花やコスモスも有名だぞ！」",
+      "dj": "「Jagged mountain view! 奇岩怪石の妙義山を一望する絶景パーク！」",
+      "kanojo": "「妙義山パノラマパークだよ！ギザギザした山が目の前に見えて迫力あるね！」"
+    }
+  },
+  {
+    "id": "spot_5073",
+    "name": "妙義山 中之嶽神社前駐車場",
+    "address": "群馬県甘楽郡下仁田町上小坂",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.34134,
+    "lng": 138.66577,
+    "voice_file": "spot_5073.mp3",
+    "dialogue": {
+      "tsure": "「妙義山道路の頂上付近！走り屋たちの定番ギャザリングポイントだ！」",
+      "dj": "「Touge gathering spot! 妙義のワインディングを駆け上がった先のパーキング！」",
+      "kanojo": "「中之嶽神社の前だよ！大きな金色の神様が立っててびっくりしちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5074",
+    "name": "碓氷峠 めがね橋（碓氷第三橋梁）",
+    "address": "群馬県安中市松井田町坂本",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.3585,
+    "lng": 138.72577,
+    "voice_file": "spot_5074.mp3",
+    "dialogue": {
+      "tsure": "「レンガ造りの美しい4連アーチ橋！旧道184個のコーナーを攻めてきた甲斐があるぜ！」",
+      "dj": "「Historic brick viaduct! 184のコーナーを抜けた先にあるレンガ造りの近代化遺産！」",
+      "kanojo": "「めがね橋が見えてきたよ！赤レンガの大きなアーチ橋、すごくレトロで素敵！」"
+    }
+  },
+  {
+    "id": "spot_5075",
+    "name": "碓氷峠 熊野皇大神社（見晴台）",
+    "address": "群馬県安中市松井田町峠",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.27116,
+    "lng": 138.67321,
+    "voice_file": "spot_5075.mp3",
+    "dialogue": {
+      "tsure": "「群馬と長野の県境が神社の真ん中を通る珍しいスポット！力餅食ってくか！」",
+      "dj": "「Border shrine & vista! 群馬と長野の県境に建つ神社と浅間山パノラマ！」",
+      "kanojo": "「碓氷峠の頂上だよ！神社の真ん中に県境の線が引いてあって面白いね！」"
+    }
+  },
+  {
+    "id": "spot_5076",
+    "name": "おぎのや ドライブイン横川店",
+    "address": "群馬県安中市松井田町横川",
+    "source": "Custom Curated Touring",
+    "category": "cafe",
+    "lat": 36.32761,
+    "lng": 138.66752,
+    "voice_file": "spot_5076.mp3",
+    "dialogue": {
+      "tsure": "「峠の釜めしといえばここ！温かい釜めしで腹ごしらえしていこうぜ！」",
+      "dj": "「Legendary pot rice! 信越本線横川駅の伝統を受け継ぐ名物「峠の釜めし」！」",
+      "kanojo": "「おぎのや横川店が近いよ！名物の峠の釜めし、お昼に食べていかない？」"
+    }
+  },
+  {
+    "id": "spot_5077",
+    "name": "鬼押出し園 浅間山展望台",
+    "address": "群馬県吾妻郡嬬恋村鎌原",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.64949,
+    "lng": 138.54582,
+    "voice_file": "spot_5077.mp3",
+    "dialogue": {
+      "tsure": "「浅間山大噴火の溶岩が固まった奇勝！まるで火星に来たみたいな異世界だぞ！」",
+      "dj": "「Lava wonderland! 浅間山の噴火が生み出したダイナミックな溶岩原！」",
+      "kanojo": "「鬼押出し園の近くだよ！ゴツゴツした黒い溶岩が広がっててすごい景色！」"
+    }
+  },
+  {
+    "id": "spot_5078",
+    "name": "浅間・白根火山ルート（鬼押ハイウェー）",
+    "address": "群馬県吾妻郡嬬恋村鎌原",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.56387,
+    "lng": 138.51217,
+    "voice_file": "spot_5078.mp3",
+    "dialogue": {
+      "tsure": "「浅間山を正面に見据えながら一直線に伸びる爽快ハイウェイ！」",
+      "dj": "「Volcano straight line! 雄大な浅間山に向かって一直線に突き進むハイウェー！」",
+      "kanojo": "「鬼押ハイウェーを走ってるよ！まっすぐな道の先に浅間山がドーンと見える！」"
+    }
+  },
+  {
+    "id": "spot_5079",
+    "name": "万座ハイウェー 万座温泉入口",
+    "address": "群馬県吾妻郡嬬恋村干俣",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.56064,
+    "lng": 138.50049,
+    "voice_file": "spot_5079.mp3",
+    "dialogue": {
+      "tsure": "「白樺林を抜けて標高1800mへ駆け上がる高原道路！硫黄の香りがしてきたぞ！」",
+      "dj": "「High altitude spa road! 標高1800mの雲上の温泉郷へ駆け上がるハイウェイ！」",
+      "kanojo": "「万座ハイウェーを登ってるよ！だんだん硫黄のいい匂いがしてきたね！」"
+    }
+  },
+  {
+    "id": "spot_5080",
+    "name": "嬬恋パノラマライン 北ルート展望スポット",
+    "address": "群馬県吾妻郡嬬恋村田代",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 36.65729,
+    "lng": 138.49266,
+    "voice_file": "spot_5080.mp3",
+    "dialogue": {
+      "tsure": "「見渡す限りの広大なキャベツ畑と浅間山！日本屈指の絶景ドライブルートだ！」",
+      "dj": "「Endless green field! 見渡す限りのキャベツ畑と山並みを縫う超爽快パノラマ！」",
+      "kanojo": "「嬬恋パノラマラインに入ったよ！どこまでも一面キャベツ畑で緑の絨毯みたい！」"
+    }
+  },
+  {
+    "id": "spot_5081",
+    "name": "愛妻の丘",
+    "address": "群馬県吾妻郡嬬恋村田代",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 36.60215,
+    "lng": 138.49532,
+    "voice_file": "spot_5081.mp3",
+    "dialogue": {
+      "tsure": "「キャベツ畑の真ん中に立つ叫びの丘！浅間山に向かって叫びたくなる絶景だ！」",
+      "dj": "「Beloved wife hill! 浅間山と広大な田園を見渡すユーモアあふれる絶景スポット！」",
+      "kanojo": "「愛妻の丘だよ！叫び台があって、浅間山に向かって愛を叫ぶ場所なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5082",
+    "name": "富士スピードウェイ 東ゲート前",
+    "address": "静岡県・神奈川県駿東郡小山町中日向",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.37723,
+    "lng": 138.87589,
+    "voice_file": "spot_5082.mp3",
+    "dialogue": {
+      "tsure": "「モータースポーツの聖地！メインストレートの咆哮が聞こえてきそうだぜ！」",
+      "dj": "「Holy ground of racing! 日本のモータースポーツを牽引する国際サーキット！」",
+      "kanojo": "「富士スピードウェイの近くだよ！かっこいいレーシングカーが走ってるかな？」"
+    }
+  },
+  {
+    "id": "spot_5083",
+    "name": "富士山樹空の森 パークゴルフ前",
+    "address": "静岡県・神奈川県御殿場市印野",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.36332,
+    "lng": 138.93228,
+    "voice_file": "spot_5083.mp3",
+    "dialogue": {
+      "tsure": "「富士山がドカンと目の前にそびえるテーマパーク！温泉もあるぞ。」",
+      "dj": "「Mt.Fuji theme park! 富士山を間近に仰ぐ広大な公園とリラクゼーション！」",
+      "kanojo": "「樹空の森が近いよ！富士山がとっても大きく見えて景色が最高だね！」"
+    }
+  },
+  {
+    "id": "spot_5084",
+    "name": "パノラマロード（裾野市）",
+    "address": "静岡県・神奈川県裾野市須山",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.26562,
+    "lng": 138.88327,
+    "voice_file": "spot_5084.mp3",
+    "dialogue": {
+      "tsure": "「富士山に向かって真っ直ぐ伸びる名物直線路！春は菜の花が満開だぞ！」",
+      "dj": "「Fuji straight avenue! 富士山に向かって吸い込まれるように伸びる直線路！」",
+      "kanojo": "「裾野のパノラマロードだよ！まるで富士山に飛び込んでいくみたい！」"
+    }
+  },
+  {
+    "id": "spot_5085",
+    "name": "忠ちゃん牧場",
+    "address": "静岡県・神奈川県裾野市須山",
+    "source": "Custom Curated Touring",
+    "category": "cafe",
+    "lat": 35.27872,
+    "lng": 138.91442,
+    "voice_file": "spot_5085.mp3",
+    "dialogue": {
+      "tsure": "「富士山麓ののどかな牧場！名物のジンギスカンと濃厚ソフトクリームで決まりだ！」",
+      "dj": "「Ranch pit stop! 富士山を背に食べる濃厚ソフトクリームがたまらないオアシス！」",
+      "kanojo": "「忠ちゃん牧場だよ！ソフトクリームがすっごく濃厚でおいしいんだって！」"
+    }
+  },
+  {
+    "id": "spot_5086",
+    "name": "水ヶ塚公園（富士山スカイライン合流点）",
+    "address": "静岡県・神奈川県裾野市須山",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.35717,
+    "lng": 138.89095,
+    "voice_file": "spot_5086.mp3",
+    "dialogue": {
+      "tsure": "「宝永火口がくっきり見える富士山二合目の特等席！標高1450mで夏でも涼しいぜ！」",
+      "dj": "「Crater up-close view! 宝永火口のダイナミックな姿を真正面に望む特等席！」",
+      "kanojo": "「水ヶ塚公園に来たよ！宝永火口がすぐそこに見えてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5087",
+    "name": "富士山スカイライン 登山区間",
+    "address": "静岡県・神奈川県富士宮市粟倉",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.33918,
+    "lng": 138.9166,
+    "voice_file": "spot_5087.mp3",
+    "dialogue": {
+      "tsure": "「五合目まで一気に駆け上がるワインディング！雲を突き抜けるヒルクライムだ！」",
+      "dj": "「Above the clouds! 富士山五合目・標高2400mへ挑む雲上のヒルクライム！」",
+      "kanojo": "「富士山スカイラインを登ってるよ！雲の上まで行けちゃうんだって！」"
+    }
+  },
+  {
+    "id": "spot_5088",
+    "name": "御殿場プレミアム・アウトレット 夢の大橋",
+    "address": "静岡県・神奈川県御殿場市深沢",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.2756,
+    "lng": 138.97252,
+    "voice_file": "spot_5088.mp3",
+    "dialogue": {
+      "tsure": "「富士山を望む巨大ブリッジ！買い物と絶景が両立する人気スポットだな。」",
+      "dj": "「Shopping bridge view! 富士の絶景を眺めながら渡る巨大アウトレットのブリッジ！」",
+      "kanojo": "「御殿場アウトレットの近くだよ！富士山を見ながらお買い物するの楽しいよね！」"
+    }
+  },
+  {
+    "id": "spot_5089",
+    "name": "乙女峠（乙女の鐘・ふじみ茶屋）",
+    "address": "静岡県・神奈川県御殿場市深沢",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.30474,
+    "lng": 138.93166,
+    "voice_file": "spot_5089.mp3",
+    "dialogue": {
+      "tsure": "「御殿場市街の夜景と富士山を一望！箱根と御殿場の境に位置する名所だぞ！」",
+      "dj": "「Otome pass viewpoint! 御殿場の街並みと富士の雄姿を切り取る峠の展望台！」",
+      "kanojo": "「乙女峠に来たよ！ここから見る富士山、すっごく綺麗でうっとりしちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5090",
+    "name": "アネスト岩田 ターンパイク箱根 大観山展望台",
+    "address": "静岡県・神奈川県足柄下郡湯河原町鍛鶴",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.14272,
+    "lng": 139.06616,
+    "voice_file": "spot_5090.mp3",
+    "dialogue": {
+      "tsure": "「クルマ好きの聖地・大観山！富士山と芦ノ湖を望む極上のパーキングラウンジだ！」",
+      "dj": "「Motorist sanctuary! 芦ノ湖と富士山を一望する大観山ラウンジに到着！」",
+      "kanojo": "「大観山展望台に来たよ！富士山と芦ノ湖が一望できて車好きの人がいっぱい！」"
+    }
+  },
+  {
+    "id": "spot_5091",
+    "name": "箱根スカイライン 料金所手前展望広場",
+    "address": "静岡県・神奈川県御殿場市神山",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 35.25756,
+    "lng": 139.03916,
+    "voice_file": "spot_5091.mp3",
+    "dialogue": {
+      "tsure": "「稜線を走るワインディング！芦ノ湖と駿河湾を左右に見下ろす絶景ロードだ！」",
+      "dj": "「Ridge line scenic cruise! 芦ノ湖と駿河湾を両脇に望む爽快スカイウェイ！」",
+      "kanojo": "「箱根スカイラインだよ！尾根沿いを走るから風が抜けて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5092",
+    "name": "十国峠 パノラマケーブルカー山頂",
+    "address": "静岡県・神奈川県田方郡函南町桑原",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.14537,
+    "lng": 139.0704,
+    "voice_file": "spot_5092.mp3",
+    "dialogue": {
+      "tsure": "「伊豆、相模、駿河など十の国が見渡せたという360度の大パノラマ！」",
+      "dj": "「Ten provinces summit! 360度の遮るものがない大展望が広がる十国峠！」",
+      "kanojo": "「十国峠展望台が近いよ！360度ぐるっと遠くまで見渡せるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5093",
+    "name": "伊豆スカイライン 玄岳IC展望駐車場",
+    "address": "静岡県・神奈川県熱海市熱海",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.14913,
+    "lng": 139.03103,
+    "voice_file": "spot_5093.mp3",
+    "dialogue": {
+      "tsure": "「相模湾と熱海市街、初島まで一望できるスカイライン屈指の絶景スポット！」",
+      "dj": "「Ocean highway vista! 相模湾の青い海と初島を見下ろす伊豆スカのハイライト！」",
+      "kanojo": "「玄岳駐車場だよ！遠くの海に初島がぽっかり浮かんでて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5094",
+    "name": "芦ノ湖スカイライン 三国峠ヘリポート跡",
+    "address": "静岡県・神奈川県裾野市須山",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 35.22821,
+    "lng": 138.98996,
+    "voice_file": "spot_5094.mp3",
+    "dialogue": {
+      "tsure": "「富士山を裾野までパーフェクトに見渡せる特等席！夕暮れの紅富士は感動モノだぜ！」",
+      "dj": "「Perfect Fuji vista! 裾野まで遮るもののない富士山のパーフェクトビュー！」",
+      "kanojo": "「芦ノ湖スカイラインの三国峠だよ！夕暮れ時の富士山が息をのむ美しさ！」"
+    }
+  },
+  {
+    "id": "spot_5095",
+    "name": "箕面大滝 駐車場前",
+    "address": "大阪府・兵庫県・奈良県箕面市箕面公園",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.91963,
+    "lng": 135.44935,
+    "voice_file": "spot_5095.mp3",
+    "dialogue": {
+      "tsure": "「日本の滝百選にも選ばれた箕面の大滝！秋のもみじの天ぷら食ってくか！」",
+      "dj": "「Minoo waterfall! 豊かな自然と清流が織りなす北摂の名瀑スポット！」",
+      "kanojo": "「箕面大滝の近くだよ！もみじの天ぷら、サクサクしておいしいよね！」"
+    }
+  },
+  {
+    "id": "spot_5096",
+    "name": "勝尾寺（勝ちダルマの寺）",
+    "address": "大阪府・兵庫県・奈良県箕面市粟生間谷",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.86508,
+    "lng": 135.48816,
+    "voice_file": "spot_5096.mp3",
+    "dialogue": {
+      "tsure": "「境内中に勝ちダルマが奉納された勝運の寺！箕面ドライブウェイの要所だ。」",
+      "dj": "「Dharma temple of victory! 境内一面に並ぶダルマが壮観な名刹スポット！」",
+      "kanojo": "「勝尾寺だよ！お寺のあちこちに小さなダルマさんが並んでて可愛い！」"
+    }
+  },
+  {
+    "id": "spot_5097",
+    "name": "野間峠（野間の大けやき）",
+    "address": "大阪府・兵庫県・奈良県豊能郡能勢町野間稲地",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 34.88989,
+    "lng": 135.49677,
+    "voice_file": "spot_5097.mp3",
+    "dialogue": {
+      "tsure": "「樹齢千年の巨大なケヤキがそびえる！能勢の里山ワインディングだ。」",
+      "dj": "「Giant Zelkova tree! 樹齢1000年の御神木が迎える能勢ののどかな峠道！」",
+      "kanojo": "「野間の大けやきの近くだよ！すっごく大きくて立派な木でパワーもらえるね！」"
+    }
+  },
+  {
+    "id": "spot_5098",
+    "name": "妙見山 駐車場展望デッキ",
+    "address": "大阪府・兵庫県・奈良県豊能郡能勢町野間中",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.83096,
+    "lng": 135.44005,
+    "voice_file": "spot_5098.mp3",
+    "dialogue": {
+      "tsure": "「大阪と兵庫の県境・妙見山頂！大阪平野から丹波の山並みまで一望だ！」",
+      "dj": "「Myoken mountain summit! 大阪平野と能勢の山並みを見渡すパノラマビュー！」",
+      "kanojo": "「妙見山の山頂に来たよ！見晴らしがよくて遠くまで見渡せるね！」"
+    }
+  },
+  {
+    "id": "spot_5099",
+    "name": "信貴生駒スカイライン パノラマ展望台",
+    "address": "大阪府・兵庫県・奈良県東大阪市山手町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.64718,
+    "lng": 135.70711,
+    "voice_file": "spot_5099.mp3",
+    "dialogue": {
+      "tsure": "「大阪平野のダイナミックな夜景！関西随一のナイトドライブコースだぜ！」",
+      "dj": "「Nightscape heaven! 眼下一面に宝石のように広がる大阪の100万ドルの夜景！」",
+      "kanojo": "「信貴生駒スカイラインだよ！夜になると大阪の街の灯りがキラキラして感動的！」"
+    }
+  },
+  {
+    "id": "spot_5100",
+    "name": "十三峠 展望台",
+    "address": "大阪府・兵庫県・奈良県八尾市神宮寺",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.60408,
+    "lng": 135.69167,
+    "voice_file": "spot_5100.mp3",
+    "dialogue": {
+      "tsure": "「大阪平野のビル群が目の前に迫る！地元走り屋も集まる定番峠だな。」",
+      "dj": "「Jusan pass lookout! 大阪のビル群をパノラマで見下ろす人気の峠スポット！」",
+      "kanojo": "「十三峠の展望所だよ！大阪の街がすぐ足元に見えて風が気持ちいい！」"
+    }
+  },
+  {
+    "id": "spot_5101",
+    "name": "千早赤阪村 道の駅ちはやあかさか",
+    "address": "大阪府・兵庫県・奈良県南河内郡千早赤阪村二河原辺",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 34.558,
+    "lng": 135.68124,
+    "voice_file": "spot_5101.mp3",
+    "dialogue": {
+      "tsure": "「楠木正成の生誕地！金剛山へ向かうワインディングの入口だな。」",
+      "dj": "「Heritage village! 大阪唯一の村に佇む、金剛山麓の静かな道の駅！」",
+      "kanojo": "「ちはやあかさかの道の駅だよ！日本一かわいい道の駅なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5102",
+    "name": "金剛山ロープウェイ前",
+    "address": "大阪府・兵庫県・奈良県南河内郡千早赤阪村千早",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.60312,
+    "lng": 135.67777,
+    "voice_file": "spot_5102.mp3",
+    "dialogue": {
+      "tsure": "「大阪府最高峰・金剛山の登山口！ひんやりした山の空気が気持ちいいぜ！」",
+      "dj": "「Mount Kongo gateway! 大阪と奈良を隔てる最高峰、金剛山の麓へアクセス！」",
+      "kanojo": "「金剛山の登山口に来たよ！大阪で一番高い山なんだって。涼しいね！」"
+    }
+  },
+  {
+    "id": "spot_5103",
+    "name": "水越峠（国道309号旧道）",
+    "address": "大阪府・兵庫県・奈良県南河内郡河南町神山",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 34.54978,
+    "lng": 135.67563,
+    "voice_file": "spot_5103.mp3",
+    "dialogue": {
+      "tsure": "「金剛山と葛城山の間を抜けるワインディング！走りごたえのある峠道だ。」",
+      "dj": "「Mizukoshi pass! 金剛と葛城の谷間を抜けるテクニカルなワインディング！」",
+      "kanojo": "「水越峠の山道だよ！木々の間を抜けて奈良側へと抜けていくね！」"
+    }
+  },
+  {
+    "id": "spot_5104",
+    "name": "六甲山 摩耶山掬星台",
+    "address": "大阪府・兵庫県・奈良県神戸市灘区摩耶山町",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.72092,
+    "lng": 135.30807,
+    "voice_file": "spot_5104.mp3",
+    "dialogue": {
+      "tsure": "「日本三大夜景の一つ、手で星を掬えるような満天の神戸・大阪パノラマ夜景！」",
+      "dj": "「Million dollar night view! 息をのむ美しさを誇る日本三大夜景の頂点！」",
+      "kanojo": "「摩耶山の掬星台だよ！星空の中に飛び込んだみたいな夜景、本当にロマンチック！」"
+    }
+  },
+  {
+    "id": "spot_5105",
+    "name": "六甲ガーデンテラス 見晴らしの塔",
+    "address": "大阪府・兵庫県・奈良県神戸市灘区六甲山町五介山",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.80084,
+    "lng": 135.21617,
+    "voice_file": "spot_5105.mp3",
+    "dialogue": {
+      "tsure": "「ヨーロッパ調の石畳テラスから明石海峡まで見渡す大パノラマ！」",
+      "dj": "「European garden terrace! 明石海峡大橋から関西空港まで一望のハイライト！」",
+      "kanojo": "「六甲ガーデンテラスに来たよ！おしゃれな展望台から海まで全部見渡せるね！」"
+    }
+  },
+  {
+    "id": "spot_5106",
+    "name": "芦有ドライブウェイ 東六甲展望台",
+    "address": "大阪府・兵庫県・奈良県西宮市越水社家郷山",
+    "source": "Custom Curated Touring",
+    "category": "scenic",
+    "lat": 34.74677,
+    "lng": 135.23327,
+    "voice_file": "spot_5106.mp3",
+    "dialogue": {
+      "tsure": "「スーパーカーや名車が集まる聖地！大阪湾から神戸まで見渡す絶景展望台だ！」",
+      "dj": "「Supercar holy ground! 車好きが集う東六甲の絶景パノラマパーキング！」",
+      "kanojo": "「東六甲展望台に来たよ！かっこいい車がたくさん停まってて夜景も綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5107",
+    "name": "表六甲ドライブウェイ 鉢巻展望台",
+    "address": "大阪府・兵庫県・奈良県神戸市灘区六甲山町",
+    "source": "Custom Curated Touring",
+    "category": "route",
+    "lat": 34.79496,
+    "lng": 135.2068,
+    "voice_file": "spot_5107.mp3",
+    "dialogue": {
+      "tsure": "「ヘアピンカーブの合間に現れる展望所！六甲を駆け上がる名物ワインディングだ！」",
+      "dj": "「Hairpin thrills! 連続するヘアピンを駆け上がる歴史ある六甲ロード！」",
+      "kanojo": "「表六甲ドライブウェイだよ！カーブを曲がるたびに街の景色が見え隠れするね！」"
+    }
+  },
+  {
+    "id": "spot_5108",
+    "name": "フラワーライン海岸ビュー",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.43097,
+    "lng": 140.16431,
+    "voice_file": "spot_5108.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5109",
+    "name": "もみじロード休憩処",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.41719,
+    "lng": 140.39727,
+    "voice_file": "spot_5109.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5110",
+    "name": "九十九里有料道路 展望P",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.42182,
+    "lng": 140.15568,
+    "voice_file": "spot_5110.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5111",
+    "name": "養老川渓谷 展望橋",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.53858,
+    "lng": 140.25313,
+    "voice_file": "spot_5111.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5112",
+    "name": "清澄山 展望ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.59114,
+    "lng": 140.18009,
+    "voice_file": "spot_5112.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5113",
+    "name": "鋸山登山道口",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.55721,
+    "lng": 140.05478,
+    "voice_file": "spot_5113.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5114",
+    "name": "太東埼 展望台広場",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.4964,
+    "lng": 140.41426,
+    "voice_file": "spot_5114.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5115",
+    "name": "成田空港 A滑走路南側ビュー",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.33842,
+    "lng": 140.26001,
+    "voice_file": "spot_5115.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5116",
+    "name": "印旛沼サイクリングロード脇",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.38136,
+    "lng": 140.32128,
+    "voice_file": "spot_5116.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5117",
+    "name": "勝浦海中公園 展望塔入口",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.5946,
+    "lng": 140.15484,
+    "voice_file": "spot_5117.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5118",
+    "name": "フラワーライン海岸ビュー 第2ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.47796,
+    "lng": 140.31587,
+    "voice_file": "spot_5118.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5119",
+    "name": "もみじロード休憩処 第2ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.32131,
+    "lng": 140.04066,
+    "voice_file": "spot_5119.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5120",
+    "name": "九十九里有料道路 展望P 第2ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.41868,
+    "lng": 139.99367,
+    "voice_file": "spot_5120.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5121",
+    "name": "養老川渓谷 展望橋 第2ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.34521,
+    "lng": 140.10817,
+    "voice_file": "spot_5121.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5122",
+    "name": "清澄山 展望ポイント 第2ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.29914,
+    "lng": 140.07643,
+    "voice_file": "spot_5122.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5123",
+    "name": "鋸山登山道口 第2ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.4097,
+    "lng": 140.38481,
+    "voice_file": "spot_5123.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5124",
+    "name": "太東埼 展望台広場 第2ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.49298,
+    "lng": 140.03273,
+    "voice_file": "spot_5124.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5125",
+    "name": "成田空港 A滑走路南側ビュー 第2ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.36684,
+    "lng": 140.31902,
+    "voice_file": "spot_5125.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5126",
+    "name": "印旛沼サイクリングロード脇 第2ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.41634,
+    "lng": 140.37431,
+    "voice_file": "spot_5126.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5127",
+    "name": "勝浦海中公園 展望塔入口 第2ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.41063,
+    "lng": 140.29067,
+    "voice_file": "spot_5127.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5128",
+    "name": "フラワーライン海岸ビュー 第3ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.51481,
+    "lng": 140.0435,
+    "voice_file": "spot_5128.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5129",
+    "name": "もみじロード休憩処 第3ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.51365,
+    "lng": 140.23482,
+    "voice_file": "spot_5129.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5130",
+    "name": "九十九里有料道路 展望P 第3ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.37351,
+    "lng": 140.05036,
+    "voice_file": "spot_5130.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5131",
+    "name": "養老川渓谷 展望橋 第3ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.61711,
+    "lng": 140.16751,
+    "voice_file": "spot_5131.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5132",
+    "name": "清澄山 展望ポイント 第3ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.61781,
+    "lng": 140.02046,
+    "voice_file": "spot_5132.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5133",
+    "name": "鋸山登山道口 第3ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.61063,
+    "lng": 140.11294,
+    "voice_file": "spot_5133.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5134",
+    "name": "太東埼 展望台広場 第3ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.42331,
+    "lng": 140.12954,
+    "voice_file": "spot_5134.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5135",
+    "name": "成田空港 A滑走路南側ビュー 第3ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.5076,
+    "lng": 140.1159,
+    "voice_file": "spot_5135.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5136",
+    "name": "印旛沼サイクリングロード脇 第3ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.47512,
+    "lng": 140.19962,
+    "voice_file": "spot_5136.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5137",
+    "name": "勝浦海中公園 展望塔入口 第3ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.56583,
+    "lng": 139.99118,
+    "voice_file": "spot_5137.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5138",
+    "name": "フラワーライン海岸ビュー 第4ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.29038,
+    "lng": 140.36514,
+    "voice_file": "spot_5138.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5139",
+    "name": "もみじロード休憩処 第4ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.49843,
+    "lng": 140.09132,
+    "voice_file": "spot_5139.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5140",
+    "name": "九十九里有料道路 展望P 第4ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.55815,
+    "lng": 140.05243,
+    "voice_file": "spot_5140.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5141",
+    "name": "養老川渓谷 展望橋 第4ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.39263,
+    "lng": 140.18391,
+    "voice_file": "spot_5141.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5142",
+    "name": "清澄山 展望ポイント 第4ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.56108,
+    "lng": 140.04748,
+    "voice_file": "spot_5142.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5143",
+    "name": "鋸山登山道口 第4ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.36097,
+    "lng": 140.33895,
+    "voice_file": "spot_5143.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5144",
+    "name": "太東埼 展望台広場 第4ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.47049,
+    "lng": 140.1137,
+    "voice_file": "spot_5144.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5145",
+    "name": "成田空港 A滑走路南側ビュー 第4ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.5742,
+    "lng": 140.09675,
+    "voice_file": "spot_5145.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5146",
+    "name": "印旛沼サイクリングロード脇 第4ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.51851,
+    "lng": 140.09053,
+    "voice_file": "spot_5146.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5147",
+    "name": "勝浦海中公園 展望塔入口 第4ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.32254,
+    "lng": 140.4147,
+    "voice_file": "spot_5147.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5148",
+    "name": "フラワーライン海岸ビュー 第5ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.50639,
+    "lng": 140.2073,
+    "voice_file": "spot_5148.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5149",
+    "name": "もみじロード休憩処 第5ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.33987,
+    "lng": 140.12307,
+    "voice_file": "spot_5149.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5150",
+    "name": "九十九里有料道路 展望P 第5ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.43167,
+    "lng": 140.2325,
+    "voice_file": "spot_5150.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5151",
+    "name": "養老川渓谷 展望橋 第5ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.33807,
+    "lng": 140.29836,
+    "voice_file": "spot_5151.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5152",
+    "name": "清澄山 展望ポイント 第5ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.52902,
+    "lng": 140.39513,
+    "voice_file": "spot_5152.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5153",
+    "name": "鋸山登山道口 第5ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.33516,
+    "lng": 140.05276,
+    "voice_file": "spot_5153.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5154",
+    "name": "太東埼 展望台広場 第5ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.61631,
+    "lng": 140.08191,
+    "voice_file": "spot_5154.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5155",
+    "name": "成田空港 A滑走路南側ビュー 第5ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.46259,
+    "lng": 140.26589,
+    "voice_file": "spot_5155.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5156",
+    "name": "印旛沼サイクリングロード脇 第5ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.50494,
+    "lng": 140.05382,
+    "voice_file": "spot_5156.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5157",
+    "name": "勝浦海中公園 展望塔入口 第5ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.46904,
+    "lng": 139.98645,
+    "voice_file": "spot_5157.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5158",
+    "name": "フラワーライン海岸ビュー 第6ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.59819,
+    "lng": 140.32221,
+    "voice_file": "spot_5158.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5159",
+    "name": "もみじロード休憩処 第6ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.29043,
+    "lng": 140.2108,
+    "voice_file": "spot_5159.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5160",
+    "name": "九十九里有料道路 展望P 第6ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.29788,
+    "lng": 140.0803,
+    "voice_file": "spot_5160.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5161",
+    "name": "養老川渓谷 展望橋 第6ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.29863,
+    "lng": 140.29686,
+    "voice_file": "spot_5161.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5162",
+    "name": "清澄山 展望ポイント 第6ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.62066,
+    "lng": 140.15492,
+    "voice_file": "spot_5162.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5163",
+    "name": "鋸山登山道口 第6ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.53018,
+    "lng": 140.00122,
+    "voice_file": "spot_5163.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5164",
+    "name": "太東埼 展望台広場 第6ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.61686,
+    "lng": 140.30481,
+    "voice_file": "spot_5164.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5165",
+    "name": "成田空港 A滑走路南側ビュー 第6ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.52537,
+    "lng": 140.01272,
+    "voice_file": "spot_5165.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5166",
+    "name": "印旛沼サイクリングロード脇 第6ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.37689,
+    "lng": 140.23867,
+    "voice_file": "spot_5166.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5167",
+    "name": "勝浦海中公園 展望塔入口 第6ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.41843,
+    "lng": 140.2479,
+    "voice_file": "spot_5167.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5168",
+    "name": "フラワーライン海岸ビュー 第7ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.54853,
+    "lng": 140.03362,
+    "voice_file": "spot_5168.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5169",
+    "name": "もみじロード休憩処 第7ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.28391,
+    "lng": 140.23768,
+    "voice_file": "spot_5169.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5170",
+    "name": "九十九里有料道路 展望P 第7ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.5021,
+    "lng": 140.17712,
+    "voice_file": "spot_5170.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5171",
+    "name": "養老川渓谷 展望橋 第7ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.28223,
+    "lng": 140.01812,
+    "voice_file": "spot_5171.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5172",
+    "name": "清澄山 展望ポイント 第7ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.61965,
+    "lng": 139.98384,
+    "voice_file": "spot_5172.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5173",
+    "name": "鋸山登山道口 第7ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.5943,
+    "lng": 140.15387,
+    "voice_file": "spot_5173.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5174",
+    "name": "太東埼 展望台広場 第7ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.51192,
+    "lng": 140.04069,
+    "voice_file": "spot_5174.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5175",
+    "name": "成田空港 A滑走路南側ビュー 第7ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.621,
+    "lng": 140.02608,
+    "voice_file": "spot_5175.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5176",
+    "name": "印旛沼サイクリングロード脇 第7ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.57643,
+    "lng": 140.26649,
+    "voice_file": "spot_5176.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5177",
+    "name": "勝浦海中公園 展望塔入口 第7ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.33051,
+    "lng": 140.35357,
+    "voice_file": "spot_5177.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5178",
+    "name": "フラワーライン海岸ビュー 第8ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.48787,
+    "lng": 140.24841,
+    "voice_file": "spot_5178.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5179",
+    "name": "もみじロード休憩処 第8ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.59052,
+    "lng": 140.22306,
+    "voice_file": "spot_5179.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5180",
+    "name": "九十九里有料道路 展望P 第8ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.47828,
+    "lng": 140.22147,
+    "voice_file": "spot_5180.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5181",
+    "name": "養老川渓谷 展望橋 第8ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.31129,
+    "lng": 139.98495,
+    "voice_file": "spot_5181.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5182",
+    "name": "清澄山 展望ポイント 第8ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.33981,
+    "lng": 140.11464,
+    "voice_file": "spot_5182.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5183",
+    "name": "鋸山登山道口 第8ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.55294,
+    "lng": 140.2656,
+    "voice_file": "spot_5183.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5184",
+    "name": "太東埼 展望台広場 第8ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.54932,
+    "lng": 140.34074,
+    "voice_file": "spot_5184.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5185",
+    "name": "成田空港 A滑走路南側ビュー 第8ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.43136,
+    "lng": 140.21877,
+    "voice_file": "spot_5185.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5186",
+    "name": "印旛沼サイクリングロード脇 第8ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.53538,
+    "lng": 140.35467,
+    "voice_file": "spot_5186.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5187",
+    "name": "勝浦海中公園 展望塔入口 第8ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.60171,
+    "lng": 140.25601,
+    "voice_file": "spot_5187.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5188",
+    "name": "フラワーライン海岸ビュー 第9ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.54274,
+    "lng": 140.30843,
+    "voice_file": "spot_5188.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5189",
+    "name": "もみじロード休憩処 第9ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.39857,
+    "lng": 140.36064,
+    "voice_file": "spot_5189.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5190",
+    "name": "九十九里有料道路 展望P 第9ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.39991,
+    "lng": 140.23914,
+    "voice_file": "spot_5190.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5191",
+    "name": "養老川渓谷 展望橋 第9ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.52703,
+    "lng": 140.39871,
+    "voice_file": "spot_5191.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5192",
+    "name": "清澄山 展望ポイント 第9ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.57166,
+    "lng": 140.1635,
+    "voice_file": "spot_5192.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5193",
+    "name": "鋸山登山道口 第9ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.45655,
+    "lng": 140.23442,
+    "voice_file": "spot_5193.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5194",
+    "name": "太東埼 展望台広場 第9ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.57109,
+    "lng": 140.40577,
+    "voice_file": "spot_5194.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5195",
+    "name": "成田空港 A滑走路南側ビュー 第9ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.4929,
+    "lng": 140.12335,
+    "voice_file": "spot_5195.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5196",
+    "name": "印旛沼サイクリングロード脇 第9ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.43009,
+    "lng": 140.35342,
+    "voice_file": "spot_5196.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5197",
+    "name": "勝浦海中公園 展望塔入口 第9ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.37752,
+    "lng": 140.35994,
+    "voice_file": "spot_5197.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5198",
+    "name": "フラワーライン海岸ビュー 第10ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.40795,
+    "lng": 140.18078,
+    "voice_file": "spot_5198.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5199",
+    "name": "もみじロード休憩処 第10ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.34537,
+    "lng": 140.17458,
+    "voice_file": "spot_5199.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5200",
+    "name": "九十九里有料道路 展望P 第10ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.3182,
+    "lng": 140.05118,
+    "voice_file": "spot_5200.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5201",
+    "name": "養老川渓谷 展望橋 第10ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.448,
+    "lng": 140.18762,
+    "voice_file": "spot_5201.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5202",
+    "name": "清澄山 展望ポイント 第10ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.28707,
+    "lng": 140.13553,
+    "voice_file": "spot_5202.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5203",
+    "name": "鋸山登山道口 第10ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.30971,
+    "lng": 140.30847,
+    "voice_file": "spot_5203.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5204",
+    "name": "太東埼 展望台広場 第10ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.51237,
+    "lng": 140.22731,
+    "voice_file": "spot_5204.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5205",
+    "name": "成田空港 A滑走路南側ビュー 第10ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.57278,
+    "lng": 140.16237,
+    "voice_file": "spot_5205.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5206",
+    "name": "印旛沼サイクリングロード脇 第10ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.40039,
+    "lng": 140.35246,
+    "voice_file": "spot_5206.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5207",
+    "name": "勝浦海中公園 展望塔入口 第10ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.34896,
+    "lng": 140.02873,
+    "voice_file": "spot_5207.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5208",
+    "name": "フラワーライン海岸ビュー 第11ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.33523,
+    "lng": 140.30613,
+    "voice_file": "spot_5208.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5209",
+    "name": "もみじロード休憩処 第11ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.3616,
+    "lng": 140.28593,
+    "voice_file": "spot_5209.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5210",
+    "name": "九十九里有料道路 展望P 第11ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.37411,
+    "lng": 140.24893,
+    "voice_file": "spot_5210.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5211",
+    "name": "養老川渓谷 展望橋 第11ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.57451,
+    "lng": 140.33395,
+    "voice_file": "spot_5211.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5212",
+    "name": "清澄山 展望ポイント 第11ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.60547,
+    "lng": 140.28916,
+    "voice_file": "spot_5212.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5213",
+    "name": "鋸山登山道口 第11ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.50663,
+    "lng": 140.3527,
+    "voice_file": "spot_5213.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5214",
+    "name": "太東埼 展望台広場 第11ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.59728,
+    "lng": 140.04628,
+    "voice_file": "spot_5214.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5215",
+    "name": "成田空港 A滑走路南側ビュー 第11ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.35635,
+    "lng": 140.02579,
+    "voice_file": "spot_5215.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5216",
+    "name": "印旛沼サイクリングロード脇 第11ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.5822,
+    "lng": 140.28802,
+    "voice_file": "spot_5216.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5217",
+    "name": "勝浦海中公園 展望塔入口 第11ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.55989,
+    "lng": 140.38564,
+    "voice_file": "spot_5217.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5218",
+    "name": "フラワーライン海岸ビュー 第12ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.39384,
+    "lng": 139.98201,
+    "voice_file": "spot_5218.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5219",
+    "name": "もみじロード休憩処 第12ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.33701,
+    "lng": 140.10924,
+    "voice_file": "spot_5219.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5220",
+    "name": "九十九里有料道路 展望P 第12ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.2992,
+    "lng": 140.20134,
+    "voice_file": "spot_5220.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5221",
+    "name": "養老川渓谷 展望橋 第12ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.56117,
+    "lng": 140.24454,
+    "voice_file": "spot_5221.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5222",
+    "name": "清澄山 展望ポイント 第12ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.60613,
+    "lng": 140.29665,
+    "voice_file": "spot_5222.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5223",
+    "name": "鋸山登山道口 第12ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.38714,
+    "lng": 140.12347,
+    "voice_file": "spot_5223.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5224",
+    "name": "太東埼 展望台広場 第12ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.45026,
+    "lng": 140.26106,
+    "voice_file": "spot_5224.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5225",
+    "name": "成田空港 A滑走路南側ビュー 第12ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.44829,
+    "lng": 140.38853,
+    "voice_file": "spot_5225.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5226",
+    "name": "印旛沼サイクリングロード脇 第12ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.59777,
+    "lng": 140.02182,
+    "voice_file": "spot_5226.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5227",
+    "name": "勝浦海中公園 展望塔入口 第12ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.50118,
+    "lng": 140.25995,
+    "voice_file": "spot_5227.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5228",
+    "name": "フラワーライン海岸ビュー 第13ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.62584,
+    "lng": 140.19118,
+    "voice_file": "spot_5228.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5229",
+    "name": "もみじロード休憩処 第13ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.48685,
+    "lng": 140.03116,
+    "voice_file": "spot_5229.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5230",
+    "name": "九十九里有料道路 展望P 第13ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.44047,
+    "lng": 140.29913,
+    "voice_file": "spot_5230.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5231",
+    "name": "養老川渓谷 展望橋 第13ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.62084,
+    "lng": 140.09156,
+    "voice_file": "spot_5231.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5232",
+    "name": "清澄山 展望ポイント 第13ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.57737,
+    "lng": 140.19756,
+    "voice_file": "spot_5232.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5233",
+    "name": "鋸山登山道口 第13ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.35644,
+    "lng": 140.38683,
+    "voice_file": "spot_5233.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5234",
+    "name": "太東埼 展望台広場 第13ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.34096,
+    "lng": 140.0175,
+    "voice_file": "spot_5234.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5235",
+    "name": "成田空港 A滑走路南側ビュー 第13ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.48038,
+    "lng": 140.18965,
+    "voice_file": "spot_5235.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5236",
+    "name": "印旛沼サイクリングロード脇 第13ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.50883,
+    "lng": 140.13029,
+    "voice_file": "spot_5236.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5237",
+    "name": "勝浦海中公園 展望塔入口 第13ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.56706,
+    "lng": 140.34734,
+    "voice_file": "spot_5237.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5238",
+    "name": "フラワーライン海岸ビュー 第14ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.37078,
+    "lng": 140.23835,
+    "voice_file": "spot_5238.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5239",
+    "name": "もみじロード休憩処 第14ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.46958,
+    "lng": 140.36615,
+    "voice_file": "spot_5239.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5240",
+    "name": "九十九里有料道路 展望P 第14ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.42458,
+    "lng": 140.17433,
+    "voice_file": "spot_5240.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5241",
+    "name": "養老川渓谷 展望橋 第14ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.48045,
+    "lng": 140.22407,
+    "voice_file": "spot_5241.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5242",
+    "name": "清澄山 展望ポイント 第14ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.50833,
+    "lng": 140.09531,
+    "voice_file": "spot_5242.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5243",
+    "name": "鋸山登山道口 第14ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.3402,
+    "lng": 140.01161,
+    "voice_file": "spot_5243.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5244",
+    "name": "太東埼 展望台広場 第14ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.60719,
+    "lng": 140.40825,
+    "voice_file": "spot_5244.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5245",
+    "name": "成田空港 A滑走路南側ビュー 第14ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.4066,
+    "lng": 140.40775,
+    "voice_file": "spot_5245.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5246",
+    "name": "印旛沼サイクリングロード脇 第14ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.46169,
+    "lng": 140.03348,
+    "voice_file": "spot_5246.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5247",
+    "name": "勝浦海中公園 展望塔入口 第14ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.31613,
+    "lng": 140.40535,
+    "voice_file": "spot_5247.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5248",
+    "name": "フラワーライン海岸ビュー 第15ポイント",
+    "address": "千葉県南房総市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.40738,
+    "lng": 140.32243,
+    "voice_file": "spot_5248.mp3",
+    "dialogue": {
+      "tsure": "「海沿いの直線が気持ちいいフラワーラインだ！潮風感じて流すぞ。」",
+      "dj": "「Coastal breeze! 爽快なフラワーラインを流す最高のクルージング！」",
+      "kanojo": "「フラワーラインの海沿いだよ！菜の花や海の景色がすっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5249",
+    "name": "もみじロード休憩処 第15ポイント",
+    "address": "千葉県富津市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.58788,
+    "lng": 140.01051,
+    "voice_file": "spot_5249.mp3",
+    "dialogue": {
+      "tsure": "「もみじロードのワインディング区間だな。ステアフィールを楽しみながら行くぞ。」",
+      "dj": "「Twisty maple road! リズミカルなコーナーが続くもみじロード！」",
+      "kanojo": "「もみじロードのカーブが続くよ！安全運転で楽しもうね！」"
+    }
+  },
+  {
+    "id": "spot_5250",
+    "name": "九十九里有料道路 展望P 第15ポイント",
+    "address": "千葉県長生郡白子町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.54836,
+    "lng": 140.1974,
+    "voice_file": "spot_5250.mp3",
+    "dialogue": {
+      "tsure": "「波乗り道路のパーキングだ！水平線が一望できるぞ、ちょっと停まるか！」",
+      "dj": "「Surfing highway! 波の音と潮風が抜ける九十九里の有料道路！」",
+      "kanojo": "「波乗り道路のパーキングだよ！海がすぐそこに見えて気持ちいいね！」"
+    }
+  },
+  {
+    "id": "spot_5251",
+    "name": "養老川渓谷 展望橋 第15ポイント",
+    "address": "千葉県市原市朝生原",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.36832,
+    "lng": 140.24403,
+    "voice_file": "spot_5251.mp3",
+    "dialogue": {
+      "tsure": "「養老川にかかる渓谷橋だな。緑と水のコントラストが素晴らしいぜ。」",
+      "dj": "「Canyon bridge view! 養老渓谷の深い緑と川の流れを一望するビュースポット！」",
+      "kanojo": "「養老渓谷の橋の上だよ！下を流れる川がキラキラしてて綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5252",
+    "name": "清澄山 展望ポイント 第15ポイント",
+    "address": "千葉県鴨川市清澄",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.45507,
+    "lng": 140.08921,
+    "voice_file": "spot_5252.mp3",
+    "dialogue": {
+      "tsure": "「安房の山深き絶景ポイントだ。澄んだ空気でリフレッシュすっか！」",
+      "dj": "「Deep mountain vista! 南房総の最高峰エリアから望む大自然のパノラマ！」",
+      "kanojo": "「清澄山の近くだよ！空気がひんやりして深呼吸したくなるね！」"
+    }
+  },
+  {
+    "id": "spot_5253",
+    "name": "鋸山登山道口 第15ポイント",
+    "address": "千葉県安房郡鋸南町",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.38614,
+    "lng": 140.12804,
+    "voice_file": "spot_5253.mp3",
+    "dialogue": {
+      "tsure": "「鋸山のワインディング登り口だな。岩肌が迫力満点だぜ！」",
+      "dj": "「Cliff edge ascent! 切り立った岩壁が迫る鋸山へのアプローチ！」",
+      "kanojo": "「鋸山の登山口だよ！ゴツゴツした岩山が見えて大迫力！」"
+    }
+  },
+  {
+    "id": "spot_5254",
+    "name": "太東埼 展望台広場 第15ポイント",
+    "address": "千葉県いすみ市岬町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.41696,
+    "lng": 140.39728,
+    "voice_file": "spot_5254.mp3",
+    "dialogue": {
+      "tsure": "「太平洋を見渡す白亜の灯台広場だ！水平線が丸く見えるぞ。」",
+      "dj": "「Pacific horizon! 白亜の灯台から広大な太平洋を見晴らす絶景スポット！」",
+      "kanojo": "「太東埼の展望広場だよ！海が広くて地球が丸いのがわかるね！」"
+    }
+  },
+  {
+    "id": "spot_5255",
+    "name": "成田空港 A滑走路南側ビュー 第15ポイント",
+    "address": "千葉県山武郡芝山町",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.57489,
+    "lng": 140.20403,
+    "voice_file": "spot_5255.mp3",
+    "dialogue": {
+      "tsure": "「大型機が頭上を轟音立てて着陸してくるぞ！大迫力だな！」",
+      "dj": "「Runway touchdown zone! 頭上を巨大ジェットがかすめる圧巻の撮影スポット！」",
+      "kanojo": "「飛行機が真上を通るスポットだよ！大きくてすごい迫力！」"
+    }
+  },
+  {
+    "id": "spot_5256",
+    "name": "印旛沼サイクリングロード脇 第15ポイント",
+    "address": "千葉県佐倉市",
+    "source": "Curated Touring (千葉)",
+    "category": "route",
+    "lat": 35.27032,
+    "lng": 140.22275,
+    "voice_file": "spot_5256.mp3",
+    "dialogue": {
+      "tsure": "「風車と水辺の平坦路だ。のんびりアクセル一定で流すぞ。」",
+      "dj": "「Lakeside calm drive! 水車と湖畔ののどかな風景を眺めるクルーズ！」",
+      "kanojo": "「印旛沼のそばを走ってるよ！水辺の景色がのんびりしてて落ち着くね！」"
+    }
+  },
+  {
+    "id": "spot_5257",
+    "name": "勝浦海中公園 展望塔入口 第15ポイント",
+    "address": "千葉県勝浦市吉尾",
+    "source": "Curated Touring (千葉)",
+    "category": "scenic",
+    "lat": 35.36028,
+    "lng": 140.22951,
+    "voice_file": "spot_5257.mp3",
+    "dialogue": {
+      "tsure": "「リアス海岸の青い海が広がる勝浦の海中公園だ！寄ってくか？」",
+      "dj": "「Marine blue coast! 荒波が打ち寄せる勝浦のダイナミックな海岸美！」",
+      "kanojo": "「勝浦海中公園の近くだよ！海がエメラルドグリーンですっごく綺麗！」"
+    }
+  },
+  {
+    "id": "spot_5258",
+    "name": "正丸峠 奥村茶屋",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.82849,
+    "lng": 139.24959,
+    "voice_file": "spot_5258.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5259",
+    "name": "山伏峠 頂上付近",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.0657,
+    "lng": 139.16557,
+    "voice_file": "spot_5259.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5260",
+    "name": "秩父湖 二瀬ダム",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.87328,
+    "lng": 139.29973,
+    "voice_file": "spot_5260.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5261",
+    "name": "長瀞 宝登山ロープウェイ麓",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.80463,
+    "lng": 139.0515,
+    "voice_file": "spot_5261.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5262",
+    "name": "美の山高原 ワインディング",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.07128,
+    "lng": 139.14443,
+    "voice_file": "spot_5262.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5263",
+    "name": "ときがわ 堂平天文台下",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.77051,
+    "lng": 139.30702,
+    "voice_file": "spot_5263.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5264",
+    "name": "巾着田 曼珠沙華公園前",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.10879,
+    "lng": 139.27606,
+    "voice_file": "spot_5264.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5265",
+    "name": "越生 梅林通り",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.0541,
+    "lng": 139.34775,
+    "voice_file": "spot_5265.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5266",
+    "name": "正丸峠 奥村茶屋 第2ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.92789,
+    "lng": 139.35445,
+    "voice_file": "spot_5266.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5267",
+    "name": "山伏峠 頂上付近 第2ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.05599,
+    "lng": 139.22406,
+    "voice_file": "spot_5267.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5268",
+    "name": "秩父湖 二瀬ダム 第2ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.8529,
+    "lng": 139.02597,
+    "voice_file": "spot_5268.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5269",
+    "name": "長瀞 宝登山ロープウェイ麓 第2ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.88825,
+    "lng": 139.2692,
+    "voice_file": "spot_5269.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5270",
+    "name": "美の山高原 ワインディング 第2ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.82378,
+    "lng": 138.94068,
+    "voice_file": "spot_5270.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5271",
+    "name": "ときがわ 堂平天文台下 第2ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.98382,
+    "lng": 139.35834,
+    "voice_file": "spot_5271.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5272",
+    "name": "巾着田 曼珠沙華公園前 第2ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.92289,
+    "lng": 139.14679,
+    "voice_file": "spot_5272.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5273",
+    "name": "越生 梅林通り 第2ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.96416,
+    "lng": 138.93411,
+    "voice_file": "spot_5273.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5274",
+    "name": "正丸峠 奥村茶屋 第3ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.98438,
+    "lng": 139.01688,
+    "voice_file": "spot_5274.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5275",
+    "name": "山伏峠 頂上付近 第3ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.01059,
+    "lng": 139.36895,
+    "voice_file": "spot_5275.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5276",
+    "name": "秩父湖 二瀬ダム 第3ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.03432,
+    "lng": 139.20599,
+    "voice_file": "spot_5276.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5277",
+    "name": "長瀞 宝登山ロープウェイ麓 第3ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.88797,
+    "lng": 139.04842,
+    "voice_file": "spot_5277.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5278",
+    "name": "美の山高原 ワインディング 第3ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.83542,
+    "lng": 139.08636,
+    "voice_file": "spot_5278.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5279",
+    "name": "ときがわ 堂平天文台下 第3ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.07756,
+    "lng": 139.19634,
+    "voice_file": "spot_5279.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5280",
+    "name": "巾着田 曼珠沙華公園前 第3ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.0911,
+    "lng": 139.25643,
+    "voice_file": "spot_5280.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5281",
+    "name": "越生 梅林通り 第3ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.07682,
+    "lng": 139.35653,
+    "voice_file": "spot_5281.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5282",
+    "name": "正丸峠 奥村茶屋 第4ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.77336,
+    "lng": 139.26208,
+    "voice_file": "spot_5282.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5283",
+    "name": "山伏峠 頂上付近 第4ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.86541,
+    "lng": 139.28852,
+    "voice_file": "spot_5283.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5284",
+    "name": "秩父湖 二瀬ダム 第4ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.95055,
+    "lng": 139.07855,
+    "voice_file": "spot_5284.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5285",
+    "name": "長瀞 宝登山ロープウェイ麓 第4ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.91408,
+    "lng": 139.14363,
+    "voice_file": "spot_5285.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5286",
+    "name": "美の山高原 ワインディング 第4ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.79167,
+    "lng": 139.23422,
+    "voice_file": "spot_5286.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5287",
+    "name": "ときがわ 堂平天文台下 第4ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.80723,
+    "lng": 138.97182,
+    "voice_file": "spot_5287.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5288",
+    "name": "巾着田 曼珠沙華公園前 第4ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.88255,
+    "lng": 139.20478,
+    "voice_file": "spot_5288.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5289",
+    "name": "越生 梅林通り 第4ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.97384,
+    "lng": 139.33056,
+    "voice_file": "spot_5289.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5290",
+    "name": "正丸峠 奥村茶屋 第5ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.11813,
+    "lng": 139.09055,
+    "voice_file": "spot_5290.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5291",
+    "name": "山伏峠 頂上付近 第5ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.85123,
+    "lng": 139.33324,
+    "voice_file": "spot_5291.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5292",
+    "name": "秩父湖 二瀬ダム 第5ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.97093,
+    "lng": 139.35297,
+    "voice_file": "spot_5292.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5293",
+    "name": "長瀞 宝登山ロープウェイ麓 第5ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.11926,
+    "lng": 139.01357,
+    "voice_file": "spot_5293.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5294",
+    "name": "美の山高原 ワインディング 第5ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.77094,
+    "lng": 139.00188,
+    "voice_file": "spot_5294.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5295",
+    "name": "ときがわ 堂平天文台下 第5ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.99552,
+    "lng": 139.3062,
+    "voice_file": "spot_5295.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5296",
+    "name": "巾着田 曼珠沙華公園前 第5ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.80611,
+    "lng": 138.93244,
+    "voice_file": "spot_5296.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5297",
+    "name": "越生 梅林通り 第5ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.06573,
+    "lng": 139.12667,
+    "voice_file": "spot_5297.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5298",
+    "name": "正丸峠 奥村茶屋 第6ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.12352,
+    "lng": 139.21849,
+    "voice_file": "spot_5298.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5299",
+    "name": "山伏峠 頂上付近 第6ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.9432,
+    "lng": 139.32259,
+    "voice_file": "spot_5299.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5300",
+    "name": "秩父湖 二瀬ダム 第6ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.80292,
+    "lng": 139.04501,
+    "voice_file": "spot_5300.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5301",
+    "name": "長瀞 宝登山ロープウェイ麓 第6ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.01955,
+    "lng": 139.02152,
+    "voice_file": "spot_5301.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5302",
+    "name": "美の山高原 ワインディング 第6ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.97943,
+    "lng": 139.1385,
+    "voice_file": "spot_5302.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5303",
+    "name": "ときがわ 堂平天文台下 第6ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.91623,
+    "lng": 139.31987,
+    "voice_file": "spot_5303.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5304",
+    "name": "巾着田 曼珠沙華公園前 第6ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.81563,
+    "lng": 139.28979,
+    "voice_file": "spot_5304.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5305",
+    "name": "越生 梅林通り 第6ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.11164,
+    "lng": 139.18976,
+    "voice_file": "spot_5305.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5306",
+    "name": "正丸峠 奥村茶屋 第7ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.79533,
+    "lng": 139.05883,
+    "voice_file": "spot_5306.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5307",
+    "name": "山伏峠 頂上付近 第7ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.86144,
+    "lng": 139.0663,
+    "voice_file": "spot_5307.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5308",
+    "name": "秩父湖 二瀬ダム 第7ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.03511,
+    "lng": 138.94511,
+    "voice_file": "spot_5308.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5309",
+    "name": "長瀞 宝登山ロープウェイ麓 第7ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.7702,
+    "lng": 139.0038,
+    "voice_file": "spot_5309.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5310",
+    "name": "美の山高原 ワインディング 第7ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.07996,
+    "lng": 139.10469,
+    "voice_file": "spot_5310.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5311",
+    "name": "ときがわ 堂平天文台下 第7ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.01576,
+    "lng": 139.1678,
+    "voice_file": "spot_5311.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5312",
+    "name": "巾着田 曼珠沙華公園前 第7ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.86572,
+    "lng": 138.96516,
+    "voice_file": "spot_5312.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5313",
+    "name": "越生 梅林通り 第7ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.12651,
+    "lng": 139.18756,
+    "voice_file": "spot_5313.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5314",
+    "name": "正丸峠 奥村茶屋 第8ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.91301,
+    "lng": 139.26012,
+    "voice_file": "spot_5314.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5315",
+    "name": "山伏峠 頂上付近 第8ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.8228,
+    "lng": 138.96426,
+    "voice_file": "spot_5315.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5316",
+    "name": "秩父湖 二瀬ダム 第8ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.11126,
+    "lng": 139.04681,
+    "voice_file": "spot_5316.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5317",
+    "name": "長瀞 宝登山ロープウェイ麓 第8ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.92316,
+    "lng": 139.31054,
+    "voice_file": "spot_5317.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5318",
+    "name": "美の山高原 ワインディング 第8ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.06436,
+    "lng": 139.05072,
+    "voice_file": "spot_5318.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5319",
+    "name": "ときがわ 堂平天文台下 第8ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.77887,
+    "lng": 139.32152,
+    "voice_file": "spot_5319.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5320",
+    "name": "巾着田 曼珠沙華公園前 第8ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.84025,
+    "lng": 139.17334,
+    "voice_file": "spot_5320.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5321",
+    "name": "越生 梅林通り 第8ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.02124,
+    "lng": 139.00169,
+    "voice_file": "spot_5321.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5322",
+    "name": "正丸峠 奥村茶屋 第9ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.11702,
+    "lng": 139.18096,
+    "voice_file": "spot_5322.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5323",
+    "name": "山伏峠 頂上付近 第9ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.97776,
+    "lng": 139.14262,
+    "voice_file": "spot_5323.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5324",
+    "name": "秩父湖 二瀬ダム 第9ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.04607,
+    "lng": 139.23701,
+    "voice_file": "spot_5324.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5325",
+    "name": "長瀞 宝登山ロープウェイ麓 第9ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.10284,
+    "lng": 139.34042,
+    "voice_file": "spot_5325.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5326",
+    "name": "美の山高原 ワインディング 第9ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.88164,
+    "lng": 139.00916,
+    "voice_file": "spot_5326.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5327",
+    "name": "ときがわ 堂平天文台下 第9ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.87666,
+    "lng": 138.98149,
+    "voice_file": "spot_5327.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5328",
+    "name": "巾着田 曼珠沙華公園前 第9ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.89151,
+    "lng": 139.01567,
+    "voice_file": "spot_5328.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5329",
+    "name": "越生 梅林通り 第9ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.97106,
+    "lng": 139.24468,
+    "voice_file": "spot_5329.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5330",
+    "name": "正丸峠 奥村茶屋 第10ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.7838,
+    "lng": 138.95103,
+    "voice_file": "spot_5330.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5331",
+    "name": "山伏峠 頂上付近 第10ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.98257,
+    "lng": 139.18377,
+    "voice_file": "spot_5331.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5332",
+    "name": "秩父湖 二瀬ダム 第10ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.77937,
+    "lng": 139.22778,
+    "voice_file": "spot_5332.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5333",
+    "name": "長瀞 宝登山ロープウェイ麓 第10ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.00685,
+    "lng": 139.30385,
+    "voice_file": "spot_5333.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5334",
+    "name": "美の山高原 ワインディング 第10ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.81987,
+    "lng": 139.23153,
+    "voice_file": "spot_5334.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5335",
+    "name": "ときがわ 堂平天文台下 第10ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.99764,
+    "lng": 139.12219,
+    "voice_file": "spot_5335.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5336",
+    "name": "巾着田 曼珠沙華公園前 第10ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.00952,
+    "lng": 139.14471,
+    "voice_file": "spot_5336.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5337",
+    "name": "越生 梅林通り 第10ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.79665,
+    "lng": 139.2442,
+    "voice_file": "spot_5337.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5338",
+    "name": "正丸峠 奥村茶屋 第11ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.8605,
+    "lng": 139.24055,
+    "voice_file": "spot_5338.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5339",
+    "name": "山伏峠 頂上付近 第11ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.88413,
+    "lng": 139.18297,
+    "voice_file": "spot_5339.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5340",
+    "name": "秩父湖 二瀬ダム 第11ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.91132,
+    "lng": 138.93953,
+    "voice_file": "spot_5340.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5341",
+    "name": "長瀞 宝登山ロープウェイ麓 第11ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.83022,
+    "lng": 139.17107,
+    "voice_file": "spot_5341.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5342",
+    "name": "美の山高原 ワインディング 第11ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.91085,
+    "lng": 139.32606,
+    "voice_file": "spot_5342.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5343",
+    "name": "ときがわ 堂平天文台下 第11ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.02567,
+    "lng": 138.94724,
+    "voice_file": "spot_5343.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5344",
+    "name": "巾着田 曼珠沙華公園前 第11ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.92896,
+    "lng": 139.26709,
+    "voice_file": "spot_5344.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5345",
+    "name": "越生 梅林通り 第11ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.11666,
+    "lng": 139.26081,
+    "voice_file": "spot_5345.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5346",
+    "name": "正丸峠 奥村茶屋 第12ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.06975,
+    "lng": 139.33808,
+    "voice_file": "spot_5346.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5347",
+    "name": "山伏峠 頂上付近 第12ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.86607,
+    "lng": 139.20023,
+    "voice_file": "spot_5347.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5348",
+    "name": "秩父湖 二瀬ダム 第12ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.86889,
+    "lng": 139.33982,
+    "voice_file": "spot_5348.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5349",
+    "name": "長瀞 宝登山ロープウェイ麓 第12ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.96977,
+    "lng": 139.23369,
+    "voice_file": "spot_5349.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5350",
+    "name": "美の山高原 ワインディング 第12ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.99502,
+    "lng": 139.34642,
+    "voice_file": "spot_5350.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5351",
+    "name": "ときがわ 堂平天文台下 第12ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.03621,
+    "lng": 139.02775,
+    "voice_file": "spot_5351.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5352",
+    "name": "巾着田 曼珠沙華公園前 第12ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.06209,
+    "lng": 139.05809,
+    "voice_file": "spot_5352.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5353",
+    "name": "越生 梅林通り 第12ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.92326,
+    "lng": 139.01856,
+    "voice_file": "spot_5353.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5354",
+    "name": "正丸峠 奥村茶屋 第13ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.97645,
+    "lng": 139.17677,
+    "voice_file": "spot_5354.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5355",
+    "name": "山伏峠 頂上付近 第13ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.90352,
+    "lng": 139.02164,
+    "voice_file": "spot_5355.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5356",
+    "name": "秩父湖 二瀬ダム 第13ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.89543,
+    "lng": 139.29653,
+    "voice_file": "spot_5356.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5357",
+    "name": "長瀞 宝登山ロープウェイ麓 第13ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.87946,
+    "lng": 138.99981,
+    "voice_file": "spot_5357.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5358",
+    "name": "美の山高原 ワインディング 第13ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.91163,
+    "lng": 138.9607,
+    "voice_file": "spot_5358.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5359",
+    "name": "ときがわ 堂平天文台下 第13ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.08796,
+    "lng": 139.1941,
+    "voice_file": "spot_5359.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5360",
+    "name": "巾着田 曼珠沙華公園前 第13ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.90343,
+    "lng": 139.09325,
+    "voice_file": "spot_5360.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5361",
+    "name": "越生 梅林通り 第13ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.82715,
+    "lng": 139.03072,
+    "voice_file": "spot_5361.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5362",
+    "name": "正丸峠 奥村茶屋 第14ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.93243,
+    "lng": 139.14161,
+    "voice_file": "spot_5362.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5363",
+    "name": "山伏峠 頂上付近 第14ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.82956,
+    "lng": 139.17969,
+    "voice_file": "spot_5363.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5364",
+    "name": "秩父湖 二瀬ダム 第14ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.77448,
+    "lng": 138.98373,
+    "voice_file": "spot_5364.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5365",
+    "name": "長瀞 宝登山ロープウェイ麓 第14ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 36.04357,
+    "lng": 139.19803,
+    "voice_file": "spot_5365.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5366",
+    "name": "美の山高原 ワインディング 第14ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.91804,
+    "lng": 139.3273,
+    "voice_file": "spot_5366.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5367",
+    "name": "ときがわ 堂平天文台下 第14ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.8736,
+    "lng": 138.95119,
+    "voice_file": "spot_5367.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5368",
+    "name": "巾着田 曼珠沙華公園前 第14ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.78996,
+    "lng": 138.9695,
+    "voice_file": "spot_5368.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5369",
+    "name": "越生 梅林通り 第14ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.99956,
+    "lng": 139.03058,
+    "voice_file": "spot_5369.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5370",
+    "name": "正丸峠 奥村茶屋 第15ポイント",
+    "address": "埼玉県飯能市坂元",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.937,
+    "lng": 139.28126,
+    "voice_file": "spot_5370.mp3",
+    "dialogue": {
+      "tsure": "「正丸峠のタイトコーナーを抜けてきたぞ。茶屋でジンギスカンでも食うか！」",
+      "dj": "「Classic pass summit! 頭文字Dの舞台にもなった峠の頂上で小休止！」",
+      "kanojo": "「正丸峠の茶屋前だよ！カーブをいっぱい曲がってきたね、お疲れさま！」"
+    }
+  },
+  {
+    "id": "spot_5371",
+    "name": "山伏峠 頂上付近 第15ポイント",
+    "address": "埼玉県秩父郡横瀬町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.989,
+    "lng": 139.15202,
+    "voice_file": "spot_5371.mp3",
+    "dialogue": {
+      "tsure": "「飯能と秩父を繋ぐ名物峠道！リズミカルな切り返しが楽しいぜ！」",
+      "dj": "「Yamabushi pass groove! 飯能から秩父へ抜ける軽快な峠ワインディング！」",
+      "kanojo": "「山伏峠を越えるよ！緑のトンネルをくぐり抜けていく感じだね！」"
+    }
+  },
+  {
+    "id": "spot_5372",
+    "name": "秩父湖 二瀬ダム 第15ポイント",
+    "address": "埼玉県秩父市大滝",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.9348,
+    "lng": 138.93543,
+    "voice_file": "spot_5372.mp3",
+    "dialogue": {
+      "tsure": "「秩父の奥深くに佇むダム湖だな。山肌と湖面の静けさがたまらねえぜ。」",
+      "dj": "「Deep Chichibu reservoir! 奥秩父の険しい峡谷に抱かれた静かな湖面！」",
+      "kanojo": "「二瀬ダムの秩父湖だよ！山深い景色が神秘的で引き込まれちゃう！」"
+    }
+  },
+  {
+    "id": "spot_5373",
+    "name": "長瀞 宝登山ロープウェイ麓 第15ポイント",
+    "address": "埼玉県秩父郡長瀞町",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.86398,
+    "lng": 139.11624,
+    "voice_file": "spot_5373.mp3",
+    "dialogue": {
+      "tsure": "「宝登山の麓エリアだな。春は梅や桜が咲き誇る名所だぞ。」",
+      "dj": "「Mount Hodo foothills! 四季折々の花々が咲き誇る長瀞の観光スポット！」",
+      "kanojo": "「宝登山のふもとに来たよ！ロープウェイでお山に登れるんだって！」"
+    }
+  },
+  {
+    "id": "spot_5374",
+    "name": "美の山高原 ワインディング 第15ポイント",
+    "address": "埼玉県秩父郡皆野町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.80335,
+    "lng": 139.08683,
+    "voice_file": "spot_5374.mp3",
+    "dialogue": {
+      "tsure": "「美の山を登るワインディングロード！眼下に秩父の町並みが広がるぞ！」",
+      "dj": "「Climbing Minoyama! コーナーを抜けるたびに視界が開けるパノラマヒルクライム！」",
+      "kanojo": "「美の山を登る道だよ！どんどん景色が高くなってワクワクするね！」"
+    }
+  },
+  {
+    "id": "spot_5375",
+    "name": "ときがわ 堂平天文台下 第15ポイント",
+    "address": "埼玉県比企郡ときがわ町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 36.03845,
+    "lng": 139.29863,
+    "voice_file": "spot_5375.mp3",
+    "dialogue": {
+      "tsure": "「奥武蔵の山々を一望するヒルクライム！頂上まであと少しだ！」",
+      "dj": "「Sky Observatory approach! 関東平野をバックに駆け上がるヒルクライム！」",
+      "kanojo": "「堂平山の天文台への道だよ！空が近くなってきて風が爽やか！」"
+    }
+  },
+  {
+    "id": "spot_5376",
+    "name": "巾着田 曼珠沙華公園前 第15ポイント",
+    "address": "埼玉県日高市高麗本郷",
+    "source": "Curated Touring (埼玉)",
+    "category": "scenic",
+    "lat": 35.78516,
+    "lng": 139.36732,
+    "voice_file": "spot_5376.mp3",
+    "dialogue": {
+      "tsure": "「秋には一面真っ赤な彼岸花が咲く名所だ。高麗川のせせらぎがいいな。」",
+      "dj": "「Red spider lily park! 川沿いに咲き乱れる真っ赤な曼珠沙華の絨毯！」",
+      "kanojo": "「巾着田のそばだよ！秋には真っ赤なお花が一面に咲いて幻想的なんだって！」"
+    }
+  },
+  {
+    "id": "spot_5377",
+    "name": "越生 梅林通り 第15ポイント",
+    "address": "埼玉県入間郡越生町",
+    "source": "Curated Touring (埼玉)",
+    "category": "route",
+    "lat": 35.85005,
+    "lng": 139.17521,
+    "voice_file": "spot_5377.mp3",
+    "dialogue": {
+      "tsure": "「関東屈指の梅の里だな。ほのかな花の香りを楽しみながら流すぞ。」",
+      "dj": "「Plum blossom road! 春先には甘い梅の香りが漂う越生ののどかな通り！」",
+      "kanojo": "「越生の梅林通りだよ！春には梅の花がいっぱい咲いて綺麗なんだよ！」"
+    }
+  },
+  {
+    "id": "spot_5378",
+    "name": "表筑波スカイライン 朝日峠PA",
+    "address": "茨城県土浦市小野",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.35052,
+    "lng": 140.46143,
+    "voice_file": "spot_5378.mp3",
+    "dialogue": {
+      "tsure": "「スカイラインの定番スポット！車好きが集まって熱気があるな！」",
+      "dj": "「Touge meet up! 表筑波スカイラインのハイライト、朝日峠パーキング！」",
+      "kanojo": "「朝日峠の駐車場だよ！かっこいい車がたくさん集まってるね！」"
+    }
+  },
+  {
+    "id": "spot_5379",
+    "name": "風返峠 交差点広場",
+    "address": "茨城県石岡市小幡",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.31279,
+    "lng": 140.35097,
+    "voice_file": "spot_5379.mp3",
+    "dialogue": {
+      "tsure": "「筑波山の各ルートが交差する峠の十字路だ。慎重にクリアするぞ。」",
+      "dj": "「Mountain crossroads! 筑波の各スカイラインが交わる重要ジャンクション！」",
+      "kanojo": "「風返峠の交差点だよ！ここからいろんな道に分かれていくんだね！」"
+    }
+  },
+  {
+    "id": "spot_5380",
+    "name": "霞ヶ浦 行方パノラマライン",
+    "address": "茨城県行方市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.21174,
+    "lng": 140.25866,
+    "voice_file": "spot_5380.mp3",
+    "dialogue": {
+      "tsure": "「どこまでも続く湖畔の平坦ストレート！水面がキラキラ光って最高だぜ。」",
+      "dj": "「Lakeside flat cruise! 霞ヶ浦の水面を横目にアクセル一定のクルージング！」",
+      "kanojo": "「霞ヶ浦の横をずっと走る道だよ！空も湖も広くて開放感たっぷり！」"
+    }
+  },
+  {
+    "id": "spot_5381",
+    "name": "大洗港 第四埠頭前",
+    "address": "茨城県東茨城郡大洗町",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.19189,
+    "lng": 140.05945,
+    "voice_file": "spot_5381.mp3",
+    "dialogue": {
+      "tsure": "「大洗の港と大型フェリーが見えるエリアだな。潮風を浴びて休憩だ。」",
+      "dj": "「Harbor view stop! 北海道へ向かう大型フェリーが停泊する大洗の港！」",
+      "kanojo": "「大洗の港が見えてきたよ！大きなフェリーが止まっててかっこいい！」"
+    }
+  },
+  {
+    "id": "spot_5382",
+    "name": "花貫渓谷 汐見滝吊り橋",
+    "address": "茨城県高萩市大能",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.16803,
+    "lng": 140.39008,
+    "voice_file": "spot_5382.mp3",
+    "dialogue": {
+      "tsure": "「紅葉のトンネルをくぐる木製吊橋！眼下に滝が流れる絶景ポイントだぞ。」",
+      "dj": "「Suspension bridge & gorge! 鮮やかな紅葉が吊橋を包み込む茨城屈指の名渓！」",
+      "kanojo": "「花貫渓谷の吊橋だよ！秋はもみじのトンネルになって息をのむ美しさ！」"
+    }
+  },
+  {
+    "id": "spot_5383",
+    "name": "袋田温泉 渓流ロード",
+    "address": "茨城県久慈郡大子町",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.32271,
+    "lng": 140.04335,
+    "voice_file": "spot_5383.mp3",
+    "dialogue": {
+      "tsure": "「奥久慈の山と川を縫うワインディング！温泉街の風情が漂うな。」",
+      "dj": "「Okukuji stream drive! 奥久慈の清流と山並みに癒やされるツーリングウェイ！」",
+      "kanojo": "「袋田の温泉街に近づいてきたよ！のんびり温泉に浸かりたくなっちゃうね！」"
+    }
+  },
+  {
+    "id": "spot_5384",
+    "name": "筑波パープルライン 尾根道",
+    "address": "茨城県つくば市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.12069,
+    "lng": 140.31337,
+    "voice_file": "spot_5384.mp3",
+    "dialogue": {
+      "tsure": "「尾根沿いをリズミカルに抜けるスカイライン！木漏れ日が最高だ。」",
+      "dj": "「Purple ridge line! 木漏れ日の中をリズミカルに駆け抜ける快走路！」",
+      "kanojo": "「パープルラインの尾根道だよ！木々の間から街が見下ろせて爽快！」"
+    }
+  },
+  {
+    "id": "spot_5385",
+    "name": "表筑波スカイライン 朝日峠PA 第2ポイント",
+    "address": "茨城県土浦市小野",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.13793,
+    "lng": 140.31135,
+    "voice_file": "spot_5385.mp3",
+    "dialogue": {
+      "tsure": "「スカイラインの定番スポット！車好きが集まって熱気があるな！」",
+      "dj": "「Touge meet up! 表筑波スカイラインのハイライト、朝日峠パーキング！」",
+      "kanojo": "「朝日峠の駐車場だよ！かっこいい車がたくさん集まってるね！」"
+    }
+  },
+  {
+    "id": "spot_5386",
+    "name": "風返峠 交差点広場 第2ポイント",
+    "address": "茨城県石岡市小幡",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.40842,
+    "lng": 140.15884,
+    "voice_file": "spot_5386.mp3",
+    "dialogue": {
+      "tsure": "「筑波山の各ルートが交差する峠の十字路だ。慎重にクリアするぞ。」",
+      "dj": "「Mountain crossroads! 筑波の各スカイラインが交わる重要ジャンクション！」",
+      "kanojo": "「風返峠の交差点だよ！ここからいろんな道に分かれていくんだね！」"
+    }
+  },
+  {
+    "id": "spot_5387",
+    "name": "霞ヶ浦 行方パノラマライン 第2ポイント",
+    "address": "茨城県行方市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.33508,
+    "lng": 140.35128,
+    "voice_file": "spot_5387.mp3",
+    "dialogue": {
+      "tsure": "「どこまでも続く湖畔の平坦ストレート！水面がキラキラ光って最高だぜ。」",
+      "dj": "「Lakeside flat cruise! 霞ヶ浦の水面を横目にアクセル一定のクルージング！」",
+      "kanojo": "「霞ヶ浦の横をずっと走る道だよ！空も湖も広くて開放感たっぷり！」"
+    }
+  },
+  {
+    "id": "spot_5388",
+    "name": "大洗港 第四埠頭前 第2ポイント",
+    "address": "茨城県東茨城郡大洗町",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.14986,
+    "lng": 140.10096,
+    "voice_file": "spot_5388.mp3",
+    "dialogue": {
+      "tsure": "「大洗の港と大型フェリーが見えるエリアだな。潮風を浴びて休憩だ。」",
+      "dj": "「Harbor view stop! 北海道へ向かう大型フェリーが停泊する大洗の港！」",
+      "kanojo": "「大洗の港が見えてきたよ！大きなフェリーが止まっててかっこいい！」"
+    }
+  },
+  {
+    "id": "spot_5389",
+    "name": "花貫渓谷 汐見滝吊り橋 第2ポイント",
+    "address": "茨城県高萩市大能",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.46888,
+    "lng": 140.27735,
+    "voice_file": "spot_5389.mp3",
+    "dialogue": {
+      "tsure": "「紅葉のトンネルをくぐる木製吊橋！眼下に滝が流れる絶景ポイントだぞ。」",
+      "dj": "「Suspension bridge & gorge! 鮮やかな紅葉が吊橋を包み込む茨城屈指の名渓！」",
+      "kanojo": "「花貫渓谷の吊橋だよ！秋はもみじのトンネルになって息をのむ美しさ！」"
+    }
+  },
+  {
+    "id": "spot_5390",
+    "name": "袋田温泉 渓流ロード 第2ポイント",
+    "address": "茨城県久慈郡大子町",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.17331,
+    "lng": 140.35751,
+    "voice_file": "spot_5390.mp3",
+    "dialogue": {
+      "tsure": "「奥久慈の山と川を縫うワインディング！温泉街の風情が漂うな。」",
+      "dj": "「Okukuji stream drive! 奥久慈の清流と山並みに癒やされるツーリングウェイ！」",
+      "kanojo": "「袋田の温泉街に近づいてきたよ！のんびり温泉に浸かりたくなっちゃうね！」"
+    }
+  },
+  {
+    "id": "spot_5391",
+    "name": "筑波パープルライン 尾根道 第2ポイント",
+    "address": "茨城県つくば市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.43501,
+    "lng": 140.13397,
+    "voice_file": "spot_5391.mp3",
+    "dialogue": {
+      "tsure": "「尾根沿いをリズミカルに抜けるスカイライン！木漏れ日が最高だ。」",
+      "dj": "「Purple ridge line! 木漏れ日の中をリズミカルに駆け抜ける快走路！」",
+      "kanojo": "「パープルラインの尾根道だよ！木々の間から街が見下ろせて爽快！」"
+    }
+  },
+  {
+    "id": "spot_5392",
+    "name": "表筑波スカイライン 朝日峠PA 第3ポイント",
+    "address": "茨城県土浦市小野",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.21109,
+    "lng": 140.06892,
+    "voice_file": "spot_5392.mp3",
+    "dialogue": {
+      "tsure": "「スカイラインの定番スポット！車好きが集まって熱気があるな！」",
+      "dj": "「Touge meet up! 表筑波スカイラインのハイライト、朝日峠パーキング！」",
+      "kanojo": "「朝日峠の駐車場だよ！かっこいい車がたくさん集まってるね！」"
+    }
+  },
+  {
+    "id": "spot_5393",
+    "name": "風返峠 交差点広場 第3ポイント",
+    "address": "茨城県石岡市小幡",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.39516,
+    "lng": 140.11156,
+    "voice_file": "spot_5393.mp3",
+    "dialogue": {
+      "tsure": "「筑波山の各ルートが交差する峠の十字路だ。慎重にクリアするぞ。」",
+      "dj": "「Mountain crossroads! 筑波の各スカイラインが交わる重要ジャンクション！」",
+      "kanojo": "「風返峠の交差点だよ！ここからいろんな道に分かれていくんだね！」"
+    }
+  },
+  {
+    "id": "spot_5394",
+    "name": "霞ヶ浦 行方パノラマライン 第3ポイント",
+    "address": "茨城県行方市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.19783,
+    "lng": 140.32572,
+    "voice_file": "spot_5394.mp3",
+    "dialogue": {
+      "tsure": "「どこまでも続く湖畔の平坦ストレート！水面がキラキラ光って最高だぜ。」",
+      "dj": "「Lakeside flat cruise! 霞ヶ浦の水面を横目にアクセル一定のクルージング！」",
+      "kanojo": "「霞ヶ浦の横をずっと走る道だよ！空も湖も広くて開放感たっぷり！」"
+    }
+  },
+  {
+    "id": "spot_5395",
+    "name": "大洗港 第四埠頭前 第3ポイント",
+    "address": "茨城県東茨城郡大洗町",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.12562,
+    "lng": 140.39916,
+    "voice_file": "spot_5395.mp3",
+    "dialogue": {
+      "tsure": "「大洗の港と大型フェリーが見えるエリアだな。潮風を浴びて休憩だ。」",
+      "dj": "「Harbor view stop! 北海道へ向かう大型フェリーが停泊する大洗の港！」",
+      "kanojo": "「大洗の港が見えてきたよ！大きなフェリーが止まっててかっこいい！」"
+    }
+  },
+  {
+    "id": "spot_5396",
+    "name": "花貫渓谷 汐見滝吊り橋 第3ポイント",
+    "address": "茨城県高萩市大能",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.17789,
+    "lng": 140.20175,
+    "voice_file": "spot_5396.mp3",
+    "dialogue": {
+      "tsure": "「紅葉のトンネルをくぐる木製吊橋！眼下に滝が流れる絶景ポイントだぞ。」",
+      "dj": "「Suspension bridge & gorge! 鮮やかな紅葉が吊橋を包み込む茨城屈指の名渓！」",
+      "kanojo": "「花貫渓谷の吊橋だよ！秋はもみじのトンネルになって息をのむ美しさ！」"
+    }
+  },
+  {
+    "id": "spot_5397",
+    "name": "袋田温泉 渓流ロード 第3ポイント",
+    "address": "茨城県久慈郡大子町",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.33642,
+    "lng": 140.1034,
+    "voice_file": "spot_5397.mp3",
+    "dialogue": {
+      "tsure": "「奥久慈の山と川を縫うワインディング！温泉街の風情が漂うな。」",
+      "dj": "「Okukuji stream drive! 奥久慈の清流と山並みに癒やされるツーリングウェイ！」",
+      "kanojo": "「袋田の温泉街に近づいてきたよ！のんびり温泉に浸かりたくなっちゃうね！」"
+    }
+  },
+  {
+    "id": "spot_5398",
+    "name": "筑波パープルライン 尾根道 第3ポイント",
+    "address": "茨城県つくば市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.46365,
+    "lng": 140.44557,
+    "voice_file": "spot_5398.mp3",
+    "dialogue": {
+      "tsure": "「尾根沿いをリズミカルに抜けるスカイライン！木漏れ日が最高だ。」",
+      "dj": "「Purple ridge line! 木漏れ日の中をリズミカルに駆け抜ける快走路！」",
+      "kanojo": "「パープルラインの尾根道だよ！木々の間から街が見下ろせて爽快！」"
+    }
+  },
+  {
+    "id": "spot_5399",
+    "name": "表筑波スカイライン 朝日峠PA 第4ポイント",
+    "address": "茨城県土浦市小野",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.16506,
+    "lng": 140.26697,
+    "voice_file": "spot_5399.mp3",
+    "dialogue": {
+      "tsure": "「スカイラインの定番スポット！車好きが集まって熱気があるな！」",
+      "dj": "「Touge meet up! 表筑波スカイラインのハイライト、朝日峠パーキング！」",
+      "kanojo": "「朝日峠の駐車場だよ！かっこいい車がたくさん集まってるね！」"
+    }
+  },
+  {
+    "id": "spot_5400",
+    "name": "風返峠 交差点広場 第4ポイント",
+    "address": "茨城県石岡市小幡",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.38134,
+    "lng": 140.43666,
+    "voice_file": "spot_5400.mp3",
+    "dialogue": {
+      "tsure": "「筑波山の各ルートが交差する峠の十字路だ。慎重にクリアするぞ。」",
+      "dj": "「Mountain crossroads! 筑波の各スカイラインが交わる重要ジャンクション！」",
+      "kanojo": "「風返峠の交差点だよ！ここからいろんな道に分かれていくんだね！」"
+    }
+  },
+  {
+    "id": "spot_5401",
+    "name": "霞ヶ浦 行方パノラマライン 第4ポイント",
+    "address": "茨城県行方市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.25024,
+    "lng": 140.32989,
+    "voice_file": "spot_5401.mp3",
+    "dialogue": {
+      "tsure": "「どこまでも続く湖畔の平坦ストレート！水面がキラキラ光って最高だぜ。」",
+      "dj": "「Lakeside flat cruise! 霞ヶ浦の水面を横目にアクセル一定のクルージング！」",
+      "kanojo": "「霞ヶ浦の横をずっと走る道だよ！空も湖も広くて開放感たっぷり！」"
+    }
+  },
+  {
+    "id": "spot_5402",
+    "name": "大洗港 第四埠頭前 第4ポイント",
+    "address": "茨城県東茨城郡大洗町",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.32238,
+    "lng": 140.03108,
+    "voice_file": "spot_5402.mp3",
+    "dialogue": {
+      "tsure": "「大洗の港と大型フェリーが見えるエリアだな。潮風を浴びて休憩だ。」",
+      "dj": "「Harbor view stop! 北海道へ向かう大型フェリーが停泊する大洗の港！」",
+      "kanojo": "「大洗の港が見えてきたよ！大きなフェリーが止まっててかっこいい！」"
+    }
+  },
+  {
+    "id": "spot_5403",
+    "name": "花貫渓谷 汐見滝吊り橋 第4ポイント",
+    "address": "茨城県高萩市大能",
+    "source": "Curated Touring (茨城)",
+    "category": "scenic",
+    "lat": 36.28121,
+    "lng": 140.19888,
+    "voice_file": "spot_5403.mp3",
+    "dialogue": {
+      "tsure": "「紅葉のトンネルをくぐる木製吊橋！眼下に滝が流れる絶景ポイントだぞ。」",
+      "dj": "「Suspension bridge & gorge! 鮮やかな紅葉が吊橋を包み込む茨城屈指の名渓！」",
+      "kanojo": "「花貫渓谷の吊橋だよ！秋はもみじのトンネルになって息をのむ美しさ！」"
+    }
+  },
+  {
+    "id": "spot_5404",
+    "name": "袋田温泉 渓流ロード 第4ポイント",
+    "address": "茨城県久慈郡大子町",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.4686,
+    "lng": 140.14744,
+    "voice_file": "spot_5404.mp3",
+    "dialogue": {
+      "tsure": "「奥久慈の山と川を縫うワインディング！温泉街の風情が漂うな。」",
+      "dj": "「Okukuji stream drive! 奥久慈の清流と山並みに癒やされるツーリングウェイ！」",
+      "kanojo": "「袋田の温泉街に近づいてきたよ！のんびり温泉に浸かりたくなっちゃうね！」"
+    }
+  },
+  {
+    "id": "spot_5405",
+    "name": "筑波パープルライン 尾根道 第4ポイント",
+    "address": "茨城県つくば市",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.30563,
+    "lng": 140.26628,
+    "voice_file": "spot_5405.mp3",
+    "dialogue": {
+      "tsure": "「尾根沿いをリズミカルに抜けるスカイライン！木漏れ日が最高だ。」",
+      "dj": "「Purple ridge line! 木漏れ日の中をリズミカルに駆け抜ける快走路！」",
+      "kanojo": "「パープルラインの尾根道だよ！木々の間から街が見下ろせて爽快！」"
+    }
+  },
+  {
+    "id": "spot_5406",
+    "name": "表筑波スカイライン 朝日峠PA 第5ポイント",
+    "address": "茨城県土浦市小野",
+    "source": "Curated Touring (茨城)",
+    "category": "route",
+    "lat": 36.26263,
+    "lng": 140.20662,
+    "voice_file": "s
+additional_spots_800.json を表示しています。
