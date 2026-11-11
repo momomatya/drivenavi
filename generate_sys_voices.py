@@ -3,7 +3,7 @@ import requests
 import time
 
 VOICEVOX_URL = "http://127.0.0.1:50021"
-SPEAKER_ID = 3  # 春日部つむぎ
+SPEAKER_ID = 8  # 春日部つむぎ
 AUDIO_DIR = "audio"
 
 # アプリ内で使われているシステム音声一覧

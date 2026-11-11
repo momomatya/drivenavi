@@ -160,42 +160,78 @@ document.addEventListener('DOMContentLoaded', () => {
     window.speechSynthesis.speak(uttr);
   }
 
-  // --- 4. 音声ファイル再生処理（Web Audio API） ---
-  async function playVoice(voiceFile, displayMessage = "") {
+// --- 4. 音声ファイル再生処理（Web Audio API & 順番待ちキュー） ---
+  let audioContext = null;
+  let isVoicePlaying = false; // 現在喋っているかどうかのフラグ
+  let voiceQueue = [];        // 喋るセリフの順番待ちリスト
+
+  function unlockAudio() {
+    if (!audioContext) {
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      audioContext = new AudioContext();
+    }
+    if (audioContext.state === 'suspended') {
+      audioContext.resume().then(() => {
+        console.log("【Audio Unlocked】Web Audio API を再開しました。");
+      });
+    }
+  }
+
+  // 初回タップでWeb Audio APIの再生ロックを解除
+  document.body.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
+  document.body.addEventListener('click', unlockAudio, { once: true });
+
+  // 再生リクエストをキュー（待ち行列）に入れる関数
+  function playVoice(voiceFile, displayMessage = "") {
+    voiceQueue.push({ voiceFile, displayMessage });
+    processVoiceQueue(); // キューの処理を開始
+  }
+
+  // キューを順番に消化する関数
+  async function processVoiceQueue() {
+    // すでに喋っている最中、または待っているセリフがない場合は何もしない
+    if (isVoicePlaying || voiceQueue.length === 0) return;
+    
+    isVoicePlaying = true; // 喋るモードON
+    const { voiceFile, displayMessage } = voiceQueue.shift(); // 先頭のセリフを取り出す
+
     if (displayMessage) {
       speechText.textContent = displayMessage;
     }
-    if (isMuted) return;
+    
+    if (isMuted) {
+      isVoicePlaying = false;
+      processVoiceQueue(); // ミュートならすぐ次へ
+      return;
+    }
 
     const audioPath = `./audio/${voiceFile}`;
 
     try {
-      // AudioContextがなければ作る
-      if (!audioContext) {
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        audioContext = new AudioContext();
-      }
-      // 休止状態なら確実に再開するのを待つ！
-      if (audioContext.state === 'suspended') {
-        await audioContext.resume();
-      }
+      unlockAudio();
 
-      // MP3ファイルの取得とデコード
       const response = await fetch(audioPath);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       const arrayBuffer = await response.arrayBuffer();
       const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
 
-      // 音源ソースを作成して再生（裏の音楽とミックス）
       const source = audioContext.createBufferSource();
       source.buffer = audioBuffer;
       source.connect(audioContext.destination);
-      source.start(0);
+      
+      // 【重要】音が鳴り終わったらフラグを戻して、次のセリフを呼ぶ
+      source.onended = () => {
+        isVoicePlaying = false;
+        processVoiceQueue();
+      };
 
+      source.start(0);
       console.log(`音声再生成功 (Web Audio API): ${audioPath}`);
     } catch (err) {
       console.warn(`音声ファイル再生不可 (${audioPath})、フォールバック:`, err);
       speakWithPersona(displayMessage, currentPersona);
+      isVoicePlaying = false;
+      processVoiceQueue(); // エラー時も次へ
     }
   }
 
